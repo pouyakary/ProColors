@@ -1,0 +1,171 @@
+---
+#
+# ─── BASE INFO ──────────────────────────────────────────────────────────────────
+#
+
+version: 3.0.0
+description: A very carefully designed theme for your eyes to enjoy.
+author: Kary Foundation
+
+#
+# ─── THEMES ─────────────────────────────────────────────────────────────────────
+#
+
+themes:
+  - name: Kary Foundation - Light
+    uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
+    settings:
+      background: F7F7F7
+      caret: 00BBEC
+      foreground: 1A1A1A
+      invisibles: E4E4E4
+      lineHighlight: F0F0F0
+      selection: C2E8F4
+      comment: C7C4C2
+    colors:
+      blue: 398BC9
+      green: 3F831E
+      red: CB4718
+      magenta: AF33A6
+      orange: C07F00
+
+  - name: Kary Foundation - Dark
+    uuid: c156815c-3cb2-4fcd-87c5-384015652e88
+    settings:
+      background: 1A1A1A
+      caret: 00BBEC
+      foreground: CCCCCC
+      invisibles: 474747
+      lineHighlight: 242424
+      selection: 1B424E
+      comment: 707070
+    colors:
+      blue: 7A9EC2
+      green: 82A56F
+      red: DA8567
+      magenta: B387A7
+      orange: C1944D
+
+#
+# ─── SCOPES ─────────────────────────────────────────────────────────────────────
+#
+
+rules:
+
+  # General
+  - name: Strings
+    scope: string
+    color: .blue
+
+  - name: Built-in constant
+    scope: constant.language
+    color: .green
+
+  - name: User-defined constant
+    scopes:
+      - constant.character
+      - constant.other
+    color: .blue
+
+  - name: Variable
+    scope: variable
+    color: .red
+
+  - name: Keyword
+    scope: keyword
+    color: .magenta
+
+  - name: Storage
+    scope: storage
+    color: .magenta
+
+  - name: Storage type
+    scope: storage.type
+    color: .orange
+
+  - name: Class name
+    scope: entity.name.class
+    color: .red
+
+  - name: Inherited class
+    scope: entity.other.inherited-class
+    color: .red
+
+  - name: Function name
+    scope: entity.name.function
+    color: .red
+
+  - name: Function argument
+    scope: variable.parameter
+    color: .orange
+
+  - name: Library function
+    scope: support.function
+    color: .blue
+
+  - name: Library constant
+    scope: support.constant
+    color: .blue
+
+  - name: Library class/type
+    scopes:
+      - support.type
+      - support.class
+    color: .green
+
+  - name: Library variable
+    scope: support.other.variable
+    color: .red
+
+  - name: Invalid
+    scope: invalid
+    color: F9F9F3
+    background: 1B424E
+
+  - name: Invalid deprecated
+    scope: invalid.deprecated
+    color: F9F9F3
+    background: BC8132
+
+  - name: Markup Headings
+    scope: markup.heading
+    color: CB4718
+
+
+  # HTML / XML
+  - name: Tag name
+    scopes:
+      - punctuation.definition.tag.html
+      - punctuation.definition.tag.begin
+      - punctuation.definition.tag.end
+      - entity.name.tag
+    color: .blue
+
+  - name: Tag attribute
+    scope: entity.other.attribute-name
+    color: .magenta
+
+  - name: HTML String
+    scopes:
+      - string.quoted.single.html
+      - string.quoted.double.html
+      - string.html
+    color: .green
+
+  # CSS
+  - name: CSS ID
+    scopes:
+      - meta.selector.css
+      - entity.other.attribute-name.id
+    color: .magenta
+
+  # TypeScript
+  - name: TypeScript Class Modifiers
+    scope: storage.modifier.ts
+    color: .orange
+
+  - name: TypeScript Type Casting
+    scope: cast.expr.ts
+    color: .blue
+
+# ────────────────────────────────────────────────────────────────────────────────
