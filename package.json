@@ -5,6 +5,6 @@
     "test": "themex test"
   },
   "dependencies": {
-    "themex": "0.0.1"
+    "themex": "0.0.2"
   }
 }
