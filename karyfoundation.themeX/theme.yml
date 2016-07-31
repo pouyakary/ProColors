@@ -6,6 +6,7 @@
 version: 3.0.0
 description: A very carefully designed theme for your eyes to enjoy.
 author: Kary Foundation
+colorSpaceName: sRGB
 
 #
 # ─── THEMES ─────────────────────────────────────────────────────────────────────
@@ -14,15 +15,18 @@ author: Kary Foundation
 themes:
   - name: Kary Foundation - Light
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
+    baseColor: light
     settings:
       background: F7F7F7
       caret: 00BBEC
-      foreground: 1A1A1A
+      foreground: .gray
       invisibles: E4E4E4
       lineHighlight: F0F0F0
       selection: C2E8F4
       comment: C7C4C2
     colors:
+      gray: 1A1A1A
+      darkGray: 9B9B9B
       blue: 398BC9
       green: 3F831E
       red: CB4718
@@ -31,15 +35,18 @@ themes:
 
   - name: Kary Foundation - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
+    baseColor: dark
     settings:
       background: 1A1A1A
       caret: 00BBEC
-      foreground: CCCCCC
+      foreground: .gray
       invisibles: 474747
       lineHighlight: 242424
       selection: 1B424E
       comment: 707070
     colors:
+      gray: CCCCCC
+      darkGray: CACACA
       blue: 7A9EC2
       green: 82A56F
       red: DA8567
@@ -53,8 +60,16 @@ themes:
 rules:
 
   # General
+  - name: Operators
+    scope: keyword.operator
+    color: .red
+
   - name: Strings
     scope: string
+    color: .blue
+
+  - name: Number
+    scope: constant.numeric
     color: .blue
 
   - name: Built-in constant
