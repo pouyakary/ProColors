@@ -1,0 +1,22 @@
+{
+  "name": "kary-theme",
+  "version": "1.0.0",
+  "description": "tests for themeX",
+  "main": "index.js",
+  "scripts": {
+    "test": "themex test karyfoundation.themeX"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karyfoundation/karyfoundation.themeX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karyfoundation/karyfoundation.themeX/issues"
+  },
+  "homepage": "https://github.com/karyfoundation/karyfoundation.themeX#readme",
+  "dependencies": {
+    "themex": "0.0.1"
+  }
+}
