@@ -4,13 +4,6 @@
 
 <img width="515" alt="screen shot 2016-07-23 at 1 04 23 pm" src="https://cloud.githubusercontent.com/assets/2157285/17077002/83748b40-50d6-11e6-93f9-302440275aa3.png">
 
-## Status
-| Editor             | Status | Downloads |
-|--------------------|--------|-----------|
-| Visual Studio Code | ![](https://vsmarketplacebadge.apphb.com/version/karyfoundation.theme-karyfoundation-themes.svg) ![](https://vsmarketplacebadge.apphb.com/installs/karyfoundation.theme-karyfoundation-themes.svg) | [Download](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes) |
-| Atom | ![](https://apm-badges.herokuapp.com/apm/kary-foundation-light.svg?theme=one-light) <br/> ![](https://apm-badges.herokuapp.com/apm/kary-foundation-dark.svg?theme=one-light) | [Download Light](https://atom.io/packages/kary-foundation-light)<br/> [Download Dark](https://atom.io/packages/kary-foundation-dark) |
-
-## What is this?
 This page obviously is about a syntax theme, but for this one we have somehow a back story that is way different than just different coloring.
 
 When people say beautiful codes they always mean less complexity or clever code but when we say that we mean it for real. The code must look nice when you read it. In order to manage the code we invented [Kary Foundation’s Coding Style (KFCS)](https://github.com/karyfoundation/comment/wiki) and the fact that we have a very restricted way of [coding style](http://kary.us/2015/02/12/arendelle-coding-styles/). 
@@ -19,7 +12,13 @@ Now beauty matters but also it’s the psychology that matters. As developers wh
 
 For what we know we all are playful people. We have an active inner child. Our editors must look like playgrounds. We have developed a rainbow colored theme. With worm colors chosen very carefully for the finest code quality possible. 
 
-From what we noticed [iA Writer](https://ia.net/writer) has the most carefully defined experience. We loved the `gold` and `red`/`orange` colors used by their highlighter and inspired by their design we shaped a coding experience that for us was the most joyful look of the code ever possible. 
+From what we noticed [iA Writer](https://ia.net/writer) has the most carefully defined experience. We loved the `gold` and `red`/`orange` colors used by their highlighter and inspired by their design we shaped a coding experience that for us was the most joyful look of the code ever possible.
+
+## Status
+| Editor             | Status | Downloads |
+|--------------------|--------|-----------|
+| Visual Studio Code | ![](https://vsmarketplacebadge.apphb.com/version/karyfoundation.theme-karyfoundation-themes.svg) ![](https://vsmarketplacebadge.apphb.com/installs/karyfoundation.theme-karyfoundation-themes.svg) | [Download](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes) |
+| Atom | ![](https://apm-badges.herokuapp.com/apm/kary-foundation-light.svg?theme=one-light) <br/> ![](https://apm-badges.herokuapp.com/apm/kary-foundation-dark.svg?theme=one-light) | [Download Light](https://atom.io/packages/kary-foundation-light)<br/> [Download Dark](https://atom.io/packages/kary-foundation-dark) |
 
 ## The theme…
 #### JavaScript / TypeScript
@@ -44,26 +43,23 @@ From what we noticed [iA Writer](https://ia.net/writer) has the most carefully d
 #### JSON
 <img width="596" alt="screen shot 2016-07-23 at 1 03 12 pm" src="https://cloud.githubusercontent.com/assets/2157285/17077058/ddfce520-50d7-11e6-82a9-eab20c5babfb.png">
 
-## How to use it?
-#### Visual Studio Code
-It's available from the marketplace, Just simply run:
+## Contributing
+#### Building
+You should have themeX, run this to get it:
 ```
-ext install theme-karyfoundation-themes
+% npm install -g themex
 ```
+Now run themeX on `karyfoundation.themeX` file:
+```
+% themex ./karyfoundation.themeX
+```
+It should build the theme for supported editors.
 
-#### Sublime Text
-After cloning this repo in your Sublime use `Preferences` > `Browse Packages…` open the folder and put `.tmTheme` files from the `Themes` folder into it. 
-
-#### Atom
-Use our official ports for Atom available via atom package manager (APM):
-- [Kary Foundation Light](https://atom.io/packages/kary-foundation-light)
-- [Kary Foundation Dark](https://atom.io/packages/kary-foundation-dark)
-
-#### Any other editor that supports .tmThemes
-Files are provided under the `Themes` directory. Use your editors guides and install the themes.
-
-## Good font to use with this theme?
-To use it best, we suggest you use the [ _Medium_ weight of _Adobe Source Code Pro_ ](https://adobe-fonts.github.io/source-code-pro) typeface. they are the best matches for each other :D
+#### Testing
+This tests your file for correctness:
+```
+% themex test
+```
 
 ## What's new?
 #### 4.0.5
