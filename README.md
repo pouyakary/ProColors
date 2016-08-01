@@ -62,7 +62,7 @@ This tests your file for correctness:
 ```
 
 ## What's new?
-#### 4.0.5
+#### 5.0.0
 - **Change!** &mdash; The theme is now ported to [themeX](https://github.com/karyfoundation/themeX). As the themeX project itself is just started it may take weeks till we develop adaptors for other editors but once we reach there, using one code base we will compile the theme for all the other editors at ever single update. So soon we'll have support for other main big editors. Thanks for being with us till now.
 
 #### 4.0.2

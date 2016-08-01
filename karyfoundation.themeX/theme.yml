@@ -3,7 +3,7 @@
 # ─── BASE INFO ──────────────────────────────────────────────────────────────────
 #
 
-version: 3.0.0
+version: 5.0.0
 description: A very carefully designed theme for your eyes to enjoy.
 author: Kary Foundation
 colorSpaceName: sRGB
@@ -62,7 +62,7 @@ rules:
   # General
   - name: Operators
     scope: keyword.operator
-    color: .red
+    color: .blue
 
   - name: Strings
     scope: string
