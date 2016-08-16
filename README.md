@@ -19,6 +19,7 @@ From what we noticed [iA Writer](https://ia.net/writer) has the most carefully d
 |--------------------|--------|-----------|
 | Visual Studio Code | ![](https://vsmarketplacebadge.apphb.com/version/karyfoundation.theme-karyfoundation-themes.svg) ![](https://vsmarketplacebadge.apphb.com/installs/karyfoundation.theme-karyfoundation-themes.svg) | [Download](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes) |
 | Atom | ![](https://apm-badges.herokuapp.com/apm/kary-foundation-light.svg?theme=one-light) <br/> ![](https://apm-badges.herokuapp.com/apm/kary-foundation-dark.svg?theme=one-light) | [Download Light](https://atom.io/packages/kary-foundation-light)<br/> [Download Dark](https://atom.io/packages/kary-foundation-dark) |
+| Sublime Text      | Downloads available from ColorSublime | [Download Light](http://colorsublime.com/theme/karyfoundation-light)<br/> [Download Dark](http://colorsublime.com/theme/karyfoundation-dark) |
 
 ## The theme…
 #### JavaScript / TypeScript
