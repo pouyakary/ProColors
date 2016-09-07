@@ -3,7 +3,7 @@
 # ─── BASE INFO ──────────────────────────────────────────────────────────────────
 #
 
-version: 5.0.0
+version: 5.2.0
 description: A very carefully designed theme for your eyes to enjoy.
 author: Kary Foundation
 colorSpaceName: sRGB
@@ -37,7 +37,7 @@ themes:
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
     settings:
-      background: 1A1A1A
+      background: 1E1E1E
       caret: 00BBEC
       foreground: .gray
       invisibles: 474747
@@ -66,7 +66,7 @@ rules:
 
   - name: Strings
     scope: string
-    color: .blue
+    color: .green
 
   - name: Number
     scope: constant.numeric
@@ -131,16 +131,6 @@ rules:
   - name: Library variable
     scope: support.other.variable
     color: .red
-
-  - name: Invalid
-    scope: invalid
-    color: F9F9F3
-    background: 1B424E
-
-  - name: Invalid deprecated
-    scope: invalid.deprecated
-    color: F9F9F3
-    background: BC8132
 
   - name: Markup Headings
     scope: markup.heading
