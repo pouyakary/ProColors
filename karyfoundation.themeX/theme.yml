@@ -62,7 +62,7 @@ rules:
   # General
   - name: Operators
     scope: keyword.operator
-    color: .blue
+    color: .orange
 
   - name: Strings
     scope: string
@@ -82,9 +82,9 @@ rules:
       - constant.other
     color: .blue
 
-  - name: Variable
-    scope: variable
-    color: .red
+#  - name: Variable
+#    scope: variable
+#    color: .red
 
   - name: Keyword
     scope: keyword
@@ -94,6 +94,18 @@ rules:
     scope: storage
     color: .magenta
 
+  - name: Types
+    scope: type.entity.meta.ts
+    color: .gray
+
+  - name: Object Keys
+    scope: key
+    color: .blue
+
+  - name: Storange Type
+    scope: storage.type
+    color: .orange
+
   - name: Storage type
     scope: storage.type
     color: .orange
@@ -102,35 +114,53 @@ rules:
     scope: entity.name.class
     color: .red
 
-  - name: Inherited class
-    scope: entity.other.inherited-class
-    color: .red
+#  - name: Inherited class
+#    scope: entity.other.inherited-class
+#    color: .red
 
   - name: Function name
     scope: entity.name.function
     color: .red
 
-  - name: Function argument
+  - name: function Types
+ #   scope: token ts meta function type entity name parameters annotation module
+    scope: annotation.meta.ts
+    color: .gray
+
+  - name: function argument
     scope: variable.parameter
     color: .orange
 
-  - name: Library function
-    scope: support.function
-    color: .blue
+#  - name: Function argument
+#    scope: variable.parameter
+#    color: .orange
 
-  - name: Library constant
-    scope: support.constant
-    color: .blue
+#  - name: Library function
+#    scope: support.functio#n
+#    color: .blue
 
-  - name: Library class/type
-    scopes:
-      - support.type
-      - support.class
-    color: .green
+#  - name: Library constant
+#    scope: support.constant
+#    color: .blue
 
-  - name: Library variable
-    scope: support.other.variable
+
+#  - name: Library class/type
+#    scopes:
+#      - support.type
+#      - support.class
+#    color: .green
+
+#  - name: Library variable
+#    scope: support.other.variable
+#    color: .red
+
+  - name: Variable
+    scope: var-single-variable
     color: .red
+
+  - name: Module
+    scope: module.ts
+    color: .blue
 
   - name: Markup Headings
     scope: markup.heading
@@ -163,6 +193,11 @@ rules:
       - meta.selector.css
       - entity.other.attribute-name.id
     color: .magenta
+
+  # JavaScript
+  - name: Function Keys
+    scope: key.function
+    color: .blue
 
   # TypeScript
   - name: TypeScript Class Modifiers
