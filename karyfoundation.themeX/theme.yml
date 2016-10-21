@@ -62,7 +62,7 @@ rules:
   # General
   - name: Operators
     scope: keyword.operator
-    color: .orange
+    color: .gray
 
   - name: Strings
     scope: string
@@ -74,7 +74,7 @@ rules:
 
   - name: Built-in constant
     scope: constant.language
-    color: .green
+    color: .blue
 
   - name: User-defined constant
     scopes:
@@ -97,10 +97,6 @@ rules:
   - name: Types
     scope: type.entity.meta.ts
     color: .gray
-
-  - name: Object Keys
-    scope: key
-    color: .blue
 
   - name: Storange Type
     scope: storage.type
@@ -195,9 +191,9 @@ rules:
     color: .magenta
 
   # JavaScript
-  - name: Function Keys
-    scope: key.function
-    color: .blue
+  - name: Object Keys
+    scope: key
+    color: .orange
 
   # TypeScript
   - name: TypeScript Class Modifiers
