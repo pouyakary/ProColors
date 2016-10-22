@@ -66,7 +66,17 @@ rules:
 
   - name: Strings
     scope: string
-    color: .green
+    color: .blue
+
+  - name: String Interpolation Begin and End
+    scopes:
+      - begin.expression.string
+      - end.expression.string
+    color: .magenta
+
+  - name: String Interpolation Body
+    scope: expression.string
+    color: .gray
 
   - name: Number
     scope: constant.numeric
@@ -74,13 +84,13 @@ rules:
 
   - name: Built-in constant
     scope: constant.language
-    color: .blue
+    color: .green
 
   - name: User-defined constant
     scopes:
       - constant.character
       - constant.other
-    color: .blue
+    color: .green
 
 #  - name: Variable
 #    scope: variable
@@ -96,7 +106,7 @@ rules:
 
   - name: Types
     scope: type.entity.meta.ts
-    color: .gray
+    color: .green
 
   - name: Storange Type
     scope: storage.type
@@ -195,6 +205,16 @@ rules:
     scope: key
     color: .orange
 
+  - name: JavaScript Special Keywords
+    scopes:
+      - of.keyword
+      - in.keyword
+    color: .magenta
+
+  - name: Export Keyword
+    scope: export.keyword
+    color: .orange
+
   # TypeScript
   - name: TypeScript Class Modifiers
     scope: storage.modifier.ts
@@ -203,5 +223,9 @@ rules:
   - name: TypeScript Type Casting
     scope: cast.expr.ts
     color: .blue
+
+  - name: TypeScript Return Type
+    scope: primitive.return.type.function.meta.ts
+    color: .orange
 
 # ────────────────────────────────────────────────────────────────────────────────
