@@ -201,7 +201,7 @@ rules:
     color: .magenta
 
   # JavaScript
-  - name: Object Keys
+  - name: JavaScript Object Keys
     scope: key
     color: .orange
 
@@ -211,11 +211,15 @@ rules:
       - in.keyword
     color: .magenta
 
-  - name: Export Keyword
+  - name: JavaScript Export Keyword
     scopes:
       - export.keyword
       - comparison.keyword
       - relational.keyword
+    color: .orange
+
+  - name: JavaScript Imports
+    scope: import-export-all.constant
     color: .orange
 
   # TypeScript
