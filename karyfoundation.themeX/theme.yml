@@ -3,7 +3,7 @@
 # ─── BASE INFO ──────────────────────────────────────────────────────────────────
 #
 
-version: 7.0.0
+version: 7.2.0
 description: A very carefully designed theme for your eyes to enjoy.
 author: Kary Foundation
 colorSpaceName: sRGB
@@ -212,7 +212,10 @@ rules:
     color: .magenta
 
   - name: Export Keyword
-    scope: export.keyword
+    scopes:
+      - export.keyword
+      - comparison.keyword
+      - relational.keyword
     color: .orange
 
   # TypeScript
