@@ -271,4 +271,9 @@ rules:
     scope: constant.value.json
     color: .magenta
 
+  # YAML
+  - name: YAML Tag namespace
+    scope: name.tag.out.plain.unquoted.string.entity.yaml
+    color: .green
+
 # ────────────────────────────────────────────────────────────────────────────────
