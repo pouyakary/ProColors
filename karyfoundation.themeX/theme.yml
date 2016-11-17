@@ -243,4 +243,8 @@ rules:
     scope: primitive.return.type.function.meta.ts
     color: .orange
 
+  - name: TypScript Type Cast
+    scope: cast.expr.ts
+    color: .blue
+
 # ────────────────────────────────────────────────────────────────────────────────
