@@ -66,7 +66,7 @@ rules:
 
   - name: Strings
     scope: string
-    color: .green
+    color: .blue
 
   - name: RegExp
     scope: string
@@ -233,6 +233,9 @@ rules:
     scope: import-export-all.constant
     color: .orange
 
+  - name: JavaScript Expression Arrow's Parameters
+    scope: parameter.expression.Arrow
+    color: .gray
 
   # TypeScript
   - name: TypeScript Namespaces
@@ -258,5 +261,14 @@ rules:
   - name: TypeScript Types
     scope: primitive.type.ts
     color: .green
+
+  # Json
+  - name: JSON Keys
+    scope: property-name.json
+    color: .green
+
+  - name: JSON True False
+    scope: constant.value.json
+    color: .magenta
 
 # ────────────────────────────────────────────────────────────────────────────────
