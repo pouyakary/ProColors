@@ -231,6 +231,10 @@ rules:
 
 
   # TypeScript
+  - name: TypeScript Namespaces
+    scope: namespace.entity.name.meta.ts
+    color: .red
+
   - name: TypeScript Class Modifiers
     scope: storage.modifier.ts
     color: .orange
