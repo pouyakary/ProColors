@@ -68,6 +68,10 @@ rules:
     scope: string
     color: .green
 
+  - name: RegExp
+    scope: string
+    color: .blue
+
   - name: Type Cast
     scope: primitive.annotation.var.type.meta.ts
     color: .green
@@ -246,5 +250,9 @@ rules:
   - name: TypScript Type Cast
     scope: cast.expr.ts
     color: .blue
+
+  - name: Function Parameters Type
+    scope: function.parameters.entity.type.ts
+    color: .green
 
 # ────────────────────────────────────────────────────────────────────────────────
