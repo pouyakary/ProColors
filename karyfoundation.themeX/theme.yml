@@ -134,9 +134,9 @@ rules:
 #    scope: entity.other.inherited-class
 #    color: .red
 
-  - name: Function name
-    scope: entity.name.function
-    color: .red
+# - name: Function name
+#   scope: entity.name.function
+#   color: .red
 
   - name: function Types
  #   scope: token ts meta function type entity name parameters annotation module
@@ -144,8 +144,10 @@ rules:
     color: .gray
 
   - name: function argument
-    scope: variable.parameter
-    color: .orange
+    scopes:
+    - variable.parameter
+    - function.parameters.entity.name.meta
+    color: .blue
 
 #  - name: Function argument
 #    scope: variable.parameter
@@ -169,6 +171,14 @@ rules:
 #  - name: Library variable
 #    scope: support.other.variable
 #    color: .red
+
+  - name: Function definition
+    scopes:
+      - entity.name.function
+      - meta.definition.method.ts entity.name.function.ts
+      - meta.definition.function.ts entity.name.function.ts
+    color: .red
+
 
   - name: Variable
     scope: var-single-variable
