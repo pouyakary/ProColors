@@ -222,6 +222,12 @@ rules:
     scope: id.selector.css
     color: .orange
 
+  - name: CSS Tag Selectors
+    scopes:
+      - tag.selector.css
+      - tag.name.entity.css
+    color: .red
+
 
   # JavaScript
   - name: JavaScript Object Keys
