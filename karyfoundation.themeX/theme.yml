@@ -228,6 +228,10 @@ rules:
       - tag.name.entity.css
     color: .red
 
+  - name: CSS property
+    scope: property-name.css
+    color: .green
+
 
   # JavaScript
   - name: JavaScript Object Keys
