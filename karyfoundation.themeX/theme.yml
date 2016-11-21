@@ -106,10 +106,6 @@ rules:
       - constant.other
     color: .green
 
-#  - name: Variable
-#    scope: variable
-#    color: .red
-
   - name: Keyword
     scope: keyword
     color: .magenta
@@ -130,14 +126,6 @@ rules:
     scope: entity.name.class
     color: .red
 
-#  - name: Inherited class
-#    scope: entity.other.inherited-class
-#    color: .red
-
-# - name: Function name
-#   scope: entity.name.function
-#   color: .red
-
   - name: function Types
  #   scope: token ts meta function type entity name parameters annotation module
     scope: annotation.meta.ts
@@ -149,36 +137,12 @@ rules:
     - function.parameters.entity.name.meta
     color: .blue
 
-#  - name: Function argument
-#    scope: variable.parameter
-#    color: .orange
-
-#  - name: Library function
-#    scope: support.functio#n
-#    color: .blue
-
-#  - name: Library constant
-#    scope: support.constant
-#    color: .blue
-
-
-#  - name: Library class/type
-#    scopes:
-#      - support.type
-#      - support.class
-#    color: .green
-
-#  - name: Library variable
-#    scope: support.other.variable
-#    color: .red
-
   - name: Function definition
     scopes:
       - entity.name.function
       - meta.definition.method.ts entity.name.function.ts
       - meta.definition.function.ts entity.name.function.ts
     color: .red
-
 
   - name: Variable
     scope: var-single-variable
