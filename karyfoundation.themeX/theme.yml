@@ -218,6 +218,10 @@ rules:
     scope: meta.selector.css
     color: .magenta
 
+  - name: CSS ID Selectors
+    scope: id.selector.css
+    color: .orange
+
 
   # JavaScript
   - name: JavaScript Object Keys
