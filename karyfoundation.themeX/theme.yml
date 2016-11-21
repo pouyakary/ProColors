@@ -220,6 +220,10 @@ rules:
       - entity.other.attribute-name.id
     color: .magenta
 
+  - name: CSS property
+    scope: property-name.css
+    color: .green
+
   # JavaScript
   - name: JavaScript Object Keys
     scope: key
