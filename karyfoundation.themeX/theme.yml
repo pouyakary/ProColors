@@ -37,7 +37,7 @@ themes:
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
     settings:
-      background: 1E1E1E
+      background: 1A1A1A
       caret: 00BBEC
       foreground: .gray
       invisibles: 474747
@@ -47,11 +47,11 @@ themes:
     colors:
       gray: CCCCCC
       darkGray: CACACA
-      blue: 7A9EC2
-      green: 82A56F
-      red: DA8567
-      magenta: B387A7
-      orange: C1944D
+      blue: 819DC2
+      green: 7DA76F
+      red: D38569
+      magenta: B98EB2
+      orange: BC9550
 
 #
 # ─── SCOPES ─────────────────────────────────────────────────────────────────────
@@ -246,6 +246,7 @@ rules:
     scope: parameter.expression.Arrow
     color: .gray
 
+
   # TypeScript
   - name: TypeScript Namespaces
     scope: namespace.entity.name.meta.ts
@@ -268,8 +269,11 @@ rules:
     color: .green
 
   - name: TypeScript Types
-    scope: primitive.type.ts
+    scopes:
+      - primitive.type.ts
+      - annotation.type.meta.ts
     color: .green
+
 
   # Json
   - name: JSON Keys
