@@ -213,6 +213,8 @@ rules:
       - string.html
     color: .green
 
+
+
   # CSS
   - name: CSS Selectors (General)
     scope: meta.selector.css
@@ -235,6 +237,14 @@ rules:
   - name: CSS Constants
     scope: constant.other.css
     color: .blue
+
+
+
+  # Less
+  - name: Variables
+    scope: variable.other.less
+    color: .orange
+
 
 
   # JavaScript
