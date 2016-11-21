@@ -232,6 +232,10 @@ rules:
     scope: property-name.css
     color: .green
 
+  - name: CSS Constants
+    scope: constant.other.css
+    color: .blue
+
 
   # JavaScript
   - name: JavaScript Object Keys
