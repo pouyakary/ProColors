@@ -214,15 +214,10 @@ rules:
     color: .green
 
   # CSS
-  - name: CSS ID
-    scopes:
-      - meta.selector.css
-      - entity.other.attribute-name.id
+  - name: CSS Selectors (General)
+    scope: meta.selector.css
     color: .magenta
 
-  - name: CSS property
-    scope: property-name.css
-    color: .green
 
   # JavaScript
   - name: JavaScript Object Keys
