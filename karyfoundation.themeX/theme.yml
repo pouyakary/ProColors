@@ -293,9 +293,15 @@ rules:
     scope: variable.ruby
     color: .green
 
-  - name: Ruby Class Varabiles
-    scope: class.variable.ruby
+  - name: Ruby Vars that needs to be blue
+    scopes:
+      - class.variable.ruby
+      - instance.variable.ruby
     color: .blue
+
+  - name: Ruby Global Vars
+    scope: global.variable.ruby
+    color: .red
 
   - name: Ruby String Interpolation Signs
     scopes:
