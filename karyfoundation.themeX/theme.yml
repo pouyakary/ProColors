@@ -191,6 +191,10 @@ rules:
     scopes: string.html-tag.pageman
     color: .blue
 
+  - name: Pageman Code Blocks
+    scope: variable.other.muliline-markdown-pre-box.pageman
+    color: .orange
+
 
   # CSS
   - name: CSS Selectors (General)
