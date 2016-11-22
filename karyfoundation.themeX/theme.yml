@@ -289,6 +289,10 @@ rules:
     scope: separator.variable.punctuation.ruby
     color: .orange
 
+  - name: Ruby Vars
+    scope: variable.ruby
+    color: .green
+
 
   # Json
   - name: JSON Keys
