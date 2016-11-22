@@ -187,6 +187,10 @@ rules:
 
 
   # Pageman
+  - name: Pageman Section Commands
+    scope: constant.language.pageman-parts.pageman
+    color: .green
+
   - name: Pageman HTML Tags
     scope: string.html-tag.pageman
     color: .blue
