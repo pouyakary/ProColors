@@ -297,6 +297,16 @@ rules:
     scope: class.variable.ruby
     color: .blue
 
+  - name: Ruby String Interpolation Signs
+    scopes:
+      - embedded.begin.string.punctuation.ruby
+      - embedded.end.string.punctuation.ruby
+    color: .magenta
+
+  - name: Ruby String Interpolation Body
+    scope: embedded.string.punctuation.ruby
+    color: .gray
+
 
   # Json
   - name: JSON Keys
