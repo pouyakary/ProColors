@@ -191,6 +191,10 @@ rules:
     scope: string.html-tag.pageman
     color: .blue
 
+  - name: Pageman Legend Phrases
+    score: storage.type.legend.pageman
+    colore: .orange
+
   - name: Pageman Markdown Links / Images
     scope: keyword.control.markdown-image-or-link.pageman
     color: .magenta
