@@ -191,6 +191,16 @@ rules:
     scope: constant.language.pageman-parts.pageman
     color: .green
 
+  - name: Pageman Markdown Headers
+    scope: variable.other.markdown-header.pageman
+    color: .red
+
+  - name: Pageman Jekyll Liquid Language Support
+    scopes:
+      - storage.type.liquid-g1.pageman
+      - storage.type.liquid-g2.pageman
+    color: .magenta
+
   - name: Pageman HTML Tags
     scope: string.html-tag.pageman
     color: .blue
