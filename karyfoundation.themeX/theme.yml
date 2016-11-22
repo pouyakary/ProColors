@@ -199,6 +199,10 @@ rules:
     scope: storage.type.markdown-table.pageman
     color: .red
 
+  - name: Pageman HTML special characters
+    scope: variable.other.html-special-chars.pageman
+    color: .orange
+
 
   # CSS
   - name: CSS Selectors (General)
