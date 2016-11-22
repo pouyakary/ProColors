@@ -280,6 +280,15 @@ rules:
     scope: def.meta.ruby
     color: .orange
 
+  # Ruby
+  - name: Ruby defs
+    scope: def.meta.ruby
+    color: .orange
+
+  - name: Ruby | ... | Separators
+    scope: separator.variable.punctuation.ruby
+    color: .orange
+
 
   # Json
   - name: JSON Keys
