@@ -186,6 +186,11 @@ rules:
     color: .green
 
 
+  # Pageman
+  - name: Pageman HTML Tags
+    scopes: string.html-tag.pageman
+    color: .blue
+
 
   # CSS
   - name: CSS Selectors (General)
