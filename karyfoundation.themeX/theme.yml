@@ -275,6 +275,12 @@ rules:
     color: .green
 
 
+  # Ruby
+  - name: Ruby defs
+    scope: def.meta.ruby
+    color: .orange
+
+
   # Json
   - name: JSON Keys
     scope: property-name.json
