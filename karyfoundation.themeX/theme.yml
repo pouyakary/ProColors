@@ -188,8 +188,12 @@ rules:
 
   # Pageman
   - name: Pageman HTML Tags
-    scopes: string.html-tag.pageman
+    scope: string.html-tag.pageman
     color: .blue
+
+  - name: Pageman Markdown Links / Images
+    scope: keyword.control.markdown-image-or-link.pageman
+    color: .magenta
 
   - name: Pageman Code Block
     scope: variable.other.muliline-markdown-pre-box.pageman
