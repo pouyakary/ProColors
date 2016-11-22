@@ -195,6 +195,10 @@ rules:
     scope: variable.other.muliline-markdown-pre-box.pageman
     color: .orange
 
+  - name: Pageman Markdown Tables
+    scope: storage.type.markdown-table.pageman
+    color: .red
+
 
   # CSS
   - name: CSS Selectors (General)
