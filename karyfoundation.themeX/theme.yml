@@ -217,7 +217,7 @@ rules:
 
   - name: Pageman HTML special characters
     scope: variable.other.html-special-chars.pageman
-    color: .orange
+    color: .red
 
 
   # CSS
