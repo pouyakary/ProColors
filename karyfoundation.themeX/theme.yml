@@ -293,6 +293,10 @@ rules:
     scope: variable.ruby
     color: .green
 
+  - name: Ruby Class Varabiles
+    scope: class.variable.ruby
+    color: .blue
+
 
   # Json
   - name: JSON Keys
