@@ -191,9 +191,13 @@ rules:
     scopes: string.html-tag.pageman
     color: .blue
 
-  - name: Pageman Code Blocks
+  - name: Pageman Code Block
     scope: variable.other.muliline-markdown-pre-box.pageman
     color: .orange
+
+  - name: Pageman Inline Markdown Code Block
+    scope: variable.other.inline-code-block-markdown.pageman
+    color: .red
 
   - name: Pageman Markdown Tables
     scope: storage.type.markdown-table.pageman
