@@ -65,9 +65,13 @@ rules:
       - var.expr.primitive.annotation.type.keyword.meta
     color: .gray
 
+  - name: Logical Operators
+    scope: logical.operator.meta
+    color: .magenta
+
   - name: Strings
     scope: string
-    color: .blue
+    color: .green
 
   - name: RegExp
     scope: string
@@ -168,6 +172,12 @@ rules:
     scope: markup.heading
     color: CB4718
 
+  - name:
+    scopes:
+      - regexp.operator.keyword.meta
+      - regex.operator.keyboard.meta
+    color: .blue
+
 #
 # ─── HTML AND XML ───────────────────────────────────────────────────────────────
 #
@@ -214,8 +224,8 @@ rules:
     color: .blue
 
   - name: Pageman Legend Phrases
-    score: storage.type.legend.pageman
-    colore: .orange
+    scope: storage.type.legend.pageman
+    color: .orange
 
   - name: Pageman Markdown Links / Images
     scope: keyword.control.markdown-image-or-link.pageman
@@ -272,17 +282,19 @@ rules:
     color: .orange
 
 #
-# ─── JAVASCRIPT ─────────────────────────────────────────────────────────────────
+# ─── JAVASCRIPT AND TYPESCRIPT ──────────────────────────────────────────────────
 #
 
   - name: JavaScript Object Keys
-    scopes: 
+    scopes:
       - key.js
-      - member.objectliteral.js
-    color: .green
+      - key.ts
+    color: .red
 
   - name: Arrow Functions Arrows
-    scope: arrow.block.function.type.storage.meta.js
+    scopes: 
+      - arrow.block.function.type.storage.meta.js
+      - arrow.block.function.type.storage.meta.ts
     color: .magenta
 
   - name: JavaScript Special Keywords
@@ -292,50 +304,128 @@ rules:
       - new.keyword
     color: .orange
 
-  - name: JavaScript Export Keyword
-    scopes:
-      - export.keyword
-      - comparison.keyword
-      - relational.keyword
-    color: .orange
-
   - name: JavaScript Imports
-    scope: import-export-all.constant
+    scopes:
+      - import-export-all.constant.js
+      - import-export-all.constant.ts
     color: .orange
 
   - name: JavaScript Expression Arrow's Parameters
-    scope: parameter.expression.Arrow
+    scopes: 
+      - parameter.expression.arrow.js
+      - parameter.expression.arrow.ts
     color: .gray
 
   - name: Supporting Functions
-    scope: function.support.expr.var.meta.js
+    scopes: 
+      - function.support.expr.var.meta.js
+      - function.support.expr.var.meta.ts
     color: .green
 
   - name: Objects
-    scope: object.other.variable.expr.var.meta.js
+    scopes:
+      - object.other.variable.expr.var.meta.js
+      - object.other.variable.expr.var.meta.ts
     color: .blue
 
   - name: Object Bindings
     scopes:
       - object-binding-pattern-variable.other.variable.expr.var.meta.js
+      - object-binding-pattern-variable.other.variable.expr.var.meta.ts
       - block.function.support.meta.js
+      - block.function.support.meta.ts
     color: .red
 
   - name: Object property
-    scope: property.block.function.other.variable.meta.js
+    scopes:
+      - property.block.function.other.variable.meta.js
+      - property.block.function.other.variable.meta.ts
     color: .green
 
   - name: Node Template Expressions
-    scope: expression.template.node.meta.js
+    scopes:
+      - expression.template.node.meta.js
+      - expression.template.node.meta.ts
     color: .green
 
   - name: Template Function
-    scope: expression.template.function.support.meta.js
+    scopes:
+      - expression.template.function.support.meta.js
+      - expression.template.function.support.meta.ts
     color: .red
 
   - name: Full var coloring
-    scope: readwrite.variable.js
+    scopes:
+      - readwrite.variable.js
+      - readwrite.variable.ts
     color: .blue
+
+  - name: JS other Vars
+    scopes:
+      - other.variable.js
+      - other.variable.ts
+    color: .orange
+
+  - name: JS support Vars
+    scopes:
+      - support.variable.js
+      - support.variable.ts
+    color: .magenta
+
+  - name: JS console
+    scopes:
+      - console.js
+      - console.function.support.class.block.meta.ts
+    color: .orange
+
+  - name: JS doc verbs
+    scopes:
+      - jsdoc.documentation.block.other.variable.meta.js
+      - jsdoc.documentation.block.other.variable.meta.ts
+    color: .blue
+
+  - name: JS doc Vars
+    scopes:
+      - jsdoc.class.documentation.block.type.storage.comment.js
+      - jsdoc.class.documentation.block.type.storage.comment.ts
+    color: .magenta
+
+  - name: DOM 
+    scopes:
+      - block.dom.function.support.variable.expr.var.meta.js
+      - block.dom.function.support.variable.expr.var.meta.ts
+    color: .magenta
+
+  - name: DOM property
+    scopes:
+      - dom.function.support.js
+      - dom.function.support.class.block.meta.ts
+    color: .blue
+
+  - name: JavaScript typeof
+    scopes:
+      - typeof.keyword.js
+      - typeof.keyword.ts
+    color: .magenta
+
+  - name: Constant Objects
+    scopes:
+      - object.constant.other.function.block.meta.js
+      - object.constant.other.function.block.meta.ts
+      - object.variable.other.function.meta.block.ts
+    color: .orange
+
+  - name: Var Keyboards
+    scopes:
+      - expr.var.type.storage.meta.js
+      - expr.var.type.storage.meta.ts
+    color: .magenta
+
+  - name: Built In Types
+    scopes:
+      - builtin.class.support.var.function.meta.js
+      - builtin.class.support.var.function.meta.ts
+    color: .orange
 
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
@@ -355,10 +445,12 @@ rules:
 
   - name: TypScript Type Cast
     scope: cast.expr.ts
-    color: .blue
+    color: .green
 
   - name: Function Parameters Type
-    scope: function.parameters.entity.type.ts
+    scopes:
+      - function.parameters.entity.type.ts
+      - primitive.annotation.support.parameters.function.type.meta.ts
     color: .green
 
   - name: TypeScript Types
@@ -421,6 +513,22 @@ rules:
 
   - name: YAML Tag namespace
     scope: name.tag.out.plain.unquoted.string.entity.yaml
+    color: .green
+
+#
+# ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
+#
+
+  - name: Brace
+    scope: brace.literal.meta
+    color: .gray
+
+  - name: colons
+    scope: keyword.annotation.operator.meta
+    color: .gray
+
+  - name: String
+    scope: string
     color: .green
 
 # ────────────────────────────────────────────────────────────────────────────────
