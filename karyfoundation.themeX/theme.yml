@@ -122,6 +122,10 @@ rules:
     scope: storage.type
     color: .orange
 
+  - name: Module Name
+    scope: module.meta
+    color: .orange
+
   - name: Class name
     scope: entity.name.class
     color: .red
