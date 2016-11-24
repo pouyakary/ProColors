@@ -333,6 +333,10 @@ rules:
     scope: expression.template.function.support.meta.js
     color: .red
 
+  - name: Full var coloring
+    scope: readwrite.variable.js
+    color: .blue
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
