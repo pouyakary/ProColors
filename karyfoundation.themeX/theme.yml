@@ -54,12 +54,10 @@ themes:
       orange: BC9550
 
 #
-# ─── SCOPES ─────────────────────────────────────────────────────────────────────
+# ─── GENERAL ────────────────────────────────────────────────────────────────────
 #
 
 rules:
-
-  # General
   - name: Operators
     scopes:
       - keyword.operator
@@ -170,9 +168,10 @@ rules:
     scope: markup.heading
     color: CB4718
 
+#
+# ─── HTML AND XML ───────────────────────────────────────────────────────────────
+#
 
-
-  # HTML / XML
   - name: Tag name
     scopes:
       - punctuation.definition.tag.html
@@ -192,9 +191,10 @@ rules:
       - string.html
     color: .green
 
+#
+# ─── PAGEMAN ────────────────────────────────────────────────────────────────────
+#
 
-
-  # Pageman
   - name: Pageman Section Commands
     scope: constant.language.pageman-parts.pageman
     color: .green
@@ -237,9 +237,10 @@ rules:
     scope: variable.other.html-special-chars.pageman
     color: .red
 
+#
+# ─── CSS ────────────────────────────────────────────────────────────────────────
+#
 
-
-  # CSS
   - name: CSS Selectors (General)
     scope: meta.selector.css
     color: .magenta
@@ -262,16 +263,18 @@ rules:
     scope: constant.other.css
     color: .blue
 
+#
+# ─── LESS ───────────────────────────────────────────────────────────────────────
+#
 
-
-  # Less
   - name: Variables
     scope: variable.other.less
     color: .orange
 
+#
+# ─── JAVASCRIPT ─────────────────────────────────────────────────────────────────
+#
 
-
-  # JavaScript
   - name: JavaScript Object Keys
     scope: key
     color: .green
@@ -306,9 +309,10 @@ rules:
     scope: object-binding-pattern-variable.other.variable.expr.var.meta.js
     color: .red
 
+#
+# ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
+#
 
-
-  # TypeScript
   - name: TypeScript Namespaces
     scope: namespace.entity.name.meta.ts
     color: .red
@@ -335,9 +339,10 @@ rules:
       - annotation.type.meta.ts
     color: .green
 
+#
+# ─── RUBY ───────────────────────────────────────────────────────────────────────
+#
 
-
-  # Ruby
   - name: Ruby defs
     scope: def.meta.ruby
     color: .orange
@@ -370,9 +375,10 @@ rules:
     scope: embedded.string.punctuation.ruby
     color: .gray
 
+#
+# ─── JSON ───────────────────────────────────────────────────────────────────────
+#
 
-
-  # Json
   - name: JSON Keys
     scope: property-name.json
     color: .green
@@ -381,9 +387,10 @@ rules:
     scope: constant.value.json
     color: .magenta
 
+#
+# ─── YAML ───────────────────────────────────────────────────────────────────────
+#
 
-
-  # YAML
   - name: YAML Tag namespace
     scope: name.tag.out.plain.unquoted.string.entity.yaml
     color: .green
