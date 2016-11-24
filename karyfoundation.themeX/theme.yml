@@ -94,7 +94,7 @@ rules:
 
   - name: Number
     scope: constant.numeric
-    color: .blue
+    color: .green
 
   - name: Built-in constant
     scope: constant.language
