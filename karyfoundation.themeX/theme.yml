@@ -129,6 +129,10 @@ rules:
   - name: Class property
     scope: property.field.declaration.class.meta
     color: .red
+
+  - name: Inherited Class
+    scope: entity.other.inherited-class
+    color: .red
     
   - name: this
     scope: this.class.meta
@@ -289,6 +293,10 @@ rules:
     scope: parameter.expression.Arrow
     color: .gray
 
+  - name: Supporting Functions
+    scope: function.support.expr.var.meta.js
+    color: .green
+
 
   # TypeScript
   - name: TypeScript Namespaces
@@ -316,6 +324,7 @@ rules:
       - primitive.type.ts
       - annotation.type.meta.ts
     color: .green
+
 
 
   # Ruby
