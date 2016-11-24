@@ -158,7 +158,7 @@ rules:
 
   - name: Variable Def
     scope: var-single-variable.variable.readwrite.other.meta
-    color: .red
+    color: .blue
 
   - name: Module
     scope: module.ts
@@ -305,13 +305,25 @@ rules:
     scope: function.support.expr.var.meta.js
     color: .green
 
+  - name: Objects
+    scope: object.other.variable.expr.var.meta.js
+    color: .blue
+
   - name: Object Bindings
     scope: object-binding-pattern-variable.other.variable.expr.var.meta.js
     color: .red
 
+  - name: Object property
+    scope: property.block.function.other.variable.meta.js
+    color: .green
+
   - name: Node Template Expressions
     scope: expression.template.node.meta.js
     color: .green
+
+  - name: Template Function
+    scope: expression.template.function.support.meta.js
+    color: .red
 
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
