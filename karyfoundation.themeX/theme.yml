@@ -276,7 +276,9 @@ rules:
 #
 
   - name: JavaScript Object Keys
-    scope: key
+    scopes: 
+      - key.js
+      - member.objectliteral.js
     color: .green
 
   - name: JavaScript Special Keywords
