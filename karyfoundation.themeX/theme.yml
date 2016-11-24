@@ -281,6 +281,10 @@ rules:
       - member.objectliteral.js
     color: .green
 
+  - name: Arrow Functions Arrows
+    scope: arrow.block.function.type.storage.meta.js
+    color: .magenta
+
   - name: JavaScript Special Keywords
     scopes:
       - of.keyword
@@ -312,7 +316,9 @@ rules:
     color: .blue
 
   - name: Object Bindings
-    scope: object-binding-pattern-variable.other.variable.expr.var.meta.js
+    scopes:
+      - object-binding-pattern-variable.other.variable.expr.var.meta.js
+      - block.function.support.meta.js
     color: .red
 
   - name: Object property
