@@ -297,6 +297,10 @@ rules:
     scope: function.support.expr.var.meta.js
     color: .green
 
+  - name: Object Bindings
+    scope: object-binding-pattern-variable.other.variable.expr.var.meta.js
+    color: .red
+
 
   # TypeScript
   - name: TypeScript Namespaces
