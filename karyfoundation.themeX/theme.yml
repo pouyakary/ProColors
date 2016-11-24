@@ -61,7 +61,10 @@ rules:
 
   # General
   - name: Operators
-    scope: keyword.operator
+    scopes:
+      - keyword.operator
+      - operator.annotation.type.keyword
+      - var.expr.primitive.annotation.type.keyword.meta
     color: .gray
 
   - name: Strings
@@ -75,12 +78,6 @@ rules:
   - name: Type Cast
     scope: primitive.annotation.var.type.meta.ts
     color: .green
-
-  - name: Gray Operators
-    scopes:
-      - operator.annotation.type.keyword
-      - var.expr.primitive.annotation.type.keyword.meta
-    color: .gray
 
   - name: String Interpolation Begin and End
     scopes:
@@ -114,16 +111,14 @@ rules:
     scope: storage
     color: .magenta
 
-  - name: Storange Type
-    scope: storage.type
-    color: .orange
-
   - name: Storage type
     scope: storage.type
     color: .orange
 
   - name: Module Name
-    scope: module.meta
+    scopes:
+      - module.meta
+      - function.object.block.variable.meta
     color: .orange
 
   - name: Class name
@@ -143,7 +138,6 @@ rules:
     color: .blue
 
   - name: function Types
- #   scope: token ts meta function type entity name parameters annotation module
     scope: annotation.meta.ts
     color: .gray
 
@@ -177,6 +171,7 @@ rules:
     color: CB4718
 
 
+
   # HTML / XML
   - name: Tag name
     scopes:
@@ -196,6 +191,7 @@ rules:
       - string.quoted.double.html
       - string.html
     color: .green
+
 
 
   # Pageman
@@ -240,6 +236,7 @@ rules:
   - name: Pageman HTML special characters
     scope: variable.other.html-special-chars.pageman
     color: .red
+
 
 
   # CSS
@@ -310,6 +307,7 @@ rules:
     color: .red
 
 
+
   # TypeScript
   - name: TypeScript Namespaces
     scope: namespace.entity.name.meta.ts
@@ -338,11 +336,6 @@ rules:
     color: .green
 
 
-
-  # Ruby
-  - name: Ruby defs
-    scope: def.meta.ruby
-    color: .orange
 
   # Ruby
   - name: Ruby defs
@@ -378,6 +371,7 @@ rules:
     color: .gray
 
 
+
   # Json
   - name: JSON Keys
     scope: property-name.json
@@ -386,6 +380,8 @@ rules:
   - name: JSON True False
     scope: constant.value.json
     color: .magenta
+
+
 
   # YAML
   - name: YAML Tag namespace
