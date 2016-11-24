@@ -265,7 +265,7 @@ rules:
   # JavaScript
   - name: JavaScript Object Keys
     scope: key
-    color: .orange
+    color: .green
 
   - name: JavaScript Special Keywords
     scopes:
