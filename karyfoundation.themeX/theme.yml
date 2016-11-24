@@ -309,6 +309,10 @@ rules:
     scope: object-binding-pattern-variable.other.variable.expr.var.meta.js
     color: .red
 
+  - name: Node Template Expressions
+    scope: expression.template.node.meta.js
+    color: .green
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
