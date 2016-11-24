@@ -161,7 +161,11 @@ rules:
     color: .red
 
   - name: Variable
-    scope: var-single-variable
+    scope: variable.readwrite.other.meta
+    color: .blue
+
+  - name: Variable Def
+    scope: var-single-variable.variable.readwrite.other.meta
     color: .red
 
   - name: Module
