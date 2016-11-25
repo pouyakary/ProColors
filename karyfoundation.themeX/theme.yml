@@ -27,11 +27,11 @@ themes:
     colors:
       gray: 1A1A1A
       darkGray: 9B9B9B
-      blue: 398BC9
-      green: 3F831E
-      red: CB4718
-      magenta: AF33A6
-      orange: C07F00
+      blue: 3778B7
+      green: 428226
+      red: C94824
+      magenta: B052A1
+      orange: A56416
 
   - name: Kary Foundation - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
