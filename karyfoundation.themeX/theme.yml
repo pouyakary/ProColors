@@ -459,6 +459,10 @@ rules:
       - annotation.type.meta.ts
     color: .green
 
+  - name: TypeScript declaration Types
+    scope: name.entity.type.declaration.block.meta.ts
+    color: .red
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
