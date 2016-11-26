@@ -201,6 +201,11 @@ rules:
       - string.html
     color: .green
 
+  - name: HTML DOCTYPE
+    scope: doctype.html.tag.meta
+    color: .blue
+
+
 #
 # ─── PAGEMAN ────────────────────────────────────────────────────────────────────
 #
