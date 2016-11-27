@@ -67,7 +67,7 @@ rules:
 
   - name: Logical Operators
     scope: logical.operator.meta
-    color: .magenta
+    color: .gray
 
   - name: Strings
     scope: string
