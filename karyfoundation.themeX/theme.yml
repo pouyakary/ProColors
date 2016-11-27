@@ -399,7 +399,7 @@ rules:
     scopes:
       - block.dom.function.support.variable.expr.var.meta.js
       - block.dom.function.support.variable.expr.var.meta.ts
-    color: .magenta
+    color: .red
 
   - name: DOM property
     scopes:
