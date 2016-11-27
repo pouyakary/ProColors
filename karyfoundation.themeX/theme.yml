@@ -300,7 +300,7 @@ rules:
     scopes: 
       - arrow.block.function.type.storage.meta.js
       - arrow.block.function.type.storage.meta.ts
-    color: .magenta
+    color: .gray
 
   - name: JavaScript Special Keywords
     scopes:
@@ -431,6 +431,12 @@ rules:
       - builtin.class.support.var.function.meta.js
       - builtin.class.support.var.function.meta.ts
     color: .orange
+
+  - name: JS Braces
+    scopes:
+      - brace.annotation.declaration.meta.js
+      - brace.annotation.declaration.meta.ts
+    color: .gray
 
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
