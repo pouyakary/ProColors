@@ -377,6 +377,12 @@ rules:
       - support.variable.ts
     color: .magenta
 
+  - name: JS support Functions
+    scope:
+      - support.function.expr.var.meta.js
+      - support.function.expr.var.meta.ts
+    color: .magenta
+
   - name: JS console
     scopes:
       - console.js
