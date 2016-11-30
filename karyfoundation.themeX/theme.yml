@@ -22,7 +22,7 @@ themes:
       foreground: .gray
       invisibles: E4E4E4
       lineHighlight: F0F0F0
-      selection: C2E8F4
+      selection: E2EEFA
       comment: C7C4C2
     colors:
       gray: 1A1A1A
