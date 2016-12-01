@@ -450,6 +450,12 @@ rules:
       - node.module.support.ts
     color: .orange
 
+  - name: support function
+    scopes:
+      - function.support.js
+      - function.support.ts
+    color: .red
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
