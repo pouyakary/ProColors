@@ -444,6 +444,12 @@ rules:
       - brace.annotation.declaration.meta.ts
     color: .gray
 
+  - name: Node Modules
+    scopes:
+      - node.module.support.js
+      - node.module.support.ts
+    color: .orange
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
