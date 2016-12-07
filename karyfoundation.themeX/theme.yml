@@ -496,6 +496,12 @@ rules:
     scope: super.meta.ts
     color: .magenta
 
+  - name: Type notation 
+    scopes:
+      - begin.typeparameters.annotation.type.declaration.punctuation.meta.ts
+      - end.typeparameters.annotation.type.declaration.punctuation.meta.ts
+    color: .gray
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
