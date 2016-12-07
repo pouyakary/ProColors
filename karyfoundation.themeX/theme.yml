@@ -137,7 +137,7 @@ rules:
     
   - name: this
     scope: this.class.meta
-    color: .blue
+    color: .green
 
   - name: function Types
     scope: annotation.meta.ts
