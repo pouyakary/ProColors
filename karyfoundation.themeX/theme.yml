@@ -492,6 +492,10 @@ rules:
     scope: name.entity.type.declaration.block.meta.ts
     color: .red
 
+  - name: Super
+    scope: super.meta.ts
+    color: .magenta
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
