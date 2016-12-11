@@ -278,6 +278,10 @@ rules:
     scope: constant.other.css
     color: .blue
 
+  - name: CSS Constant
+    scope: constant.meta.support.property-value.css
+    color: .red
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #
