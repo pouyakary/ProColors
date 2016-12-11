@@ -280,7 +280,11 @@ rules:
 
   - name: CSS Constant
     scope: constant.meta.support.property-value.css
-    color: .red
+    color: .magenta
+
+  - name: CSS Function
+    scope: function.meta.css
+    color: .blue
 
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
