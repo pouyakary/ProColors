@@ -205,6 +205,10 @@ rules:
     scope: doctype.html.tag.meta
     color: .blue
 
+  - name: HTML Entites
+    scope: character.constant.entity.html
+    color: .orange
+
 
 #
 # ─── PAGEMAN ────────────────────────────────────────────────────────────────────
