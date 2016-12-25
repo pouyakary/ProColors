@@ -514,6 +514,10 @@ rules:
       - end.typeparameters.annotation.type.declaration.punctuation.meta.ts
     color: .gray
 
+  - name: Enum
+    scope: name.enum.entity.meta.ts
+    color: .red
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
