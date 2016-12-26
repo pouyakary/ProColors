@@ -468,6 +468,12 @@ rules:
       - function.support.ts
     color: .red
 
+  - name: Class modifiers
+    scopes:
+      - modifier.storage.class.meta.js
+      - modifier.storage.class.meta.ts
+    color: .orange
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
