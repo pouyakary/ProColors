@@ -309,7 +309,7 @@ rules:
     color: .red
 
   - name: Arrow Functions Arrows
-    scopes: 
+    scopes:
       - arrow.block.function.type.storage.meta.js
       - arrow.block.function.type.storage.meta.ts
     color: .gray
@@ -328,13 +328,13 @@ rules:
     color: .orange
 
   - name: JavaScript Expression Arrow's Parameters
-    scopes: 
+    scopes:
       - parameter.expression.arrow.js
       - parameter.expression.arrow.ts
     color: .gray
 
   - name: Supporting Functions
-    scopes: 
+    scopes:
       - function.support.expr.var.meta.js
       - function.support.expr.var.meta.ts
     color: .green
@@ -474,6 +474,12 @@ rules:
       - modifier.storage.class.meta.ts
       - export.keyword.control.class.meta.js
       - export.keyword.control.class.meta.ts
+    color: .orange
+
+  - name: Object
+    scopes:
+      - dom.class.support.expr.var.meta.js
+      - dom.class.support.expr.var.meta.ts
     color: .orange
 
 #
