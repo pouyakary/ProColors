@@ -413,7 +413,7 @@ rules:
       - jsdoc.class.documentation.block.type.storage.comment.ts
     color: .magenta
 
-  - name: DOM 
+  - name: DOM
     scopes:
       - block.dom.function.support.variable.expr.var.meta.js
       - block.dom.function.support.variable.expr.var.meta.ts
@@ -472,6 +472,8 @@ rules:
     scopes:
       - modifier.storage.class.meta.js
       - modifier.storage.class.meta.ts
+      - export.keyword.control.class.meta.js
+      - export.keyword.control.class.meta.ts
     color: .orange
 
 #
@@ -514,7 +516,7 @@ rules:
     scope: super.meta.ts
     color: .magenta
 
-  - name: Type notation 
+  - name: Type notation
     scopes:
       - begin.typeparameters.annotation.type.declaration.punctuation.meta.ts
       - end.typeparameters.annotation.type.declaration.punctuation.meta.ts
