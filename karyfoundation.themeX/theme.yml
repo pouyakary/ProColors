@@ -93,7 +93,7 @@ rules:
 
   - name: Number
     scope: constant.numeric
-    color: .green
+    color: .blue
 
   - name: Built-in constant
     scope: constant.language
@@ -602,6 +602,10 @@ rules:
 
   - name: String
     scope: string
+    color: .green
+
+  - name: JSX String
+    scope: jsx.children.objectliteral.expression.embedded.tag.string.block
     color: .green
 
 # ────────────────────────────────────────────────────────────────────────────────
