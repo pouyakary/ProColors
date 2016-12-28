@@ -77,10 +77,6 @@ rules:
     scope: string
     color: .blue
 
-  - name: Type Cast
-    scope: primitive.annotation.var.type.meta.ts
-    color: .green
-
   - name: String Interpolation Begin and End
     scopes:
       - begin.expression.string
@@ -316,6 +312,7 @@ rules:
     scopes:
       - arrow.block.function.type.storage.meta.js
       - arrow.block.function.type.storage.meta.ts
+      - arrow.block.function.type.storage.meta.tsx
     color: .gray
 
   - name: JavaScript Special Keywords
@@ -329,161 +326,191 @@ rules:
     scopes:
       - import-export-all.constant.js
       - import-export-all.constant.ts
+      - import-export-all.constant.tsx
     color: .orange
 
   - name: JavaScript Expression Arrow's Parameters
     scopes:
       - parameter.expression.arrow.js
       - parameter.expression.arrow.ts
+      - parameter.expression.arrow.tsx
     color: .gray
 
   - name: Supporting Functions
     scopes:
       - function.support.expr.var.meta.js
       - function.support.expr.var.meta.ts
+      - function.support.expr.var.meta.tsx
     color: .green
 
   - name: Objects
     scopes:
       - object.other.variable.expr.var.meta.js
       - object.other.variable.expr.var.meta.ts
+      - object.other.variable.expr.var.meta.tsx
     color: .blue
 
   - name: Object Bindings
     scopes:
       - object-binding-pattern-variable.other.variable.expr.var.meta.js
       - object-binding-pattern-variable.other.variable.expr.var.meta.ts
+      - object-binding-pattern-variable.other.variable.expr.var.meta.tsx
       - block.function.support.meta.js
       - block.function.support.meta.ts
+      - block.function.support.meta.tsx
     color: .red
 
   - name: Object property
     scopes:
       - property.block.function.other.variable.meta.js
       - property.block.function.other.variable.meta.ts
+      - property.block.function.other.variable.meta.tsx
     color: .green
 
   - name: Node Template Expressions
     scopes:
       - expression.template.node.meta.js
       - expression.template.node.meta.ts
+      - expression.template.node.meta.tsx
     color: .green
 
   - name: Template Function
     scopes:
       - expression.template.function.support.meta.js
       - expression.template.function.support.meta.ts
+      - expression.template.function.support.meta.tsx
     color: .red
 
   - name: Full var coloring
     scopes:
       - readwrite.variable.js
       - readwrite.variable.ts
+      - readwrite.variable.tsx
     color: .blue
 
   - name: JS other Vars
     scopes:
       - other.variable.js
       - other.variable.ts
+      - other.variable.tsx
     color: .orange
 
   - name: JS support Vars
     scopes:
       - support.variable.js
       - support.variable.ts
+      - support.variable.tsx
     color: .magenta
 
   - name: JS support Functions
     scope:
       - support.function.expr.var.meta.js
       - support.function.expr.var.meta.ts
+      - support.function.expr.var.meta.tsx
     color: .magenta
 
   - name: JS console
     scopes:
       - console.js
       - console.function.support.class.block.meta.ts
+      - console.function.support.class.block.meta.tsx
     color: .orange
 
   - name: JS doc verbs
     scopes:
       - jsdoc.documentation.block.other.variable.meta.js
       - jsdoc.documentation.block.other.variable.meta.ts
+      - jsdoc.documentation.block.other.variable.meta.tsx
     color: .blue
 
   - name: JS doc Vars
     scopes:
       - jsdoc.class.documentation.block.type.storage.comment.js
       - jsdoc.class.documentation.block.type.storage.comment.ts
+      - jsdoc.class.documentation.block.type.storage.comment.tsx
     color: .magenta
 
   - name: DOM
     scopes:
       - block.dom.function.support.variable.expr.var.meta.js
       - block.dom.function.support.variable.expr.var.meta.ts
+      - block.dom.function.support.variable.expr.var.meta.tsx
     color: .red
 
   - name: DOM property
     scopes:
       - dom.function.support.js
       - dom.function.support.class.block.meta.ts
+      - dom.function.support.class.block.meta.tsx
     color: .blue
 
   - name: JavaScript typeof
     scopes:
       - typeof.keyword.js
       - typeof.keyword.ts
+      - typeof.keyword.tsx
     color: .magenta
 
   - name: Constant Objects
     scopes:
       - object.constant.other.function.block.meta.js
       - object.constant.other.function.block.meta.ts
+      - object.constant.other.function.block.meta.tsx
+      - object.constant.other.function.block.meta.js
       - object.variable.other.function.meta.block.ts
+      - object.variable.other.function.meta.block.tsx
     color: .orange
 
   - name: Var Keyboards
     scopes:
       - expr.var.type.storage.meta.js
       - expr.var.type.storage.meta.ts
+      - expr.var.type.storage.meta.tsx
     color: .magenta
 
   - name: Built In Types
     scopes:
       - builtin.class.support.var.function.meta.js
       - builtin.class.support.var.function.meta.ts
+      - builtin.class.support.var.function.meta.tsx
     color: .orange
 
   - name: JS Braces
     scopes:
       - brace.annotation.declaration.meta.js
       - brace.annotation.declaration.meta.ts
+      - brace.annotation.declaration.meta.tsx
     color: .gray
 
   - name: Node Modules
     scopes:
       - node.module.support.js
       - node.module.support.ts
+      - node.module.support.tsx
     color: .orange
 
   - name: support function
     scopes:
       - function.support.js
       - function.support.ts
+      - function.support.tsx
     color: .red
 
   - name: Class modifiers
     scopes:
       - modifier.storage.class.meta.js
       - modifier.storage.class.meta.ts
+      - modifier.storage.class.meta.tsx
       - export.keyword.control.class.meta.js
       - export.keyword.control.class.meta.ts
+      - export.keyword.control.class.meta.tsx
     color: .orange
 
   - name: Object
     scopes:
       - dom.class.support.expr.var.meta.js
       - dom.class.support.expr.var.meta.ts
+      - dom.class.support.expr.var.meta.tsx
     color: .orange
 
 #
@@ -503,7 +530,9 @@ rules:
     color: .orange
 
   - name: TypScript Type Cast
-    scope: cast.expr.ts
+    scopes:
+      - cast.expr.ts
+      - primitive.annotation.var.type.meta.ts
     color: .green
 
   - name: Function Parameters Type
