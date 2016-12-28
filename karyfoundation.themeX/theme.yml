@@ -323,7 +323,7 @@ rules:
       - import-export-all.constant.js
       - import-export-all.constant.ts
       - import-export-all.constant.tsx
-    color: .orange
+    color: .blue
 
   - name: JavaScript Expression Arrow's Parameters
     scopes:
