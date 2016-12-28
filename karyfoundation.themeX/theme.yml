@@ -139,10 +139,6 @@ rules:
     scope: this.class.meta
     color: .green
 
-  - name: function Types
-    scope: annotation.meta.ts
-    color: .gray
-
   - name: function argument
     scopes:
     - variable.parameter
@@ -150,10 +146,7 @@ rules:
     color: .blue
 
   - name: Function definition
-    scopes:
-      - entity.name.function
-      - meta.definition.method.ts entity.name.function.ts
-      - meta.definition.function.ts entity.name.function.ts
+    scope: entity.name.function
     color: .red
 
   - name: Variable
@@ -162,10 +155,6 @@ rules:
 
   - name: Variable Def
     scope: var-single-variable.variable.readwrite.other.meta
-    color: .blue
-
-  - name: Module
-    scope: module.ts
     color: .blue
 
   - name: Markup Headings
@@ -306,7 +295,14 @@ rules:
     scopes:
       - key.js
       - key.ts
+      - key.tsx
     color: .red
+
+  - name: JSX Tag Attribs
+    scopes:
+      - key.tag.js
+      - key.tag.tsx
+    color: .green
 
   - name: Arrow Functions Arrows
     scopes:
@@ -560,6 +556,20 @@ rules:
   - name: Enum
     scope: name.enum.entity.meta.ts
     color: .red
+
+  - name: function Types
+    scope: annotation.meta.ts
+    color: .gray
+
+  - name: Function definition
+    scopes:
+      - meta.definition.method.ts entity.name.function.ts
+      - meta.definition.function.ts entity.name.function.ts
+    color: .red
+
+  - name: Module
+    scope: module.ts
+    color: .blue
 
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
