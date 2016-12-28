@@ -514,61 +514,85 @@ rules:
 #
 
   - name: TypeScript Namespaces
-    scope: namespace.entity.name.meta.ts
+    scopes:
+      - namespace.entity.name.meta.ts
+      - namespace.entity.name.meta.tsx
     color: .red
 
   - name: TypeScript Class Modifiers
-    scope: storage.modifier.ts
+    scopes:
+      - storage.modifier.ts
+      - storage.modifier.tsx
     color: .orange
 
   - name: TypeScript Return Type
-    scope: primitive.return.type.function.meta.ts
+    scopes:
+      - primitive.return.type.function.meta.ts
+      - primitive.return.type.function.meta.tsx
     color: .orange
 
   - name: TypScript Type Cast
     scopes:
       - cast.expr.ts
+      - cast.expr.tsx
       - primitive.annotation.var.type.meta.ts
+      - primitive.annotation.var.type.meta.tsx
     color: .green
 
   - name: Function Parameters Type
     scopes:
       - function.parameters.entity.type.ts
+      - function.parameters.entity.type.tsx
       - primitive.annotation.support.parameters.function.type.meta.ts
+      - primitive.annotation.support.parameters.function.type.meta.tsx
     color: .green
 
   - name: TypeScript Types
     scopes:
       - primitive.type.ts
+      - primitive.type.tsx
       - annotation.type.meta.ts
+      - annotation.type.meta.tsx
     color: .green
 
   - name: TypeScript declaration Types
-    scope: name.entity.type.declaration.block.meta.ts
+    scopes:
+      - name.entity.type.declaration.block.meta.ts
+      - name.entity.type.declaration.block.meta.tsx
     color: .red
 
   - name: Type notation
     scopes:
       - begin.typeparameters.annotation.type.declaration.punctuation.meta.ts
+      - begin.typeparameters.annotation.type.declaration.punctuation.meta.tsx
       - end.typeparameters.annotation.type.declaration.punctuation.meta.ts
+      - end.typeparameters.annotation.type.declaration.punctuation.meta.tsx
     color: .gray
 
   - name: Enum
-    scope: name.enum.entity.meta.ts
+    scopes:
+      - name.enum.entity.meta.ts
+      - name.enum.entity.meta.tsx
     color: .red
 
   - name: function Types
-    scope: annotation.meta.ts
+    scopes:
+      - annotation.meta.ts
+      - annotation.meta.tsx
     color: .gray
 
   - name: Function definition
     scopes:
       - meta.definition.method.ts entity.name.function.ts
+      - meta.definition.method.ts entity.name.function.tsx
       - meta.definition.function.ts entity.name.function.ts
+      - meta.definition.function.ts entity.name.function.tsx
     color: .red
 
   - name: Module
-    scope: module.ts
+    scopes:
+      - module.ts
+      - module.tsx
     color: .blue
 
 #
