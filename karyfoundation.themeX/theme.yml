@@ -595,6 +595,18 @@ rules:
       - module.tsx
     color: .blue
 
+  - name: Module name
+    scopes:
+      - module.name.entity.object.objectliteral.expr.meta.ts
+      - module.name.entity.object.objectliteral.expr.meta.tsx
+    color: .orange
+
+  - name: Module Member
+    scopes:
+      - member.object.name.entity.meta.ts
+      - member.object.name.entity.meta.tsx
+    color: .red
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
