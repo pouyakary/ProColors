@@ -509,6 +509,14 @@ rules:
       - dom.class.support.expr.var.meta.tsx
     color: .orange
 
+  - name: Variables
+    scopes:
+    # ref: ts meta storage type block function var expr arrow
+      - arrow.expr.block.type.storage.meta.js
+      - arrow.expr.block.type.storage.meta.ts
+      - arrow.expr.block.type.storage.meta.tsx
+    color: .magenta
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
