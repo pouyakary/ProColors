@@ -304,13 +304,6 @@ rules:
       - key.tag.tsx
     color: .green
 
-  - name: Arrow Functions Arrows
-    scopes:
-      - arrow.block.function.type.storage.meta.js
-      - arrow.block.function.type.storage.meta.ts
-      - arrow.block.function.type.storage.meta.tsx
-    color: .gray
-
   - name: JavaScript Special Keywords
     scopes:
       - of.keyword
@@ -324,13 +317,6 @@ rules:
       - import-export-all.constant.ts
       - import-export-all.constant.tsx
     color: .blue
-
-  - name: JavaScript Expression Arrow's Parameters
-    scopes:
-      - parameter.expression.arrow.js
-      - parameter.expression.arrow.ts
-      - parameter.expression.arrow.tsx
-    color: .gray
 
   - name: Supporting Functions
     scopes:
@@ -509,13 +495,19 @@ rules:
       - dom.class.support.expr.var.meta.tsx
     color: .orange
 
-  - name: Variables
+  - name: Arrow Expression
     scopes:
-    # ref: ts meta storage type block function var expr arrow
+      - parameter.expression.arrow.js
+      - parameter.expression.arrow.ts
+      - parameter.expression.arrow.tsx
+      - arrow.block.function.type.storage.meta.js
+      - arrow.block.function.type.storage.meta.ts
+      - arrow.block.function.type.storage.meta.tsx
       - arrow.expr.block.type.storage.meta.js
       - arrow.expr.block.type.storage.meta.ts
       - arrow.expr.block.type.storage.meta.tsx
-    color: .magenta
+      - arrow.function.type.storage.meta.tsx
+    color: .orange
 
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
