@@ -621,6 +621,11 @@ rules:
       - jsx.expression.embedded.tag.expr.support.arrow.class.Block.ts.meta
     color: .red
 
+  - name: TSX Type Name
+    # tsx meta type support class field declaration annotation primitive
+    scope: annotation.declaration.type.meta.tsx
+    color: .green
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
