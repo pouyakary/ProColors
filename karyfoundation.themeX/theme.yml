@@ -615,6 +615,12 @@ rules:
       - member.object.name.entity.meta.tsx
     color: .red
 
+  - name: TSX Object name
+    scopes:
+      - jsx.expression.embedded.tag.expr.support.arrow.class.block.tsx.meta
+      - jsx.expression.embedded.tag.expr.support.arrow.class.Block.ts.meta
+    color: .red
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
