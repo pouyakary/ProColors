@@ -617,12 +617,17 @@ rules:
 
   - name: TSX Object name
     scopes:
-      - jsx.expression.embedded.tag.expr.support.arrow.class.block.tsx.meta
-      - jsx.expression.embedded.tag.expr.support.arrow.class.Block.ts.meta
+      - jsx.expression.embedded.tag.expr.support.arrow.class.block.meta.tsx
+      - jsx.expression.embedded.tag.expr.support.arrow.class.Block.meta.ts
     color: .red
 
   - name: TSX Type Name
     scope: annotation.declaration.type.meta.tsx
+    color: .green
+
+  - name: TSX String
+    # tsx meta string quoted single block class declaration method tag embedded expression jsx children
+    scope: string.tag.meta.tsx
     color: .green
 
 #
