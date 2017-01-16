@@ -679,6 +679,22 @@ rules:
     color: .green
 
 #
+# ─── PEGJS ──────────────────────────────────────────────────────────────────────
+#
+
+  - name: PEG Attributes
+    scope: attribute.attribute-name.other.entity.pegjs
+    color: .blue
+
+  - name: PEG Declerations
+    scope: declaration.keyword.pegjs
+    color: .green
+
+  - name: PEG Keyword
+    scope: operator.keyword.pegjs
+    color: .orange
+
+#
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
 #
 
