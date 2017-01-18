@@ -523,6 +523,13 @@ rules:
       - module.name.entity.type.expr.tsx
     color: .orange
 
+  - name: JS Entities
+    scopes:
+      - type.new.name.entity.expr.js
+      - type.new.name.entity.expr.ts
+      - type.new.name.entity.expr.tsx
+    color: .red
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
