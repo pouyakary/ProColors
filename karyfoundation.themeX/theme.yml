@@ -509,6 +509,13 @@ rules:
       - arrow.function.type.storage.meta.tsx
     color: .orange
 
+  - name: JS builtin classes
+    scopes:
+      - builtin.class.expr.var.support.meta.js
+      - builtin.class.expr.var.support.meta.ts
+      - builtin.class.expr.var.support.meta.tsx
+    color: .orange
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
