@@ -516,6 +516,13 @@ rules:
       - builtin.class.expr.var.support.meta.tsx
     color: .orange
 
+  - name: JS Modules
+    scopes:
+      - module.name.entity.type.expr.js
+      - module.name.entity.type.expr.ts
+      - module.name.entity.type.expr.tsx
+    color: .orange
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
