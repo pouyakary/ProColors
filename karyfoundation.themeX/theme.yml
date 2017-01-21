@@ -540,6 +540,13 @@ rules:
       - type.new.name.entity.expr.tsx
     color: .red
 
+  - name: Special JS Def Commands
+    scopes:
+      - arrow.block.type.storage.expr.var.meta.js
+      - arrow.block.type.storage.expr.var.meta.ts
+      - arrow.block.type.storage.expr.var.meta.tsx
+    color: .magenta
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
