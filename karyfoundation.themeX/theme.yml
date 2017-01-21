@@ -457,6 +457,13 @@ rules:
       - builtin.class.support.var.function.meta.tsx
     color: .orange
 
+  - name: JS Support Functions
+    scopes:
+      - var.block.support.function.meta.js
+      - var.block.support.function.meta.ts
+      - var.block.support.function.meta.tsx
+    color: .red
+
   - name: JS Braces
     scopes:
       - brace.annotation.declaration.meta.js
@@ -507,6 +514,9 @@ rules:
       - arrow.expr.block.type.storage.meta.ts
       - arrow.expr.block.type.storage.meta.tsx
       - arrow.function.type.storage.meta.tsx
+      - arrow.function.type.storage.expr.var.meta.js
+      - arrow.function.type.storage.expr.var.meta.ts
+      - arrow.function.type.storage.expr.var.meta.jsx
     color: .orange
 
   - name: JS builtin classes
