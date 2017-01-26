@@ -493,6 +493,8 @@ rules:
       - export.keyword.control.class.meta.js
       - export.keyword.control.class.meta.ts
       - export.keyword.control.class.meta.tsx
+      - declaration.type.export.control.keyword.meta.ts
+      - declaration.type.export.control.keyword.meta.tsx
     color: .orange
 
   - name: Object
@@ -659,6 +661,10 @@ rules:
     # tsx meta string quoted single block class declaration method tag embedded expression jsx children
     scope: string.tag.meta.tsx
     color: .green
+
+  - name: Type Decleration
+    scope: declaration.name.entity.type.meta.ts
+    color: .blue
 
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
