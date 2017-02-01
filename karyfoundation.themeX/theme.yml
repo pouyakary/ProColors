@@ -559,6 +559,13 @@ rules:
       - namespace.entity.name.meta.tsx
     color: .red
 
+  - name: Namespace Modifiers
+    scopes:
+      - type.storage.declaration.namespace.meta.ts
+      - type.storage.declaration.namespace.meta.tsx
+    color: .magenta
+
+
   - name: TypeScript Class Modifiers
     scopes:
       - storage.modifier.ts
@@ -665,6 +672,10 @@ rules:
   - name: Type Decleration
     scope: declaration.name.entity.type.meta.ts
     color: .blue
+
+  - name: builtin Support Types
+    scope: builtin.support.block.type.declaration.meta.ts
+    color: .green
 
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
