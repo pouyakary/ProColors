@@ -497,6 +497,13 @@ rules:
       - declaration.type.export.control.keyword.meta.tsx
     color: .orange
 
+  - name: Export Keyword
+    scopes:
+      - export.control.keyword.block.meta.function.js
+      - export.control.keyword.block.meta.function.ts
+      - export.control.keyword.block.meta.function.TSX
+    color: .orange
+
   - name: Object
     scopes:
       - dom.class.support.expr.var.meta.js
