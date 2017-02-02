@@ -564,6 +564,19 @@ rules:
   #     - object.support.module.type.meta.tsx
   #   color: .orange
 
+  - name: Support Variables
+    scopes:
+      - support.variable.object.process.js
+      - support.variable.object.process.ts
+      - support.variable.object.process.tsx
+      - support.variable.property.process.js
+      - support.variable.property.process.ts
+      - support.variable.property.process.tsx
+      - support.variable.property.js
+      - support.variable.property.ts
+      - support.variable.property.tsx
+    color: .blue
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
@@ -573,6 +586,12 @@ rules:
   #     - module.type.declaration.namespace.meta.name.entity.ts
   #     - module.type.declaration.namespace.meta.name.entity.tsx
   #   color: .blue
+
+  - name: TypeScript Namespace declaration
+    scopes:
+      - meta.namespace.declaration.ts
+      - meta.namespace.declaration.tsx
+    color: .red
 
   # - name: Namespace Modifiers
   #   scopes:
