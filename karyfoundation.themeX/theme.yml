@@ -291,398 +291,415 @@ rules:
 # ─── JAVASCRIPT AND TYPESCRIPT ──────────────────────────────────────────────────
 #
 
-  - name: JavaScript Object Keys
-    scopes:
-      - key.js
-      - key.ts
-      - key.tsx
-    color: .red
+  # - name: JavaScript Object Keys
+  #   scopes:
+  #     - key.js
+  #     - key.ts
+  #     - key.tsx
+  #   color: .red
 
-  - name: JSX Tag Attribs
-    scopes:
-      - key.tag.js
-      - key.tag.tsx
-    color: .green
+  # - name: JSX Tag Attribs
+  #   scopes:
+  #     - key.tag.js
+  #     - key.tag.tsx
+  #   color: .green
 
-  - name: JavaScript Special Keywords
-    scopes:
-      - of.keyword
-      - in.keyword
-      - new.keyword
-    color: .orange
+  # - name: JavaScript Special Keywords
+  #   scopes:
+  #     - of.keyword
+  #     - in.keyword
+  #     - new.keyword
+  #   color: .orange
 
-  - name: JavaScript Imports
-    scopes:
-      - import-export-all.constant.js
-      - import-export-all.constant.ts
-      - import-export-all.constant.tsx
-    color: .blue
+  # - name: JavaScript Imports
+  #   scopes:
+  #     - import-export-all.constant.js
+  #     - import-export-all.constant.ts
+  #     - import-export-all.constant.tsx
+  #   color: .blue
 
-  - name: Supporting Functions
-    scopes:
-      - function.support.expr.var.meta.js
-      - function.support.expr.var.meta.ts
-      - function.support.expr.var.meta.tsx
-    color: .green
+  # - name: Supporting Functions
+  #   scopes:
+  #     - function.support.expr.var.meta.js
+  #     - function.support.expr.var.meta.ts
+  #     - function.support.expr.var.meta.tsx
+  #   color: .green
 
-  - name: Objects
-    scopes:
-      - object.other.variable.expr.var.meta.js
-      - object.other.variable.expr.var.meta.ts
-      - object.other.variable.expr.var.meta.tsx
-    color: .blue
+  # - name: Objects
+  #   scopes:
+  #     - object.other.variable.expr.var.meta.js
+  #     - object.other.variable.expr.var.meta.ts
+  #     - object.other.variable.expr.var.meta.tsx
+  #   color: .blue
 
-  - name: Object Bindings
-    scopes:
-      - object-binding-pattern-variable.other.variable.expr.var.meta.js
-      - object-binding-pattern-variable.other.variable.expr.var.meta.ts
-      - object-binding-pattern-variable.other.variable.expr.var.meta.tsx
-      - block.function.support.meta.js
-      - block.function.support.meta.ts
-      - block.function.support.meta.tsx
-    color: .red
+  # - name: Object Bindings
+  #   scopes:
+  #     - object-binding-pattern-variable.other.variable.expr.var.meta.js
+  #     - object-binding-pattern-variable.other.variable.expr.var.meta.ts
+  #     - object-binding-pattern-variable.other.variable.expr.var.meta.tsx
+  #     - block.function.support.meta.js
+  #     - block.function.support.meta.ts
+  #     - block.function.support.meta.tsx
+  #   color: .red
 
-  - name: Object property
-    scopes:
-      - property.block.function.other.variable.meta.js
-      - property.block.function.other.variable.meta.ts
-      - property.block.function.other.variable.meta.tsx
-    color: .green
+  # - name: Object property
+  #   scopes:
+  #     - property.block.function.other.variable.meta.js
+  #     - property.block.function.other.variable.meta.ts
+  #     - property.block.function.other.variable.meta.tsx
+  #   color: .green
 
-  - name: Node Template Expressions
-    scopes:
-      - expression.template.node.meta.js
-      - expression.template.node.meta.ts
-      - expression.template.node.meta.tsx
-    color: .green
+  # - name: Node Template Expressions
+  #   scopes:
+  #     - expression.template.node.meta.js
+  #     - expression.template.node.meta.ts
+  #     - expression.template.node.meta.tsx
+  #   color: .green
 
-  - name: Template Function
-    scopes:
-      - expression.template.function.support.meta.js
-      - expression.template.function.support.meta.ts
-      - expression.template.function.support.meta.tsx
-    color: .red
+  # - name: Template Function
+  #   scopes:
+  #     - expression.template.function.support.meta.js
+  #     - expression.template.function.support.meta.ts
+  #     - expression.template.function.support.meta.tsx
+  #   color: .red
 
-  - name: Full var coloring
-    scopes:
-      - readwrite.variable.js
-      - readwrite.variable.ts
-      - readwrite.variable.tsx
-    color: .blue
+  # - name: Full var coloring
+  #   scopes:
+  #     - readwrite.variable.js
+  #     - readwrite.variable.ts
+  #     - readwrite.variable.tsx
+  #   color: .blue
 
-  - name: JS other Vars
-    scopes:
-      - other.variable.js
-      - other.variable.ts
-      - other.variable.tsx
-    color: .orange
+  # - name: JS other Vars
+  #   scopes:
+  #     - other.variable.js
+  #     - other.variable.ts
+  #     - other.variable.tsx
+  #   color: .orange
 
-  - name: JS support Vars
-    scopes:
-      - support.variable.js
-      - support.variable.ts
-      - support.variable.tsx
-    color: .magenta
+  # - name: JS support Vars
+  #   scopes:
+  #     - support.variable.js
+  #     - support.variable.ts
+  #     - support.variable.tsx
+  #   color: .magenta
 
-  - name: JS support Functions
-    scope:
-      - support.function.expr.var.meta.js
-      - support.function.expr.var.meta.ts
-      - support.function.expr.var.meta.tsx
-    color: .magenta
+  # - name: JS support Functions
+  #   scope:
+  #     - support.function.expr.var.meta.js
+  #     - support.function.expr.var.meta.ts
+  #     - support.function.expr.var.meta.tsx
+  #   color: .magenta
 
-  - name: JS console
-    scopes:
-      - console.js
-      - console.function.support.class.block.meta.ts
-      - console.function.support.class.block.meta.tsx
-    color: .orange
+  # - name: JS console
+  #   scopes:
+  #     - console.js
+  #     - console.function.support.class.block.meta.ts
+  #     - console.function.support.class.block.meta.tsx
+  #   color: .orange
 
-  - name: JS doc verbs
-    scopes:
-      - jsdoc.documentation.block.other.variable.meta.js
-      - jsdoc.documentation.block.other.variable.meta.ts
-      - jsdoc.documentation.block.other.variable.meta.tsx
-    color: .blue
+  # - name: JS doc verbs
+  #   scopes:
+  #     - jsdoc.documentation.block.other.variable.meta.js
+  #     - jsdoc.documentation.block.other.variable.meta.ts
+  #     - jsdoc.documentation.block.other.variable.meta.tsx
+  #   color: .blue
 
-  - name: JS doc Vars
-    scopes:
-      - jsdoc.class.documentation.block.type.storage.comment.js
-      - jsdoc.class.documentation.block.type.storage.comment.ts
-      - jsdoc.class.documentation.block.type.storage.comment.tsx
-    color: .magenta
+  # - name: JS doc Vars
+  #   scopes:
+  #     - jsdoc.class.documentation.block.type.storage.comment.js
+  #     - jsdoc.class.documentation.block.type.storage.comment.ts
+  #     - jsdoc.class.documentation.block.type.storage.comment.tsx
+  #   color: .magenta
 
-  - name: DOM
-    scopes:
-      - block.dom.function.support.variable.expr.var.meta.js
-      - block.dom.function.support.variable.expr.var.meta.ts
-      - block.dom.function.support.variable.expr.var.meta.tsx
-    color: .red
+  # - name: DOM
+  #   scopes:
+  #     - block.dom.function.support.variable.expr.var.meta.js
+  #     - block.dom.function.support.variable.expr.var.meta.ts
+  #     - block.dom.function.support.variable.expr.var.meta.tsx
+  #   color: .red
 
-  - name: DOM property
-    scopes:
-      - dom.function.support.js
-      - dom.function.support.class.block.meta.ts
-      - dom.function.support.class.block.meta.tsx
-    color: .blue
+  # - name: DOM property
+  #   scopes:
+  #     - dom.function.support.js
+  #     - dom.function.support.class.block.meta.ts
+  #     - dom.function.support.class.block.meta.tsx
+  #   color: .blue
 
-  - name: JavaScript typeof
-    scopes:
-      - typeof.keyword.js
-      - typeof.keyword.ts
-      - typeof.keyword.tsx
-    color: .magenta
+  # - name: JavaScript typeof
+  #   scopes:
+  #     - typeof.keyword.js
+  #     - typeof.keyword.ts
+  #     - typeof.keyword.tsx
+  #   color: .magenta
 
-  - name: Constant Objects
-    scopes:
-      - object.constant.other.function.block.meta.js
-      - object.constant.other.function.block.meta.ts
-      - object.constant.other.function.block.meta.tsx
-      - object.constant.other.function.block.meta.js
-      - object.variable.other.function.meta.block.ts
-      - object.variable.other.function.meta.block.tsx
-    color: .orange
+  # - name: Constant Objects
+  #   scopes:
+  #     - object.constant.other.function.block.meta.js
+  #     - object.constant.other.function.block.meta.ts
+  #     - object.constant.other.function.block.meta.tsx
+  #     - object.constant.other.function.block.meta.js
+  #     - object.variable.other.function.meta.block.ts
+  #     - object.variable.other.function.meta.block.tsx
+  #   color: .orange
 
-  - name: Var Keyboards
-    scopes:
-      - expr.var.type.storage.meta.js
-      - expr.var.type.storage.meta.ts
-      - expr.var.type.storage.meta.tsx
-    color: .magenta
+  # - name: Var Keyboards
+  #   scopes:
+  #     - expr.var.type.storage.meta.js
+  #     - expr.var.type.storage.meta.ts
+  #     - expr.var.type.storage.meta.tsx
+  #   color: .magenta
 
-  - name: Built In Types
-    scopes:
-      - builtin.class.support.var.function.meta.js
-      - builtin.class.support.var.function.meta.ts
-      - builtin.class.support.var.function.meta.tsx
-    color: .orange
+  # - name: Built In Types
+  #   scopes:
+  #     - builtin.class.support.var.function.meta.js
+  #     - builtin.class.support.var.function.meta.ts
+  #     - builtin.class.support.var.function.meta.tsx
+  #   color: .orange
 
-  - name: JS Support Functions
-    scopes:
-      - var.block.support.function.meta.js
-      - var.block.support.function.meta.ts
-      - var.block.support.function.meta.tsx
-    color: .red
+  # - name: JS Support Functions
+  #   scopes:
+  #     - var.block.support.function.meta.js
+  #     - var.block.support.function.meta.ts
+  #     - var.block.support.function.meta.tsx
+  #   color: .red
 
-  - name: JS Braces
-    scopes:
-      - brace.annotation.declaration.meta.js
-      - brace.annotation.declaration.meta.ts
-      - brace.annotation.declaration.meta.tsx
-    color: .gray
+  # - name: JS Braces
+  #   scopes:
+  #     - brace.annotation.declaration.meta.js
+  #     - brace.annotation.declaration.meta.ts
+  #     - brace.annotation.declaration.meta.tsx
+  #   color: .gray
 
-  - name: Node Modules
-    scopes:
-      - node.module.support.js
-      - node.module.support.ts
-      - node.module.support.tsx
-    color: .orange
+  # - name: Node Modules
+  #   scopes:
+  #     - node.module.support.js
+  #     - node.module.support.ts
+  #     - node.module.support.tsx
+  #   color: .orange
 
-  - name: support function
-    scopes:
-      - function.support.js
-      - function.support.ts
-      - function.support.tsx
-    color: .red
+  # - name: support function
+  #   scopes:
+  #     - function.support.js
+  #     - function.support.ts
+  #     - function.support.tsx
+  #   color: .red
 
-  - name: Class modifiers
-    scopes:
-      - modifier.storage.class.meta.js
-      - modifier.storage.class.meta.ts
-      - modifier.storage.class.meta.tsx
-      - export.keyword.control.class.meta.js
-      - export.keyword.control.class.meta.ts
-      - export.keyword.control.class.meta.tsx
-      - declaration.type.export.control.keyword.meta.ts
-      - declaration.type.export.control.keyword.meta.tsx
-    color: .orange
+  # - name: Class modifiers
+  #   scopes:
+  #     - modifier.storage.class.meta.js
+  #     - modifier.storage.class.meta.ts
+  #     - modifier.storage.class.meta.tsx
+  #     - export.keyword.control.class.meta.js
+  #     - export.keyword.control.class.meta.ts
+  #     - export.keyword.control.class.meta.tsx
+  #     - declaration.type.export.control.keyword.meta.ts
+  #     - declaration.type.export.control.keyword.meta.tsx
+  #   color: .orange
 
-  - name: Export Keyword
-    scopes:
-      - export.control.keyword.block.meta.function.js
-      - export.control.keyword.block.meta.function.ts
-      - export.control.keyword.block.meta.function.TSX
-    color: .orange
+  # - name: Export Keyword
+  #   scopes:
+  #     - export.control.keyword.block.meta.function.js
+  #     - export.control.keyword.block.meta.function.ts
+  #     - export.control.keyword.block.meta.function.TSX
+  #   color: .orange
 
-  - name: Object
-    scopes:
-      - dom.class.support.expr.var.meta.js
-      - dom.class.support.expr.var.meta.ts
-      - dom.class.support.expr.var.meta.tsx
-    color: .orange
+  # - name: Object
+  #   scopes:
+  #     - dom.class.support.expr.var.meta.js
+  #     - dom.class.support.expr.var.meta.ts
+  #     - dom.class.support.expr.var.meta.tsx
+  #   color: .orange
 
-  - name: Arrow Expression
-    scopes:
-      - parameter.expression.arrow.js
-      - parameter.expression.arrow.ts
-      - parameter.expression.arrow.tsx
-      - arrow.block.function.type.storage.meta.js
-      - arrow.block.function.type.storage.meta.ts
-      - arrow.block.function.type.storage.meta.tsx
-      - arrow.expr.block.type.storage.meta.js
-      - arrow.expr.block.type.storage.meta.ts
-      - arrow.expr.block.type.storage.meta.tsx
-      - arrow.function.type.storage.meta.tsx
-      - arrow.function.type.storage.expr.var.meta.js
-      - arrow.function.type.storage.expr.var.meta.ts
-      - arrow.function.type.storage.expr.var.meta.jsx
-    color: .orange
+  # - name: Arrow Expression
+  #   scopes:
+  #     - parameter.expression.arrow.js
+  #     - parameter.expression.arrow.ts
+  #     - parameter.expression.arrow.tsx
+  #     - arrow.block.function.type.storage.meta.js
+  #     - arrow.block.function.type.storage.meta.ts
+  #     - arrow.block.function.type.storage.meta.tsx
+  #     - arrow.expr.block.type.storage.meta.js
+  #     - arrow.expr.block.type.storage.meta.ts
+  #     - arrow.expr.block.type.storage.meta.tsx
+  #     - arrow.function.type.storage.meta.tsx
+  #     - arrow.function.type.storage.expr.var.meta.js
+  #     - arrow.function.type.storage.expr.var.meta.ts
+  #     - arrow.function.type.storage.expr.var.meta.jsx
+  #   color: .orange
 
-  - name: JS builtin classes
-    scopes:
-      - builtin.class.expr.var.support.meta.js
-      - builtin.class.expr.var.support.meta.ts
-      - builtin.class.expr.var.support.meta.tsx
-    color: .orange
+  # - name: JS builtin classes
+  #   scopes:
+  #     - builtin.class.expr.var.support.meta.js
+  #     - builtin.class.expr.var.support.meta.ts
+  #     - builtin.class.expr.var.support.meta.tsx
+  #   color: .orange
 
-  - name: JS Modules
-    scopes:
-      - module.name.entity.type.expr.js
-      - module.name.entity.type.expr.ts
-      - module.name.entity.type.expr.tsx
-    color: .orange
+  # - name: JS Modules
+  #   scopes:
+  #     - module.name.entity.type.expr.js
+  #     - module.name.entity.type.expr.ts
+  #     - module.name.entity.type.expr.tsx
+  #   color: .orange
 
-  - name: JS Entities
-    scopes:
-      - type.new.name.entity.expr.js
-      - type.new.name.entity.expr.ts
-      - type.new.name.entity.expr.tsx
-    color: .red
+  # - name: JS Entities
+  #   scopes:
+  #     - type.new.name.entity.expr.js
+  #     - type.new.name.entity.expr.ts
+  #     - type.new.name.entity.expr.tsx
+  #   color: .red
 
-  - name: Special JS Def Commands
-    scopes:
-      - arrow.block.type.storage.expr.var.meta.js
-      - arrow.block.type.storage.expr.var.meta.ts
-      - arrow.block.type.storage.expr.var.meta.tsx
-    color: .magenta
+  # - name: Special JS Def Commands
+  #   scopes:
+  #     - arrow.block.type.storage.expr.var.meta.js
+  #     - arrow.block.type.storage.expr.var.meta.ts
+  #     - arrow.block.type.storage.expr.var.meta.tsx
+  #   color: .magenta
+
+  # - name: Export Keyword
+  #   scopes:
+  #     # support.block.module.type.meta.function.object
+  #     - object.support.module.type.meta.js
+  #     - object.support.module.type.meta.ts
+  #     - object.support.module.type.meta.tsx
+  #   color: .orange
 
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
 
-  - name: TypeScript Namespaces
-    scopes:
-      - namespace.entity.name.meta.ts
-      - namespace.entity.name.meta.tsx
-    color: .red
+  # - name: TypeScript Namespaces Deceleration
+  #   scopes:
+  #     - module.type.declaration.namespace.meta.name.entity.ts
+  #     - module.type.declaration.namespace.meta.name.entity.tsx
+  #   color: .blue
 
-  - name: Namespace Modifiers
-    scopes:
-      - type.storage.declaration.namespace.meta.ts
-      - type.storage.declaration.namespace.meta.tsx
-    color: .magenta
+  # - name: Namespace Modifiers
+  #   scopes:
+  #     - type.storage.declaration.namespace.meta.ts
+  #     - type.storage.declaration.namespace.meta.tsx
+  #   color: .magenta
 
+  # - name: Address Accessors
+  #   scopes:
+  #     - object.other.variable.ts
+  #     - object.other.variable.tsx
+  #     - property.constant.object.other.ts
+  #     - property.constant.object.other.tsx
+  #     - property.ts
+  #     - property.tsx
+  #   color: .orange
 
-  - name: TypeScript Class Modifiers
-    scopes:
-      - storage.modifier.ts
-      - storage.modifier.tsx
-    color: .orange
+  # - name: TypeScript Class Modifiers
+  #   scopes:
+  #     - storage.modifier.ts
+  #     - storage.modifier.tsx
+  #   color: .orange
 
-  - name: TypeScript Return Type
-    scopes:
-      - primitive.return.type.function.meta.ts
-      - primitive.return.type.function.meta.tsx
-    color: .orange
+  # - name: TypeScript Return Type
+  #   scopes:
+  #     - primitive.return.type.function.meta.ts
+  #     - primitive.return.type.function.meta.tsx
+  #   color: .orange
 
-  - name: TypScript Type Cast
-    scopes:
-      - cast.expr.ts
-      - cast.expr.tsx
-      - primitive.annotation.var.type.meta.ts
-      - primitive.annotation.var.type.meta.tsx
-    color: .green
+  # - name: TypScript Type Cast
+  #   scopes:
+  #     - cast.expr.ts
+  #     - cast.expr.tsx
+  #     - primitive.annotation.var.type.meta.ts
+  #     - primitive.annotation.var.type.meta.tsx
+  #   color: .green
 
-  - name: Function Parameters Type
-    scopes:
-      - function.parameters.entity.type.ts
-      - function.parameters.entity.type.tsx
-      - primitive.annotation.support.parameters.function.type.meta.ts
-      - primitive.annotation.support.parameters.function.type.meta.tsx
-    color: .green
+  # - name: Function Parameters Type
+  #   scopes:
+  #     - function.parameters.entity.type.ts
+  #     - function.parameters.entity.type.tsx
+  #     - primitive.annotation.support.parameters.function.type.meta.ts
+  #     - primitive.annotation.support.parameters.function.type.meta.tsx
+  #   color: .green
 
-  - name: TypeScript Types
-    scopes:
-      - primitive.type.ts
-      - primitive.type.tsx
-      - annotation.type.meta.ts
-      - annotation.type.meta.tsx
-    color: .green
+  # - name: TypeScript Types
+  #   scopes:
+  #     - primitive.type.ts
+  #     - primitive.type.tsx
+  #     - annotation.type.meta.ts
+  #     - annotation.type.meta.tsx
+  #   color: .green
 
-  - name: TypeScript declaration Types
-    scopes:
-      - name.entity.type.declaration.block.meta.ts
-      - name.entity.type.declaration.block.meta.tsx
-    color: .red
+  # - name: TypeScript declaration Types
+  #   scopes:
+  #     - name.entity.type.declaration.block.meta.ts
+  #     - name.entity.type.declaration.block.meta.tsx
+  #   color: .red
 
-  - name: Type notation
-    scopes:
-      - begin.typeparameters.annotation.type.declaration.punctuation.meta.ts
-      - begin.typeparameters.annotation.type.declaration.punctuation.meta.tsx
-      - end.typeparameters.annotation.type.declaration.punctuation.meta.ts
-      - end.typeparameters.annotation.type.declaration.punctuation.meta.tsx
-    color: .gray
+  # - name: Type notation
+  #   scopes:
+  #     - begin.typeparameters.annotation.type.declaration.punctuation.meta.ts
+  #     - begin.typeparameters.annotation.type.declaration.punctuation.meta.tsx
+  #     - end.typeparameters.annotation.type.declaration.punctuation.meta.ts
+  #     - end.typeparameters.annotation.type.declaration.punctuation.meta.tsx
+  #   color: .gray
 
-  - name: Enum
-    scopes:
-      - name.enum.entity.meta.ts
-      - name.enum.entity.meta.tsx
-    color: .red
+  # - name: Enum
+  #   scopes:
+  #     - name.enum.entity.meta.ts
+  #     - name.enum.entity.meta.tsx
+  #   color: .red
 
-  - name: function Types
-    scopes:
-      - annotation.meta.ts
-      - annotation.meta.tsx
-    color: .gray
+  # - name: function Types
+  #   scopes:
+  #     - annotation.meta.ts
+  #     - annotation.meta.tsx
+  #   color: .gray
 
-  - name: Function definition
-    scopes:
-      - meta.definition.method.ts entity.name.function.ts
-      - meta.definition.method.ts entity.name.function.tsx
-      - meta.definition.function.ts entity.name.function.ts
-      - meta.definition.function.ts entity.name.function.tsx
-    color: .red
+  # - name: Function definition
+  #   scopes:
+  #     - meta.definition.method.ts entity.name.function.ts
+  #     - meta.definition.method.ts entity.name.function.tsx
+  #     - meta.definition.function.ts entity.name.function.ts
+  #     - meta.definition.function.ts entity.name.function.tsx
+  #   color: .red
 
-  - name: Module
-    scopes:
-      - module.ts
-      - module.tsx
-    color: .blue
+  # - name: Module
+  #   scopes:
+  #     - module.ts
+  #     - module.tsx
+  #   color: .blue
 
-  - name: Module name
-    scopes:
-      - module.name.entity.object.objectliteral.expr.meta.ts
-      - module.name.entity.object.objectliteral.expr.meta.tsx
-    color: .orange
+  # - name: Module name
+  #   scopes:
+  #     - module.name.entity.object.objectliteral.expr.meta.ts
+  #     - module.name.entity.object.objectliteral.expr.meta.tsx
+  #   color: .orange
 
-  - name: Module Member
-    scopes:
-      - member.object.name.entity.meta.ts
-      - member.object.name.entity.meta.tsx
-    color: .red
+  # - name: Module Member
+  #   scopes:
+  #     - member.object.name.entity.meta.ts
+  #     - member.object.name.entity.meta.tsx
+  #   color: .red
 
-  - name: TSX Object name
-    scopes:
-      - jsx.expression.embedded.tag.expr.support.arrow.class.block.meta.tsx
-      - jsx.expression.embedded.tag.expr.support.arrow.class.Block.meta.ts
-    color: .red
+  # - name: TSX Object name
+  #   scopes:
+  #     - jsx.expression.embedded.tag.expr.support.arrow.class.block.meta.tsx
+  #     - jsx.expression.embedded.tag.expr.support.arrow.class.Block.meta.ts
+  #   color: .red
 
-  - name: TSX Type Name
-    scope: annotation.declaration.type.meta.tsx
-    color: .green
+  # - name: TSX Type Name
+  #   scope: annotation.declaration.type.meta.tsx
+  #   color: .green
 
-  - name: TSX String
-    # tsx meta string quoted single block class declaration method tag embedded expression jsx children
-    scope: string.tag.meta.tsx
-    color: .green
+  # - name: TSX String
+  #   # tsx meta string quoted single block class declaration method tag embedded expression jsx children
+  #   scope: string.tag.meta.tsx
+  #   color: .green
 
-  - name: Type Decleration
-    scope: declaration.name.entity.type.meta.ts
-    color: .blue
+  # - name: Type Decleration
+  #   scope: declaration.name.entity.type.meta.ts
+  #   color: .blue
 
-  - name: builtin Support Types
-    scope: builtin.support.block.type.declaration.meta.ts
-    color: .green
+  # - name: builtin Support Types
+  #   scope: builtin.support.block.type.declaration.meta.ts
+  #   color: .green
 
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
