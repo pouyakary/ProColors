@@ -505,15 +505,15 @@ rules:
 #
 
   - name: PEG Attributes
-    scope: attribute.attribute-name.other.entity.pegjs
+    scope: entity.other.attribute-name.attribute.pegjs
     color: .blue
 
-  - name: PEG Declerations
-    scope: declaration.keyword.pegjs
-    color: .green
+  - name: PEG Status
+    scope: entity.name.function.pegjs
+    color: .red
 
   - name: PEG Keyword
-    scope: operator.keyword.pegjs
+    scope: keyword.operator.pegjs
     color: .orange
 
 #
