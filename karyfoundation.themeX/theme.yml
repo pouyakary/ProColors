@@ -446,11 +446,11 @@ rules:
 #
 
   - name: JSON Keys
-    scope: property-name.json
-    color: .green
+    scope: support.type.property-name.json
+    color: .blue
 
   - name: JSON True False
-    scope: constant.value.json
+    scope: constant.language.json
     color: .pink
 
 #
