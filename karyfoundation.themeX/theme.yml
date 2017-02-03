@@ -302,6 +302,7 @@ rules:
     scopes:
       - support.constant.property-value.css
       - support.constant.color.w3c-standard-color-name.css
+      - support.type.property-name.media-feature.media.css
     color: .red
 
   - name: CSS Function
