@@ -434,6 +434,15 @@ rules:
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
 
+  - name: Ruby Support classes
+    scope: support.class.ruby
+    color: .orange
+
+  - name: Ruby Special Methods
+    scopes:
+      - keyword.other.special-method.ruby
+    color: .red
+
   - name: Ruby defs
     scope: def.meta.ruby
     color: .orange
