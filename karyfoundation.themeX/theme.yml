@@ -198,6 +198,31 @@ rules:
     scope: character.constant.entity.html
     color: .orange
 
+#
+# ─── MARKDOWN ───────────────────────────────────────────────────────────────────
+#
+
+  - name: markdown styles
+    scopes:
+      - markup.bold.markdown
+      - markup.italic.markdown
+    color: .orange
+
+  - name: markdown code
+    scope: markup.fenced_code.block.markdown
+    color: .green
+
+  - name: markdown image
+    scopes:
+      - meta.image.inline.markdown
+      - punctuation.definition.string.end.markdown
+    color: .pink
+
+  - name: markdown link
+    scopes:
+      - meta.link.inline.markdown
+      - string.other.link.title.markdown
+    color: .blue
 
 #
 # ─── PAGEMAN ────────────────────────────────────────────────────────────────────
