@@ -215,7 +215,7 @@ rules:
   - name: markdown image
     scopes:
       - meta.image.inline.markdown
-      - punctuation.definition.string.end.markdown
+      - string.other.link.description.markdown
     color: .pink
 
   - name: markdown link
