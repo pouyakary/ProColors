@@ -522,6 +522,10 @@ rules:
     scope: keyword.operator.pegjs
     color: .orange
 
+  - name: PEG Sets
+    scope: declaration.keyword.pegjs
+    color: .green
+
 #
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
 #
