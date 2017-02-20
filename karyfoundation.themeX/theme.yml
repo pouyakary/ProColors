@@ -382,6 +382,10 @@ rules:
     scope: support.function
     color: .red
 
+  - name: Support Constants
+    scope: support.constant
+    color: .orange
+
   - name: Class names
     scope: entity.name.type.class
     color: .red
