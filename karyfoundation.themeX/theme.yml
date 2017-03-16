@@ -168,6 +168,14 @@ rules:
     color: .blue
 
 #
+# ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
+#
+
+  - name: Named Objects
+    scope: storage.modifier.named.karyscript
+    color: .pink
+
+#
 # ─── HTML AND XML ───────────────────────────────────────────────────────────────
 #
 
