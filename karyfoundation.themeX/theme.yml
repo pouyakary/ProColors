@@ -175,6 +175,14 @@ rules:
     scope: storage.modifier.named.karyscript
     color: .pink
 
+  - name: Object Keys
+    scope: meta.object-literal.key.karyscript
+    color: .blue
+
+  - name: Placeholder Names
+    scope: constant.language.placeholder.karyscript
+    color: .red
+
 #
 # ─── HTML AND XML ───────────────────────────────────────────────────────────────
 #
