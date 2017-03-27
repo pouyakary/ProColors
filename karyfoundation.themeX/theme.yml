@@ -527,6 +527,18 @@ rules:
     color: .green
 
 #
+# ─── NEARLEY ────────────────────────────────────────────────────────────────────
+#
+
+  - name: Nearley Identifiers
+    scope: variable.other.property.nearly
+    color: .red
+
+  - name: Nearley Operators
+    scope: keyword.operator.nearly
+    color: .orange
+
+#
 # ─── PEGJS ──────────────────────────────────────────────────────────────────────
 #
 
