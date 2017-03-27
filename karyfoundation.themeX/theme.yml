@@ -536,11 +536,17 @@ rules:
 
   - name: Nearley Operators
     scope: keyword.operator.nearley
-    color: .orange
+    color: .blue
 
   - name: Nearley Braces
-    scope: brace.nearley
-    color: .pink
+    scopes:
+      - begin.brace.nearley
+      - end.brace.nearley
+    color: .orange
+
+  - name: Nearley Signs
+    scope: keyword.control.nearley
+    color: .orange
 
 #
 # ─── PEGJS ──────────────────────────────────────────────────────────────────────
