@@ -531,12 +531,16 @@ rules:
 #
 
   - name: Nearley Identifiers
-    scope: variable.other.property.nearly
+    scope: variable.other.property.nearley
     color: .red
 
   - name: Nearley Operators
-    scope: keyword.operator.nearly
+    scope: keyword.operator.nearley
     color: .orange
+
+  - name: Nearley Braces
+    scope: brace.nearley
+    color: .pink
 
 #
 # ─── PEGJS ──────────────────────────────────────────────────────────────────────
