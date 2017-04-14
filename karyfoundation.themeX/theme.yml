@@ -181,7 +181,7 @@ rules:
 
   - name: Placeholder Names
     scope: constant.language.placeholder.karyscript
-    color: .red
+    color: .green
 
 #
 # ─── HTML AND XML ───────────────────────────────────────────────────────────────
