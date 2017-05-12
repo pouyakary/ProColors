@@ -16,15 +16,8 @@ themes:
   - name: Kary Foundation - Light
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
     baseColor: light
-    settings:
-      background: F7F7F7
-      caret: 00BBEC
-      foreground: .gray
-      invisibles: E4E4E4
-      lineHighlight: F0F0F0
-      selection: E2EEFA
-      comment: C7C4C2
     colors:
+      comment: C7C4C2
       gray: 1A1A1A
       darkGray: 9B9B9B
       blue: 3778B7
@@ -32,19 +25,20 @@ themes:
       red: C94824
       pink: B052A1
       orange: A56416
+    settings:
+      background: F7F7F7
+      caret: 00BBEC
+      foreground: .gray
+      invisibles: E4E4E4
+      lineHighlight: F0F0F0
+      selection: E2EEFA
+      comment: .comment
 
   - name: Kary Foundation - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
-    settings:
-      background: 1A1A1A
-      caret: 00BBEC
-      foreground: .gray
-      invisibles: 474747
-      lineHighlight: 242424
-      selection: 1B424E
-      comment: 707070
     colors:
+      comment: 707070
       gray: CCCCCC
       darkGray: CACACA
       blue: 819DC2
@@ -52,6 +46,14 @@ themes:
       red: D38569
       pink: B98EB2
       orange: BC9550
+    settings:
+      background: 1A1A1A
+      caret: 00BBEC
+      foreground: .gray
+      invisibles: 474747
+      lineHighlight: 242424
+      selection: 1B424E
+      comment: .comment
 
 #
 # ─── GENERAL ────────────────────────────────────────────────────────────────────
@@ -574,10 +576,12 @@ rules:
 
   - name: Braces
     scopes:
-      - meta.brace.square.js
-      - meta.brace.square.ts
-      - meta.brace.square.tsx
+      - punctuation.definition.block.ts
     color: .gray
+
+  - name: Comment
+    scope: punctuation.definition.comment.ts
+    color: .comment
 
   - name: Accessors
     scope: punctuation.accessor
