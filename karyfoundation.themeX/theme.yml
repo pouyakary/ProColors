@@ -613,6 +613,8 @@ rules:
     scopes:
       - punctuation.definition.block.ts
       - meta.property-list.scss
+      - meta.namespace.declaration.ts
+      - meta.brace
     color: .gray
 
   - name: Comment
