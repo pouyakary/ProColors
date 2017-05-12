@@ -508,6 +508,15 @@ rules:
     scope: embedded.string.punctuation.ruby
     color: .gray
 
+  - name: Ruby Functions
+    scopes:
+      - meta.require.ruby
+    color: .red
+
+  - name: Ruby Separators
+    scope: punctuation.separator.other.ruby
+    color: .orange
+
 #
 # ─── JSON ───────────────────────────────────────────────────────────────────────
 #
