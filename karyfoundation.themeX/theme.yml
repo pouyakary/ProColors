@@ -589,12 +589,30 @@ rules:
     color: .pink
 
 #
+# ─── SASS ───────────────────────────────────────────────────────────────────────
+#
+
+  - name: Key
+    scope: support.type.property-name.scss
+    color: .orange
+
+  - name: Property List
+    scope: meta.property-list.scss
+    color: .blue
+
+  - name: Pseudo Class
+    scopes:
+      - meta.property-list.scss
+    color: .green
+
+#
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
 #
 
   - name: Braces
     scopes:
       - punctuation.definition.block.ts
+      - meta.property-list.scss
     color: .gray
 
   - name: Comment
