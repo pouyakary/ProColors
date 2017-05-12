@@ -571,6 +571,24 @@ rules:
     color: .green
 
 #
+# ─── PHP ────────────────────────────────────────────────────────────────────────
+#
+
+  - name: Metatag
+    scope: punctuation.section.embedded.begin.metatag.php
+    color: .pink
+
+  - name: Strings and Texts
+    scopes:
+      - text.html.php
+    color: .green
+
+  - name: Heredoc
+    scopes:
+      - string.unquoted.heredoc.nowdoc.php
+    color: .pink
+
+#
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
 #
 
