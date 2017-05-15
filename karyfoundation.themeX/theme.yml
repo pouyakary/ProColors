@@ -185,6 +185,10 @@ rules:
     scope: constant.language.placeholder.karyscript
     color: .green
 
+  - name: Tag Children
+    scope: meta.jsx.children
+    color: .green
+
 #
 # ─── HTML AND XML ───────────────────────────────────────────────────────────────
 #
