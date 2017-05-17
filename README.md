@@ -1,5 +1,5 @@
 
-# Kary Foundation Theme
+# Kary Theme
 [![Build Status](https://travis-ci.org/karyfoundation/karyfoundation.themeX.svg?branch=master)](https://travis-ci.org/karyfoundation/karyfoundation.themeX) ![](https://img.shields.io/badge/Powered%20by-themeX-yellow.svg)
 
 <img width="515" alt="screen shot 2016-07-23 at 1 04 23 pm" src="https://cloud.githubusercontent.com/assets/2157285/17077002/83748b40-50d6-11e6-93f9-302440275aa3.png">

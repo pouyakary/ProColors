@@ -13,7 +13,7 @@ colorSpaceName: sRGB
 #
 
 themes:
-  - name: Kary Foundation - Light
+  - name: Kary - Light
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
     baseColor: light
     colors:
@@ -34,7 +34,7 @@ themes:
       selection: E2EEFA
       comment: .comment
 
-  - name: Kary Foundation - Dark
+  - name: Kary - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
     colors:
