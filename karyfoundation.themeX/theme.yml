@@ -587,19 +587,44 @@ rules:
 # ─── PHP ────────────────────────────────────────────────────────────────────────
 #
 
-  - name: Metatag
-    scope: punctuation.section.embedded.begin.metatag.php
+  - name: PHP Metatag
+    scope: punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php
     color: .pink
 
-  - name: Strings and Texts
+  - name: PHP Strings and Texts
     scopes:
-      - text.html.php
+      - text.html.php, meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php, constant.language.php
     color: .green
 
-  - name: Heredoc
+  - name: PHP Heredoc
     scopes:
       - string.unquoted.heredoc.nowdoc.php
     color: .pink
+
+  - name: PHP Class
+    scopes:
+      - entity.name.type.class.php, support.class.php, meta.function-call.static.php, meta.function-call.object.php, meta.function-call.php, entity.name.type.trait.php, support.other.namespace.use.php, support.other.namespace.use-as.php, support.class.exception.php
+    color: .red
+
+  - name: PHP Namespace
+    scopes:
+      - entity.name.type.namespace.php, support.other.namespace.php
+    color: .green
+  
+  - name: PHP Source
+    scopes:
+      - source.php, punctuation.terminator.expression.php, punctuation.separator.inheritance.php
+    color: .gray
+
+  - name: PHP Variable
+    scopes:
+      - punctuation.definition.variable.php, variable.other.php
+    color: .blue
+  
+  - name: PHP MySQL
+    scopes:
+      - source.sql.embedded.php
+    color: .orange
 
 #
 # ─── SASS ───────────────────────────────────────────────────────────────────────
