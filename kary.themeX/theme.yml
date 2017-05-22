@@ -671,7 +671,10 @@ rules:
 
   - name: Braces
     scopes:
-      - punctuation
+      - punctuation.definition.block
+      - punctuation.terminator.statement
+      - punctuation.definition.parameters
+      - punctuation.separator.comma
       - meta.property-list.scss
       - meta.namespace.declaration.ts
       - meta.brace
