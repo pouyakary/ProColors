@@ -666,7 +666,7 @@ rules:
 
   - name: Braces
     scopes:
-      - punctuation.definition.block.ts
+      - punctuation
       - meta.property-list.scss
       - meta.namespace.declaration.ts
       - meta.brace
