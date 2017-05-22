@@ -246,6 +246,11 @@ rules:
       - string.other.link.title.markdown
     color: .blue
 
+  - name: Markdown Header
+    scopes:
+      - punctuation.definition.heading.markdown
+    color: .red
+
 #
 # ─── PAGEMAN ────────────────────────────────────────────────────────────────────
 #
