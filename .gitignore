@@ -1,4 +1,4 @@
 node_modules/*
-karyfoundation.themeX/builds/*
+kary.themeX/builds/*
 build.sh
 .vscode/**
