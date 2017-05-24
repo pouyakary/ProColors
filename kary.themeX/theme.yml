@@ -600,7 +600,6 @@ rules:
 
   - name: PHP Strings and Texts
     scopes:
-      - text.html.php
       - meta.string-contents.quoted.single.php
       - meta.string-contents.quoted.double.php
       - constant.language.php
