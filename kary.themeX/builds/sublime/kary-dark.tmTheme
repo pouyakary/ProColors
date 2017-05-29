@@ -1302,6 +1302,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>XML Braces</string>
+            <key>scope</key>
+            <string>punctuation.definition.tag.xml</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#819DC2</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Comment</string>
             <key>scope</key>
             <string>punctuation.definition.comment.ts</string>

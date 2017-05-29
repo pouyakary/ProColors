@@ -710,6 +710,10 @@ rules:
       - meta.brace
     color: .gray
 
+  - name: XML Braces
+    scope: punctuation.definition.tag.xml
+    color: .blue
+
   - name: Comment
     scope: punctuation.definition.comment.ts
     color: .comment
