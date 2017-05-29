@@ -249,6 +249,8 @@ rules:
   - name: Markdown Header
     scopes:
       - punctuation.definition.heading.markdown
+      - entity.name.section.markdown
+      - markup.heading.markdown
     color: .red
 
 #
@@ -592,7 +594,7 @@ rules:
 # ─── PHP ────────────────────────────────────────────────────────────────────────
 #
 
-  - name: PHP Metatag
+  - name: PHP Metatags
     scopes:
     - punctuation.section.embedded.begin.metatag.php
     - punctuation.section.embedded.end.metatag.php
@@ -663,6 +665,14 @@ rules:
     scopes:
       - meta.property-list.scss
     color: .green
+
+#
+# ─── JISON ──────────────────────────────────────────────────────────────────────
+#
+
+  - name: Jison Var Declaration
+    scope: variable.language.declaration.jison
+    color: .red
 
 #
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────

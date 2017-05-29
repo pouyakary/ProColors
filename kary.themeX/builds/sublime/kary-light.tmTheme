@@ -444,6 +444,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Markdown Header</string>
+            <key>scope</key>
+            <string>punctuation.definition.heading.markdown, entity.name.section.markdown, markup.heading.markdown</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#C94824</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Pageman Section Commands</string>
             <key>scope</key>
             <string>constant.language.pageman-parts.pageman</string>
@@ -1148,7 +1159,7 @@
         </dict>
         <dict>    
             <key>name</key>
-            <string>PHP Metatag</string>
+            <string>PHP Metatags</string>
             <key>scope</key>
             <string>punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php</string>
             <key>settings</key>
@@ -1161,7 +1172,7 @@
             <key>name</key>
             <string>PHP Strings and Texts</string>
             <key>scope</key>
-            <string>text.html.php, meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php, constant.language.php</string>
+            <string>meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php, constant.language.php</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
@@ -1269,9 +1280,20 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Jison Var Declaration</string>
+            <key>scope</key>
+            <string>variable.language.declaration.jison</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#C94824</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Braces</string>
             <key>scope</key>
-            <string>punctuation.definition.block.ts, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace</string>
+            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
