@@ -1060,6 +1060,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Hake Package Name</string>
+            <key>scope</key>
+            <string>support.package.hx</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#3778B7</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>YAML Tag namespace</string>
             <key>scope</key>
             <string>name.tag.out.plain.unquoted.string.entity.yaml</string>
