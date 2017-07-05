@@ -380,7 +380,7 @@
             <key>name</key>
             <string>HTML DOCTYPE</string>
             <key>scope</key>
-            <string>doctype.html.tag.meta</string>
+            <string>doctype.html.tag.meta, meta.tag.sgml.doctype.html, punctuation.definition.tag.html</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
@@ -1172,7 +1172,7 @@
             <key>name</key>
             <string>PHP Metatags</string>
             <key>scope</key>
-            <string>punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php</string>
+            <string>punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php, punctuation.section.embedded.end.php, punctuation.section.embedded.begin.php</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
@@ -1258,6 +1258,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>braces</string>
+            <key>scope</key>
+            <string>punctuation.section.array.end.php, punctuation.section.array.begin.php, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#1A1A1A</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Key</string>
             <key>scope</key>
             <string>support.type.property-name.scss</string>
@@ -1304,7 +1315,7 @@
             <key>name</key>
             <string>Braces</string>
             <key>scope</key>
-            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace</string>
+            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>

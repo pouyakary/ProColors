@@ -234,7 +234,10 @@ rules:
     color: .green
 
   - name: HTML DOCTYPE
-    scope: doctype.html.tag.meta
+    scopes:
+      - doctype.html.tag.meta
+      - meta.tag.sgml.doctype.html
+      - punctuation.definition.tag.html
     color: .blue
 
   - name: HTML Entites
@@ -625,8 +628,10 @@ rules:
 
   - name: PHP Metatags
     scopes:
-    - punctuation.section.embedded.begin.metatag.php
-    - punctuation.section.embedded.end.metatag.php
+      - punctuation.section.embedded.begin.metatag.php
+      - punctuation.section.embedded.end.metatag.php
+      - punctuation.section.embedded.end.php
+      - punctuation.section.embedded.begin.php
     color: .pink
 
   - name: PHP Strings and Texts
@@ -678,6 +683,14 @@ rules:
       - source.sql.embedded.php
     color: .orange
 
+  - name: braces
+    scopes:
+      - punctuation.section.array.end.php
+      - punctuation.section.array.begin.php
+      - punctuation.definition.arguments.begin.bracket.round.php
+      - punctuation.definition.arguments.end.bracket.round.php
+    color: .gray
+
 #
 # ─── SASS ───────────────────────────────────────────────────────────────────────
 #
@@ -716,6 +729,7 @@ rules:
       - meta.property-list.scss
       - meta.namespace.declaration.ts
       - meta.brace
+      - bracket.php
     color: .gray
 
   - name: XML Braces
