@@ -1258,9 +1258,42 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>PHP Logical Operatiors</string>
+            <key>scope</key>
+            <string>keyword.operator.logical.php</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B052A1</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>PHP special keywords</string>
+            <key>scope</key>
+            <string>entity.name.goto-label.php</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B052A1</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>PHP Object Keys</string>
+            <key>scope</key>
+            <string>keyword.operator.key.php</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#A56416</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>braces</string>
             <key>scope</key>
-            <string>punctuation.section.array.end.php, punctuation.section.array.begin.php, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php</string>
+            <string>meta.function-call.php, punctuation.section.array.end.php, punctuation.section.array.begin.php, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>

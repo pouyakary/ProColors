@@ -683,8 +683,22 @@ rules:
       - source.sql.embedded.php
     color: .orange
 
+  - name: PHP Logical Operatiors
+    scope: keyword.operator.logical.php
+    color: .pink
+
+  - name: PHP special keywords
+    scopes:
+      - entity.name.goto-label.php
+    color: .pink
+
+  - name: PHP Object Keys
+    scope: keyword.operator.key.php
+    color: .orange
+
   - name: braces
     scopes:
+      - meta.function-call.php
       - punctuation.section.array.end.php
       - punctuation.section.array.begin.php
       - punctuation.definition.arguments.begin.bracket.round.php
