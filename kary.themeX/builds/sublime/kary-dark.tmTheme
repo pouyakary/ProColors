@@ -642,6 +642,28 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Media keyword</string>
+            <key>scope</key>
+            <string>keyword.control.at-rule.media.css</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#BC9550</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Media property</string>
+            <key>scope</key>
+            <string>support.type.property-name.media.css</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#D38569</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Variables</string>
             <key>scope</key>
             <string>variable.other.less</string>

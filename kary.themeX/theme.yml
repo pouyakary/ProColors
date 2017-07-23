@@ -362,6 +362,14 @@ rules:
     scope: function.meta.css
     color: .blue
 
+  - name: Media keyword
+    scope: keyword.control.at-rule.media.css
+    color: .orange
+
+  - name: Media property
+    scope: support.type.property-name.media.css
+    color: .red
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #
