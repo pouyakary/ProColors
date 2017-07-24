@@ -486,6 +486,22 @@ rules:
       - punctuation.definition.template-expression.end
     color: .pink
 
+  - name: JS DOC Type
+    scopes:
+      - storage.type.class.jsdoc
+      - storage.type.class.jsdoc
+    color: .orange
+
+  - name: JS DOC Entity Name
+    scope: entity.name.type.instance.jsdoc
+    color: .red
+
+  - name: JS DOC Braces
+    scopes:
+      - punctuation.definition.bracket.curly.begin.jsdoc
+      - punctuation.definition.bracket.curly.end.jsdoc
+    color: .gray
+
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 #
