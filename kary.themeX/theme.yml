@@ -17,64 +17,64 @@ themes:
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
     baseColor: light
     colors:
-      comment: C7C4C2
-      gray: 1A1A1A
-      darkGray: 9B9B9B
-      blue: 3778B7
-      green: 428226
-      red: C94824
-      pink: B052A1
-      orange: A56416
+      comment:        C7C4C2
+      gray:           1A1A1A
+      darkGray:       9B9B9B
+      blue:           3778B7
+      green:          428226
+      red:            C94824
+      pink:           B052A1
+      orange:         A56416
     settings:
-      background: F7F7F7
-      caret: 00BBEC
-      foreground: .gray
-      invisibles: E4E4E4
-      lineHighlight: F0F0F0
-      selection: E2EEFA
-      comment: .comment
+      background:     F7F7F7
+      caret:          00BBEC
+      foreground:     .gray
+      invisibles:     E4E4E4
+      lineHighlight:  F0F0F0
+      selection:      E2EEFA
+      comment:        .comment
 
   - name: Kary - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
     colors:
-      comment: 707070
-      gray: CCCCCC
-      darkGray: CACACA
-      blue: 819DC2
-      green: 7DA76F
-      red: D38569
-      pink: B98EB2
-      orange: BC9550
+      comment:        707070
+      gray:           CCCCCC
+      darkGray:       CACACA
+      blue:           819DC2
+      green:          7DA76F
+      red:            D38569
+      pink:           B98EB2
+      orange:         BC9550
     settings:
-      background: 1A1A1A
-      caret: 00BBEC
-      foreground: .gray
-      invisibles: 474747
-      lineHighlight: 242424
-      selection: 1B424E
-      comment: .comment
+      background:     1A1A1A
+      caret:          00BBEC
+      foreground:     .gray
+      invisibles:     474747
+      lineHighlight:  242424
+      selection:      1B424E
+      comment:        .comment
 
   - name: Kary - Minimal Dark
     uuid: ff651f0a-1c72-412a-b2d9-5eaea1a087ae
     baseColor: dark
     colors:
-      comment: 707070
-      gray: CCCCCC
-      darkGray: CACACA
-      blue: 819DC2
-      green: 7DA76F
-      red: B98EB2
-      pink: B98EB2
-      orange: 819DC2
+      comment:        707070
+      gray:           CCCCCC
+      darkGray:       CACACA
+      blue:           819DC2
+      green:          7DA76F
+      red:            B98EB2
+      pink:           B98EB2
+      orange:         819DC2
     settings:
-      background: 1A1A1A
-      caret: 00BBEC
-      foreground: .gray
-      invisibles: 474747
-      lineHighlight: 242424
-      selection: 1B424E
-      comment: .comment
+      background:     1A1A1A
+      caret:          00BBEC
+      foreground:     .gray
+      invisibles:     474747
+      lineHighlight:  242424
+      selection:      1B424E
+      comment:        .comment
 
 #
 # ─── GENERAL ────────────────────────────────────────────────────────────────────
