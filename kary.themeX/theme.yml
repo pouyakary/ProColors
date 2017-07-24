@@ -488,19 +488,16 @@ rules:
 
   - name: JS DOC Type
     scopes:
+      - punctuation.definition.block.tag.jsdoc
       - storage.type.class.jsdoc
-      - storage.type.class.jsdoc
-    color: .orange
+    color: .pink
 
   - name: JS DOC Entity Name
-    scope: entity.name.type.instance.jsdoc
-    color: .red
-
-  - name: JS DOC Braces
     scopes:
+      - entity.name.type.instance.jsdoc
       - punctuation.definition.bracket.curly.begin.jsdoc
       - punctuation.definition.bracket.curly.end.jsdoc
-    color: .gray
+    color: .green
 
 #
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────

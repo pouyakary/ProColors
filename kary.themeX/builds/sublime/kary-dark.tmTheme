@@ -906,6 +906,28 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>JS DOC Type</string>
+            <key>scope</key>
+            <string>punctuation.definition.block.tag.jsdoc, storage.type.class.jsdoc</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B98EB2</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>JS DOC Entity Name</string>
+            <key>scope</key>
+            <string>entity.name.type.instance.jsdoc, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#7DA76F</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>TypeScript Namespace declaration</string>
             <key>scope</key>
             <string>meta.namespace.declaration</string>
