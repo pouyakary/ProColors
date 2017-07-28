@@ -1392,7 +1392,7 @@
             <key>name</key>
             <string>Braces</string>
             <key>scope</key>
-            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php</string>
+            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php, meta.embedded.expression.tsx, meta.embedded.expression.jsx</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>

@@ -765,6 +765,8 @@ rules:
       - meta.namespace.declaration.ts
       - meta.brace
       - bracket.php
+      - meta.embedded.expression.tsx
+      - meta.embedded.expression.jsx
     color: .gray
 
   - name: XML Braces
