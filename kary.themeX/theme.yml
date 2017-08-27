@@ -374,6 +374,12 @@ rules:
     scope: punctuation.definition.entity.css
     color: .blue
 
+  - name: CSS Variable
+    scopes:
+      - variable.css
+      - variable.argument.css
+    color: .orange
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #

@@ -675,6 +675,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>CSS Variable</string>
+            <key>scope</key>
+            <string>variable.css, variable.argument.css</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#BC9550</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Variables</string>
             <key>scope</key>
             <string>variable.other.less</string>
