@@ -423,7 +423,7 @@ rules:
   - name: Module Name
     scope: entity.name.type.module
     color: .red
-  
+
   - name: Built-in classes
     scope: support.class.builtin
     color: .orange
@@ -685,7 +685,7 @@ rules:
       - entity.name.type.namespace.php
       - support.other.namespace.php
     color: .green
-  
+
   - name: PHP Source
     scopes:
       - source.php
@@ -698,7 +698,7 @@ rules:
       - punctuation.definition.variable.php
       - variable.other.php
     color: .blue
-  
+
   - name: PHP MySQL
     scopes:
       - source.sql.embedded.php
@@ -767,6 +767,7 @@ rules:
       - bracket.php
       - meta.embedded.expression.tsx
       - meta.embedded.expression.jsx
+      - punctuation.separator.list.comma.css
     color: .gray
 
   - name: XML Braces
