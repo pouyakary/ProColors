@@ -664,6 +664,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Entity Selector</string>
+            <key>scope</key>
+            <string>punctuation.definition.entity.css</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#3778B7</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Variables</string>
             <key>scope</key>
             <string>variable.other.less</string>
@@ -1392,7 +1403,7 @@
             <key>name</key>
             <string>Braces</string>
             <key>scope</key>
-            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php, meta.embedded.expression.tsx, meta.embedded.expression.jsx</string>
+            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php, meta.embedded.expression.tsx, meta.embedded.expression.jsx, punctuation.separator.list.comma.css, punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>

@@ -370,6 +370,10 @@ rules:
     scope: support.type.property-name.media.css
     color: .red
 
+  - name: Entity Selector
+    scope: punctuation.definition.entity.css
+    color: .blue
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #
@@ -768,6 +772,8 @@ rules:
       - meta.embedded.expression.tsx
       - meta.embedded.expression.jsx
       - punctuation.separator.list.comma.css
+      - punctuation.section.function.begin.bracket.round.css
+      - punctuation.section.function.end.bracket.round.css
     color: .gray
 
   - name: XML Braces
