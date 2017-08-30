@@ -11,7 +11,7 @@ This is the mother repository for Kary Foundation Themes containing it's master 
 To build you have to run `themeX` command. For more information check out [themeX](https://github.com/karyfoundation/themeX)
 
 ### Visual Studio Code
-On macOS machine you clone [Kary Themes for Visual Studio Code](https://github.com/karyfoundation/kary.themeX)'s repository in a folder called `karyfoundation-theme` within this command or manually:
+On macOS machine you clone [Kary Themes for Visual Studio Code](https://github.com/karyfoundation/kary.themeX)'s repository in a folder called `karyfoundation-theme` with this command or manually:
 
 ```
 clone https://github.com/karyfoundation/kary.themeX.git ~/.vscode/extensions/karyfoundation-theme
