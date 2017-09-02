@@ -796,7 +796,7 @@ rules:
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
 #
 
-  - name: Braces
+  - name: Punctuations
     scopes:
       - bracket.php
       - meta.brace
