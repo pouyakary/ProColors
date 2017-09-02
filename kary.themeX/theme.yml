@@ -584,6 +584,37 @@ rules:
     color: .orange
 
 #
+# ─── PYTHON ─────────────────────────────────────────────────────────────────────
+#
+
+  - name: Python Base
+    scope: source.python
+    color: .blue
+
+  - name: Function Call
+    scopes:
+      - function-call.python
+      - meta.function-call.generic.python
+    color: .red
+
+  - name: Function Varibles
+    scopes:
+      - meta.function-call.arguments.python
+    color: .blue
+
+  - name: Logical Keywords
+    scope: keyword.operator.logical.python
+    color: .pink
+
+  - name: Arythmetic Keywords
+    scope: keyword.operator.arithmetic.python
+    color: .orange
+
+  - name: Assignment Keywords
+    scope: keyword.operator.assignment.python
+    color: .orange
+
+#
 # ─── JSON ───────────────────────────────────────────────────────────────────────
 #
 
@@ -780,6 +811,11 @@ rules:
       - punctuation.separator.list.comma.css
       - punctuation.section.function.begin.bracket.round.css
       - punctuation.section.function.end.bracket.round.css
+      - punctuation.separator.colon.python
+      - punctuation.definition.arguments.end.python
+      - punctuation.definition.arguments.begin.python
+      - punctuation.definition.list.begin.python
+      - punctuation.definition.list.end.python
     color: .gray
 
   - name: XML Braces

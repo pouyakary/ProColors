@@ -1104,6 +1104,72 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Python Base</string>
+            <key>scope</key>
+            <string>source.python</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#3778B7</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Function Call</string>
+            <key>scope</key>
+            <string>function-call.python, meta.function-call.generic.python</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#C94824</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Function Varibles</string>
+            <key>scope</key>
+            <string>meta.function-call.arguments.python</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#3778B7</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Logical Keywords</string>
+            <key>scope</key>
+            <string>keyword.operator.logical.python</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B052A1</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Arythmetic Keywords</string>
+            <key>scope</key>
+            <string>keyword.operator.arithmetic.python</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#A56416</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Assignment Keywords</string>
+            <key>scope</key>
+            <string>keyword.operator.assignment.python</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#A56416</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>JSON Keys</string>
             <key>scope</key>
             <string>support.type.property-name.json</string>
@@ -1414,7 +1480,7 @@
             <key>name</key>
             <string>Braces</string>
             <key>scope</key>
-            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php, meta.embedded.expression.tsx, meta.embedded.expression.jsx, punctuation.separator.list.comma.css, punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css</string>
+            <string>punctuation.definition.block, punctuation.terminator.statement, punctuation.definition.parameters, punctuation.separator.comma, meta.property-list.scss, meta.namespace.declaration.ts, meta.brace, bracket.php, meta.embedded.expression.tsx, meta.embedded.expression.jsx, punctuation.separator.list.comma.css, punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.colon.python, punctuation.definition.arguments.end.python, punctuation.definition.arguments.begin.python, punctuation.definition.list.begin.python, punctuation.definition.list.end.python</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
