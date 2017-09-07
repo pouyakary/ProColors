@@ -1434,6 +1434,72 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>main fsharp</string>
+            <key>scope</key>
+            <string>source.fsharp.fsl</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#819DC2</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>F-Shrap Modules</string>
+            <key>scope</key>
+            <string>entity.name.section.fsharp</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#7DA76F</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>fsharp bindings</string>
+            <key>scope</key>
+            <string>variable.other.binding.fsharp</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#D38569</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>binding keywords</string>
+            <key>scope</key>
+            <string>keyword.other.binding.fsharp</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#BC9550</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>fsharp numbers</string>
+            <key>scope</key>
+            <string>constant.numeric.fsharp, constant.numeric.integer.nativeint.fsharp</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#7DA76F</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>fshrap other keywords</string>
+            <key>scope</key>
+            <string>keyword.other.fsharp, constant.language.unit.fsharp</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B98EB2</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Key</string>
             <key>scope</key>
             <string>support.type.property-name.scss</string>

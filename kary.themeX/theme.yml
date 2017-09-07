@@ -768,6 +768,38 @@ rules:
     color: .gray
 
 #
+# ─── F SHARP ────────────────────────────────────────────────────────────────────
+#
+
+  - name: main fsharp
+    scope: source.fsharp.fsl
+    color: .blue
+
+  - name: F-Shrap Modules
+    scope: entity.name.section.fsharp
+    color: .green
+
+  - name: fsharp bindings
+    scope: variable.other.binding.fsharp
+    color: .red
+
+  - name: binding keywords
+    scope: keyword.other.binding.fsharp
+    color: .orange
+
+  - name: fsharp numbers
+    scopes:
+      - constant.numeric.fsharp
+      - constant.numeric.integer.nativeint.fsharp
+    color: .green
+
+  - name: fshrap other keywords
+    scopes:
+      - keyword.other.fsharp
+      - constant.language.unit.fsharp
+    color: .pink
+
+#
 # ─── SASS ───────────────────────────────────────────────────────────────────────
 #
 
@@ -783,6 +815,8 @@ rules:
     scopes:
       - meta.property-list.scss
     color: .green
+
+
 
 #
 # ─── JISON ──────────────────────────────────────────────────────────────────────
