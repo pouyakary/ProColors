@@ -800,6 +800,41 @@ rules:
     color: .pink
 
 #
+# ─── HASKELL ────────────────────────────────────────────────────────────────────
+#
+
+  - name: Haskell Main
+    scope: source.haskell
+    color: .blue
+
+  - name: Haskell Operators
+    scope: keyword.operator.haskell
+    color: .pink
+
+  - name: Haskell numerals
+    scope: constant.numeric.haskell
+    color: .green
+
+  - name: Haskell infix functions
+    scopes:
+      - punctuation.definition.entity.haskell
+      - keyword.operator.function.infix.haskell
+      - keyword.operator.function.infix.haskell
+    color: .orange
+
+  - name: Haskell Double Sign
+    scope: keyword.other.double-colon.haskell
+    color: .orange
+
+  - name: Haskell Types
+    scope: storage.type.haskell
+    color: .red
+
+  - name: Haskell Arrow
+    scope: keyword.other.arrow.haskell
+    color: .orange
+
+#
 # ─── SASS ───────────────────────────────────────────────────────────────────────
 #
 
@@ -816,7 +851,47 @@ rules:
       - meta.property-list.scss
     color: .green
 
+#
+# ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
+#
 
+  - name: Class Name
+    scopes:
+      - support.class.applescript
+      - support.class.itunes.applescript
+    color: .orange
+
+  - name: Application Name String
+    scope: string.quoted.double.application-name.applescript
+    color: .red
+
+  - name: Keyword
+    scope: keyword.operator.word.applescript
+    color: .pink
+
+  - name: Built In Classes
+    scope: keyword.operator.reference.applescript
+    color: .red
+
+  - name: Sets
+    scope: meta.statement.set.applescript
+    color: .blue
+
+  - name: Repeat varaibles
+    scope: meta.block.repeat.with.applescript
+    color: .blue
+
+  - name: Definition Keyword
+    scope: keyword.control.def.set.applescript
+    color: .orange
+
+  - name: Readwrite in set defs
+    scope: variable.other.readwrite.set.applescript
+    color: .red
+
+  - name: Function Keywords
+    scope: keyword.control.function.applescript
+    color: .orange
 
 #
 # ─── JISON ──────────────────────────────────────────────────────────────────────
@@ -859,6 +934,10 @@ rules:
       - punctuation.separator.element.python
       - punctuation.separator.list.comma.css
       - punctuation.terminator.statement
+      - meta.brace.angle.ts
+      - punctuation.section.group.applescript
+      - punctuation.definition.array.begin.applescript
+      - punctuation.definition.array.end.applescript
     color: .gray
 
   - name: XML Braces
