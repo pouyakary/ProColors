@@ -809,7 +809,7 @@
             <key>name</key>
             <string>Operators</string>
             <key>scope</key>
-            <string>keyword.operator.new, keyword.operator.expression.of, keyword.operator.expression.typeof</string>
+            <string>keyword.operator.new, keyword.operator.expression.of, keyword.operator.expression.typeof, keyword.operator.expression.in</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>

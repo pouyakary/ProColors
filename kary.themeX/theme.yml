@@ -447,6 +447,7 @@ rules:
       - keyword.operator.new
       - keyword.operator.expression.of
       - keyword.operator.expression.typeof
+      - keyword.operator.expression.in
     color: .pink
 
   - name: Support Operaotrs
