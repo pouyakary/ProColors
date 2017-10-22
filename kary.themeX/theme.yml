@@ -442,6 +442,10 @@ rules:
     scope: storage.type
     color: .pink
 
+  - name: Storage Type Property
+    scope: storage.type.property
+    color: .orange
+
   - name: Operators
     scopes:
       - keyword.operator.new

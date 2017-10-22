@@ -807,6 +807,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Storage Type Property</string>
+            <key>scope</key>
+            <string>storage.type.property</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#BC9550</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Operators</string>
             <key>scope</key>
             <string>keyword.operator.new, keyword.operator.expression.of, keyword.operator.expression.typeof, keyword.operator.expression.in</string>
