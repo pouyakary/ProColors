@@ -994,6 +994,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Mapped Type Facilities</string>
+            <key>scope</key>
+            <string>meta.indexer.mappedtype.declaration</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B052A1</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Ruby Support classes</string>
             <key>scope</key>
             <string>support.class.ruby</string>

@@ -534,6 +534,10 @@ rules:
     scope: support.type.primitive
     color: .green
 
+  - name: Mapped Type Facilities
+    scope: meta.indexer.mappedtype.declaration
+    color: .pink
+
 #
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 #
