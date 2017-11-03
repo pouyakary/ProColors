@@ -1269,6 +1269,39 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Address Operator</string>
+            <key>scope</key>
+            <string>keyword.operator.address.go</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#A56416</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Assignment Keyword</string>
+            <key>scope</key>
+            <string>keyword.operator.assignment.go</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#1A1A1A</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Function Keyword</string>
+            <key>scope</key>
+            <string>keyword.function.go</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#A56416</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Hake Package Name</string>
             <key>scope</key>
             <string>support.package.hx</string>

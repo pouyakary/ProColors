@@ -663,6 +663,18 @@ rules:
       - constant.numeric.floating-point.go
     color: .green
 
+  - name: Address Operator
+    scope: keyword.operator.address.go
+    color: .orange
+
+  # - name: Assignment Keyword
+  #   scope: keyword.operator.assignment.go
+  #   color: .gray
+
+  - name: Function Keyword
+    scope: keyword.function.go
+    color: .orange
+
 #
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 #
