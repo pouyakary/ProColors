@@ -636,6 +636,34 @@ rules:
     color: .pink
 
 #
+# ─── GO ─────────────────────────────────────────────────────────────────────────
+#
+
+  - name: Source Go
+    scope: source.go
+    color: .blue
+
+  - name: Package Keyword
+    scope: keyword.package.go
+    color: .orange
+
+  - name: Package Name
+    scope: entity.name.package.go
+    color: .red
+
+  - name: Type Colors
+    scopes:
+      - keyword.type.go
+      - keyword.struct.go
+    color: .orange
+
+  - name: numbers
+    scopes:
+      - constant.numeric.integer.go
+      - constant.numeric.floating-point.go
+    color: .green
+
+#
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 #
 
@@ -947,6 +975,16 @@ rules:
       - punctuation.section.group.applescript
       - punctuation.definition.array.begin.applescript
       - punctuation.definition.array.end.applescript
+      - punctuation.definition.begin.bracket.round.go
+      - punctuation.definition.end.bracket.round.go
+      - punctuation.definition.begin.bracket.curly.go
+      - punctuation.definition.end.bracket.curly.go
+      - punctuation.definition.bracket.square.go
+      - punctuation.other.period.go
+      - punctuation.other.comma.go
+      - punctuation.definition.imports.begin.bracket.round.go
+      - punctuation.definition.imports.end.bracket.round.go
+      - punctuation.go
     color: .gray
 
   - name: XML Braces
