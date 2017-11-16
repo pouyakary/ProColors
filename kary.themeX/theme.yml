@@ -665,7 +665,7 @@ rules:
 
   - name: Address Operator
     scope: keyword.operator.address.go
-    color: .orange
+    color: .pink
 
   # - name: Assignment Keyword
   #   scope: keyword.operator.assignment.go
@@ -992,10 +992,12 @@ rules:
       - punctuation.definition.begin.bracket.curly.go
       - punctuation.definition.end.bracket.curly.go
       - punctuation.definition.bracket.square.go
+      - punctuation.terminator.go
       - punctuation.other.period.go
       - punctuation.other.comma.go
       - punctuation.definition.imports.begin.bracket.round.go
       - punctuation.definition.imports.end.bracket.round.go
+      - punctuation.other.colon.go
       - punctuation.go
     color: .gray
 
