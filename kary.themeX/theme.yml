@@ -676,6 +676,35 @@ rules:
     color: .orange
 
 #
+# ─── C AND C PLUS PLUS ──────────────────────────────────────────────────────────
+#
+
+  - name: C and C Plus Plus
+    scope: source.cpp
+    color: .blue
+
+  - name: C Operators
+    scopes:
+      - keyword.operator.bitwise.shift.c
+    color: .gray
+
+  - name: Namespace Operator
+    scope: punctuation.separator.namespace.access.cpp
+    color: .pink
+
+  - name: Storage Type
+    scope: storage.type.c
+    color: .orange
+
+  - name: Preproccessor Commands
+    scope: keyword.control.directive.conditional.c
+    color: .orange
+
+  - name: Keyword Operators
+    scope: keyword.operator.c
+    color: .pink
+
+#
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 #
 
@@ -965,6 +994,7 @@ rules:
       - punctuation.definition.typeparameters.begin.tsx
       - punctuation.definition.typeparameters.end.tsx
       - punctuation.definition.section.case-statement.tsx
+      - punctuation.definition.binding-pattern.object.tsx
       - punctuation.separator.parameter.tsx
       - punctuation.definition.arguments.begin.python
       - punctuation.definition.arguments.end.python
@@ -1003,6 +1033,21 @@ rules:
       - punctuation.definition.imports.end.bracket.round.go
       - punctuation.other.colon.go
       - punctuation.go
+      - punctuation.section.parameters.begin.bracket.round.c
+      - punctuation.section.arguments.end.bracket.round.c
+      - punctuation.section.arguments.begin.bracket.round.c
+      - punctuation.section.parameters.end.bracket.round.c
+      - punctuation.section.block.begin.bracket.curly.c
+      - punctuation.section.block.end.bracket.curly.c
+      - punctuation.section.block.begin.bracket.curly.cpp
+      - punctuation.section.block.end.bracket.curly.cpp
+      - punctuation.section.parens.begin.bracket.round.c
+      - punctuation.section.parens.end.bracket.round.c
+      - punctuation.definition.begin.bracket.square.c
+      - punctuation.definition.end.bracket.square.c
+      - punctuation.separator.dot-access.c
+      - punctuation.terminator.statement.c
+      - punctuation.separator.delimiter.c
     color: .gray
 
   - name: XML Braces
