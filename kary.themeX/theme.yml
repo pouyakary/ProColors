@@ -987,10 +987,13 @@ rules:
     scopes:
       - bracket.php
       - meta.brace
+      - punctuation.definition.binding-pattern.array.js
       - meta.embedded.expression.jsx
       - meta.embedded.expression.tsx
       - meta.namespace.declaration.ts
+      - punctuation.definition.binding-pattern.array.ts
       - meta.property-list.scss
+      - punctuation.definition.binding-pattern.array.tsx
       - punctuation.definition.typeparameters.begin.tsx
       - punctuation.definition.typeparameters.end.tsx
       - punctuation.definition.section.case-statement.tsx
