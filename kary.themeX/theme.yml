@@ -688,21 +688,25 @@ rules:
       - keyword.operator.bitwise.shift.c
     color: .gray
 
-  - name: Namespace Operator
+  - name: C Namespace Operator
     scope: punctuation.separator.namespace.access.cpp
     color: .pink
 
-  - name: Storage Type
+  - name: C Storage Type
     scope: storage.type.c
     color: .orange
 
-  - name: Preproccessor Commands
+  - name: C Preproccessor Commands
     scope: keyword.control.directive.conditional.c
     color: .orange
 
-  - name: Keyword Operators
+  - name: C Keyword Operators
     scope: keyword.operator.c
     color: .pink
+
+  - name: C Member Variable
+    scope: variable.other.member.c
+    color: .green
 
 #
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
@@ -978,6 +982,14 @@ rules:
   - name: Jison Var Declaration
     scope: variable.language.declaration.jison
     color: .red
+
+#
+# ─── GLSL ───────────────────────────────────────────────────────────────────────
+#
+
+  - name: GLSL Background Blue
+    scope: source.glsl
+    color: .blue
 
 #
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
