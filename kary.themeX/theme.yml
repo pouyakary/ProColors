@@ -708,6 +708,10 @@ rules:
     scope: variable.other.member.c
     color: .green
 
+  - name: C Sizeof Operator
+    scope: keyword.operator.sizeof.c
+    color: .pink
+
 #
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 #

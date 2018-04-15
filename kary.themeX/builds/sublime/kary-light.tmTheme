@@ -1313,7 +1313,7 @@
         </dict>
         <dict>    
             <key>name</key>
-            <string>Namespace Operator</string>
+            <string>C Namespace Operator</string>
             <key>scope</key>
             <string>punctuation.separator.namespace.access.cpp</string>
             <key>settings</key>
@@ -1324,7 +1324,7 @@
         </dict>
         <dict>    
             <key>name</key>
-            <string>Storage Type</string>
+            <string>C Storage Type</string>
             <key>scope</key>
             <string>storage.type.c</string>
             <key>settings</key>
@@ -1335,7 +1335,7 @@
         </dict>
         <dict>    
             <key>name</key>
-            <string>Preproccessor Commands</string>
+            <string>C Preproccessor Commands</string>
             <key>scope</key>
             <string>keyword.control.directive.conditional.c</string>
             <key>settings</key>
@@ -1346,9 +1346,31 @@
         </dict>
         <dict>    
             <key>name</key>
-            <string>Keyword Operators</string>
+            <string>C Keyword Operators</string>
             <key>scope</key>
             <string>keyword.operator.c</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#B052A1</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>C Member Variable</string>
+            <key>scope</key>
+            <string>variable.other.member.c</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#428226</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>C Sizeof Operator</string>
+            <key>scope</key>
+            <string>keyword.operator.sizeof.c</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
@@ -1892,17 +1914,6 @@
             <dict>    
                 <key>foreground</key>
                 <string>#3778B7</string>
-            </dict>
-        </dict>
-        <dict>    
-            <key>name</key>
-            <string>GLSL Member Variable</string>
-            <key>scope</key>
-            <string>variable.other.member.c</string>
-            <key>settings</key>
-            <dict>    
-                <key>foreground</key>
-                <string>#428226</string>
             </dict>
         </dict>
         <dict>    
