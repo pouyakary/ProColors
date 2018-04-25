@@ -928,6 +928,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>JavaScript support class</string>
+            <key>scope</key>
+            <string>support.class</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#428226</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Template String Expressions</string>
             <key>scope</key>
             <string>punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end</string>
