@@ -733,6 +733,24 @@ rules:
     color: .green
 
 #
+# ─── FISH SHELL ─────────────────────────────────────────────────────────────────
+#
+
+  - name: Fish Shell Body
+    scope: source.fish
+    color: .blue
+
+  - name: Fish Shell Variable
+    scopes:
+      - variable.other.fixed.fish
+      - variable.other.normal.fish
+    color: .orange
+
+  - name: Fish Shell Option
+    scope: string.other.option.fish
+    color: .orange
+
+#
 # ─── NEARLEY ────────────────────────────────────────────────────────────────────
 #
 

@@ -1412,6 +1412,39 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>Fish Shell Body</string>
+            <key>scope</key>
+            <string>source.fish</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#819DC2</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Fish Shell Variable</string>
+            <key>scope</key>
+            <string>variable.other.fixed.fish, variable.other.normal.fish</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#BC9550</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
+            <string>Fish Shell Option</string>
+            <key>scope</key>
+            <string>string.other.option.fish</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#BC9550</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Nearley Identifiers</string>
             <key>scope</key>
             <string>variable.other.property.nearley</string>
