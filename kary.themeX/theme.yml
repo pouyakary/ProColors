@@ -750,6 +750,10 @@ rules:
     scope: string.other.option.fish
     color: .orange
 
+  - name: Fish Operator
+    scope: operator.fish
+    color: .orange
+
 #
 # ─── NEARLEY ────────────────────────────────────────────────────────────────────
 #
@@ -1089,6 +1093,7 @@ rules:
       - punctuation.separator.dot-access.c
       - punctuation.terminator.statement.c
       - punctuation.separator.delimiter.c
+      - punctuation.fish
     color: .gray
 
   - name: XML Braces
