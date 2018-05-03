@@ -1,26 +1,56 @@
 
-# Kary Theme
-[![Build Status](https://travis-ci.org/karyfoundation/karyfoundation.themeX.svg?branch=master)](https://travis-ci.org/karyfoundation/karyfoundation.themeX) ![](https://img.shields.io/badge/Powered%20by-themeX-yellow.svg)
+# Kary Pro Colors
 
-This is the mother repository for Kary Foundation Themes containing it's master `themeX` source file. You can find the actual theme on [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)
+__Pro Colors__ is a theme designed in the most careful manners for harmony and happy looking. The idea is to have a theme that looks pretty and reminds you of candy, has harmony in it's look, changes the feel of programming to something completely different and is fairly professional. You can read more about the philosophy behind the design of __Pro Colors__ [in this blog post](http://kary.us/2017/05/16/my-journey-to-clean-code/) by Pouya Kary.
 
-![](https://cloud.githubusercontent.com/assets/2157285/26003797/fbe3e522-3748-11e7-813f-c479bc4935d3.png)
+<img width="1280" alt="back-4" src="https://user-images.githubusercontent.com/2157285/39585670-942a19bc-4f0a-11e8-9bba-f1ae1471ef5c.png">
 
-## Build
+## Supported Platforms
 
-To build you have to run `themeX` command. For more information check out [themeX](https://github.com/karyfoundation/themeX)
+- __Visual Studio Code__ <br>
+Code is the platform in which the theme build on and therefore it remains the platform with support for 100% of the features and has the most harmony.<br>
+[&rightarrow; Get Pro Colors for Code](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)
 
-### Visual Studio Code
-On macOS machine you clone [Kary Themes for Visual Studio Code](https://github.com/karyfoundation/kary.themeX)'s repository in a folder called `karyfoundation-theme` with this command or manually:
+- __macOS Terminal__<br>
+A minimum version of Pro Colors is provided for the macOS Terminal with exact configurations of VS Code's Terminal.<br>
+[&rightarrow; Get Pro Colors for macOS Terminal](https://github.com/pmkary/Orchestra/files/1972862/Kary.Pro.Colors.for.macOS.Terminal.18.0.0.zip)
 
-```
-clone https://github.com/karyfoundation/kary.themeX.git ~/.vscode/extensions/karyfoundation-theme
-```
-
-And then run `bash build.sh` to both compile and install the theme on your Visual Studio Code for rapid development.
+- __Pythonista__ <br>
+Pythonista is a great IDE for phone but it does not offer much customization. A _bare minimum_ version of Pro Colors Minimal Edition is available for Pythonista that while covering a very minimum of Pro Colors Spec offers a great look on Pythonista<br>
+[&rightarrow; Get Pro Colors "Bare Minimal Dark" for Pythonista](pythonista3://?action=add-theme&theme-data=eNqdVs1u2zAMvvcpDO86A7Y7NElv-etlKDDsBQxZZhLNshjIMtasKLCH2BPuSaYfp7YSJ6lnnSzyI_mRFKXXuyAIOcslkYdMMaHC4DEIp8lstUzDz0ZYwIY0XGUKXpxwsppPHp6cUO2aKheE8SxHWYC0CunULKewbZQCmeWElluJjSisRjI3y2lcERVEllkJhxyJtFIlG2hBZzbT2CwH3KBQUc1-gZEksd0TpLK_4VdNNfgmMVgiR1kHf3__CRZEQvDMBKsID1babUuP5AOhL5KFE9ewJ5IolBlnAs642yg2pGL8YGXPIDhG32HbcCKdyjHzV7jUFPdQm-1X_WuygrRWkoltt6d3qSFzWh8rcclQB-4iZIpwRkMrfXNKIeWkri-Y-0TTGSnufYDmW3r6pjuiAijqfDAUFqnZgLSZ8Z1hAR62Ix_13E5js77EHRFtXICMJClYY6NNPbu6UX6i65MBGovZdL1I_Uj2En8AVR7iJFs58sIH7UD7F9soGQezKdZn6UJ47YnzIG2lrrgZquUGZUWUutwfbWansY8zIUe3XfbVzvD_l8n7kZncAS1zfPHp9TbNlBhERAUKuAp777Wj5pktRbY3G1_gac8LPSbddLx8YP0qNoIe7X2wXRSpywGGXd1n9pv2TtRQ8Ga2lICN8q23WihHnK9jgdNxBT5yH3da8oZx3fU3EjcUZoVFw2GEK4pVBUJdKmdslo_4yMA-G5I5R1rqTBGpxh3l9sq-AFrar0XctSjbClkNHGz2uqfAOl2vn-bddaiYagvXfyS8q_cfB2b0Z13nHxPjvQu6V0P_4tfWQNbaFSPcEY0f4kmyCu_e_gG97DQt)
 
 
-<br />
-<a href="http://www.karyfoundation.org/">
-    <img src="http://www.karyfoundation.org/foundation/logo/github-full-horse.png" width="250"/>
-</a>
+## First-class Language Support
+__Pro Colors__ supports a big range of languages very good. It fully implements the [TextMate's tmTheme colors](https://www.sublimetext.com/docs/3/color_schemes_tmtheme.html) so all of the languages are supported, but Pro Colors provides first-class support for these languages, First-class support means that Pro Colors has custom coloring for all the tokens and grammars of these languages, all the colors of these languages are designed in such that for the most combinations of code they look harmonized.
+
+- AppleScript
+- Arendelle
+- Bash
+- C
+- C#
+- C++
+- F#
+- Fish Shell
+- GLSL
+- GNU Make
+- Go
+- Haskell
+- Haxe
+- HTML
+- JavaScript
+- Jison
+- JSON
+- KaryScript
+- Legend
+- LESS
+- Markdown
+- Nearely
+- Pageman
+- PEG.js
+- PHP
+- Python
+- Ruby
+- SCSS
+- TypeScript
+- XML
+- Yaml
