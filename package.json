@@ -1,8 +1,9 @@
 {
-  "name": "themex-test",
+  "name": "pro-colors",
   "version": "0.0.1",
   "scripts": {
-    "test": "themex test"
+    "test": "themex test",
+    "build": "themex; bash build.sh"
   },
   "dependencies": {
     "themex": "0.0.3"
