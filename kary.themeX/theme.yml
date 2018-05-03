@@ -5,7 +5,7 @@
 
 version: 15.1.0
 description: A very carefully designed theme for your eyes to enjoy.
-author: Kary Foundation
+author: Pouya Kary
 colorSpaceName: sRGB
 
 #
@@ -13,7 +13,7 @@ colorSpaceName: sRGB
 #
 
 themes:
-  - name: Kary - Light
+  - name: Kary Pro Colors - Light
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
     baseColor: light
     colors:
@@ -34,7 +34,7 @@ themes:
       selection:      E2EEFA
       comment:        .comment
 
-  - name: Kary - Dark
+  - name: Kary Pro Colors - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
     colors:
@@ -55,7 +55,7 @@ themes:
       selection:      1B424E
       comment:        .comment
 
-  - name: Kary - Minimal Dark
+  - name: Kary Pro Colors - Minimal Dark
     uuid: ff651f0a-1c72-412a-b2d9-5eaea1a087ae
     baseColor: dark
     colors:
