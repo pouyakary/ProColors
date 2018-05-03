@@ -1852,6 +1852,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>CSS Media Operators</string>
+            <key>scope</key>
+            <string>keyword.operator.logical.only.media.css, keyword.operator.logical.and.media.css</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#7DA76F</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Class Name</string>
             <key>scope</key>
             <string>support.class.applescript, support.class.itunes.applescript</string>

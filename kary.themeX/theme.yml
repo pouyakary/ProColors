@@ -963,6 +963,12 @@ rules:
       - meta.property-list.scss
     color: .green
 
+  - name: CSS Media Operators
+    scopes:
+      - keyword.operator.logical.only.media.css
+      - keyword.operator.logical.and.media.css
+    color: .green
+
 #
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 #
