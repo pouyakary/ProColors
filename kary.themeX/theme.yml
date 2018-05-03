@@ -1100,6 +1100,8 @@ rules:
       - punctuation.terminator.statement.c
       - punctuation.separator.delimiter.c
       - punctuation.fish
+      - punctuation.definition.entity.end.bracket.square.css
+      - punctuation.definition.entity.begin.bracket.square.css
     color: .gray
 
   - name: XML Braces
