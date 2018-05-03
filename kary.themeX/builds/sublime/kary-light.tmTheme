@@ -686,6 +686,17 @@
         </dict>
         <dict>    
             <key>name</key>
+            <string>CSS Media Operators</string>
+            <key>scope</key>
+            <string>keyword.operator.logical.only.media.css, keyword.operator.logical.and.media.css</string>
+            <key>settings</key>
+            <dict>    
+                <key>foreground</key>
+                <string>#C94824</string>
+            </dict>
+        </dict>
+        <dict>    
+            <key>name</key>
             <string>Variables</string>
             <key>scope</key>
             <string>variable.other.less</string>
@@ -1844,17 +1855,6 @@
             <string>Pseudo Class</string>
             <key>scope</key>
             <string>meta.property-list.scss</string>
-            <key>settings</key>
-            <dict>    
-                <key>foreground</key>
-                <string>#428226</string>
-            </dict>
-        </dict>
-        <dict>    
-            <key>name</key>
-            <string>CSS Media Operators</string>
-            <key>scope</key>
-            <string>keyword.operator.logical.only.media.css, keyword.operator.logical.and.media.css</string>
             <key>settings</key>
             <dict>    
                 <key>foreground</key>
