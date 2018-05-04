@@ -32,7 +32,7 @@ __Pro Colors__ supports a big range of languages very good. It fully implements 
 | C#                | Full                  | Microsoft             | Normal                            |
 | C++               | Full                  | Microsoft             | High                              |
 | F#                | Known Tokens          | Microsoft             | Very Low                          |
-| Fish Shell        | Full                  | Kary, Leonard Chin    | Good                              |
+| Fish Shell        | Full                  | Kary                  | Good                              |
 | GLSL              | Full                  | @stef-levesque        | High                              |
 | Make              | Known Tokens          | Microsoft             | Very Low                          |
 | Go                | Full                  | Microsoft             | High                              |
