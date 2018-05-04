@@ -1011,6 +1011,20 @@ rules:
     scope: keyword.control.function.applescript
     color: .orange
 
+  - name: Generic Calls
+    scopes:
+      - meta.block.tell.generic.applescript
+      - meta.block.tell.application.generic.applescript
+    color: .blue
+
+  - name: If vars
+    scope: meta.block.if.applescript
+    color: .blue
+
+  - name: Element of
+    scope: meta.function.positional.applescript
+    color: .blue
+
 #
 # ─── JISON ──────────────────────────────────────────────────────────────────────
 #
