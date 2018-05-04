@@ -23,34 +23,35 @@ Pythonista is a great IDE for phone but it does not offer much customization. A 
 ## First-class Language Support
 __Pro Colors__ supports a big range of languages very good. It fully implements the [TextMate's tmTheme colors](https://www.sublimetext.com/docs/3/color_schemes_tmtheme.html) so all of the languages are supported, but Pro Colors provides first-class support for these languages, First-class support means that Pro Colors has custom coloring for all the tokens and grammars of these languages, all the colors of these languages are designed in such that for the most combinations of code they look harmonized.
 
-- AppleScript
-- Arendelle
-- Bash
-- C
-- C#
-- C++
-- F#
-- Fish Shell
-- GLSL
-- GNU Make
-- Go
-- Haskell
-- Haxe
-- HTML
-- JavaScript
-- Jison
-- JSON
-- KaryScript
-- Legend
-- LESS
-- Markdown
-- Nearely
-- Pageman
-- PEG.js
-- PHP
-- Python
-- Ruby
-- SCSS
-- TypeScript
-- XML
-- Yaml
+| Name              | Token Coverage        | Grammar Provider      | Grammar Quality (Token Coverage)  |
+|:------------------|:----------------------|:----------------------|:----------------------------------|
+| AppleScript       | Full                  | Jan T. Sott           | High                              |
+| Arendelle         | Full                  | Kary                  | High                              |
+| Bash              | Full                  | Microsoft             | Very Low                          |
+| C                 | Full                  | Microsoft             | High                              |
+| C#                | Full                  | Microsoft             | Normal                            |
+| C++               | Full                  | Microsoft             | High                              |
+| F#                | Known Tokens          | Microsoft             | Very Low                          |
+| Fish Shell        | Full                  | Kary, Leonard Chin    | Good                              |
+| GLSL              | Full                  | @stef-levesque        | High                              |
+| Make              | Known Tokens          | Microsoft             | Very Low                          |
+| Go                | Full                  | Microsoft             | High                              |
+| Haskell           | Known Tokens          | Justus Adam           | Very Low                          |
+| Haxe              | Full                  | vshaxe                | High                              |
+| HTML              | Full                  | Microsoft             | High                              |
+| JavaScript        | Full                  | Microsoft             | High                              |
+| Jison             | Full                  | Kary                  | High                              |
+| JSON              | Full                  | Microsoft             | High                              |
+| KaryScript        | Full                  | Kary                  | High                              |
+| LESS              | Full                  | Microsoft             | High                              |
+| Markdown          | Full                  | Microsoft             | High                              |
+| Nearely           | Full                  | Kary                  | High                              |
+| Pageman           | Full                  | Kary                  | Very Good                         |
+| PEG.js            | Full                  | Tobias Kahlert        | High                              |
+| PHP               | Full                  | Microsoft             | Very Good                         |
+| Python            | Full                  | Microsoft             | Very Low                          |
+| Ruby              | Full                  | Microsoft             | Low                               |
+| SCSS              | Full                  | Microsoft             | High                              |
+| TypeScript        | Full                  | Microsoft             | High                              |
+| XML               | Full                  | Microsoft             | High                              |
+| Yaml              | Full                  | Microsoft             | High                              |
