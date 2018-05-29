@@ -386,6 +386,10 @@ rules:
       - keyword.operator.logical.and.media.css
     color: .red
 
+  - name: CSS Vendor Property Name
+    scope: support.type.vendored.property-name.css
+    color: .blue
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #
