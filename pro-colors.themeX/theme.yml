@@ -390,6 +390,10 @@ rules:
     scope: support.type.vendored.property-name.css
     color: .blue
 
+  - name: CSS Graident Operators
+    scope: keyword.operator.gradient.css
+    color: .orange
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #
