@@ -394,6 +394,10 @@ rules:
     scope: keyword.operator.gradient.css
     color: .orange
 
+  - name: CSS Keyframes Percentage
+    scope: entity.other.keyframe-offset.percentage.css
+    color: .orange
+
 #
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 #
