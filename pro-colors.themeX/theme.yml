@@ -889,14 +889,28 @@ rules:
     scope: source.haskell
     color: .blue
 
-  - name: Haskell Punctuation
+  - name: Haskell Module Names
+    scope: support.other.module.haskell
+    color: .red
+
+  - name: Haskell Module Keywords
+    scopes:
+      - keyword.other.module.haskell
+      - keyword.other.import.haskell
+    color: .orange
+
+  - name: Haskell Type Declaration Punctuations
     scopes:
       - meta.type-declaration.haskell
-      - other.punctuation.haskell
-    color: .gray
+      - meta.function.type-declaration.haskell
+    color: .orange
 
   - name: Haskell Operators
     scope: keyword.operator.haskell
+    color: .gray
+
+  - name: Haskell Dollar Sign Operator
+    scope: keyword.operator.dollar-sign.haskell
     color: .pink
 
   - name: Haskell numerals
@@ -921,6 +935,22 @@ rules:
   - name: Haskell Arrow
     scope: keyword.other.arrow.haskell
     color: .orange
+
+  - name: Haskell Type Keywords
+    scope: keyword.other.type.haskell
+    color: .orange
+
+  - name: Haskell Dummy Placeholder
+    scope: punctuation.definition.entity.dummy.haskell
+    color: .pink
+
+  - name: Haskell Control Keywords
+    scope: keyword.control.haskell
+    color: .pink
+
+  - name: Haskell Assignment Operator
+    scope: keyword.operator.assignment.haskell
+    color: .gray
 
 # ─── SASS ───────────────────────────────────────────────────────────────────────
 
