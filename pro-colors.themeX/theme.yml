@@ -516,6 +516,10 @@ rules:
       - punctuation.definition.bracket.curly.end.jsdoc
     color: .green
 
+  - name: Sublime Specific / New Keyword
+    scope: keyword.operator.word.new.js
+    color: .pink
+
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 
   - name: TypeScript Namespace declaration
@@ -701,6 +705,10 @@ rules:
   - name: C Sizeof Operator
     scope: keyword.operator.sizeof.c
     color: .pink
+
+  - name: C String Interpolation Placeholder
+    scope: constant.other.placeholder.c
+    color: .blue
 
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 
@@ -952,6 +960,12 @@ rules:
     scope: keyword.operator.assignment.haskell
     color: .gray
 
+  - name: Haskell Type Classes
+    scopes:
+      - keyword.other.class.haskell
+      - keyword.other.instance.haskell
+    color: .orange
+
 # ─── SASS ───────────────────────────────────────────────────────────────────────
 
   - name: Key
@@ -1055,6 +1069,16 @@ rules:
 
   - name: PureScript Type Keyword
     scope: keyword.other.double-colon.purescript
+    color: .orange
+
+# ─── ALEX ───────────────────────────────────────────────────────────────────────
+
+  - name: Alex Embedded Haskell
+    scope: meta.embedded.source.haskell.alex
+    color: .blue
+
+  - name: Alex Meta Definitions
+    scope: meta.definition.alex
     color: .orange
 
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
