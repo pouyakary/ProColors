@@ -1156,6 +1156,7 @@ rules:
       - punctuation.definition.entity.end.bracket.square.css
       - punctuation.definition.entity.begin.bracket.square.css
       - meta.declaration.exports.purescript
+      - meta.declaration.exports.haskell
     color: .gray
 
   - name: XML Braces
