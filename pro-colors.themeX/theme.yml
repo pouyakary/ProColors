@@ -560,6 +560,44 @@ rules:
     scope: meta.indexer.mappedtype.declaration
     color: .pink
 
+# ─── REGULAR EXPRESSIONS ────────────────────────────────────────────────────────
+
+  - name: RegExp Punctuations
+    scope: punctuation.definition.group.regexp
+    color: .orange
+
+  - name: RegExp No Capture Group
+    scope: punctuation.definition.group.no-capture.regexp
+    color: .red
+
+  - name: RegExp Character Class
+    scope: punctuation.definition.character-class.regexp
+    color: .red
+
+  - name: RegExp Character Class Constant
+    scope: constant.other.character-class.regexp
+    color: .red
+
+  - name: RegExp Or Keywords
+    scope: keyword.operator.or.regexp
+    color: .blue
+
+  - name: RegExp Numeric Escape
+    scope: constant.character.numeric.regexp
+    color: .red
+
+  - name: RegExp Exclude Keyword
+    scope: keyword.operator.negation.regexp
+    color: .blue
+
+  - name: RegExp Anchor Keywords
+    scope: keyword.control.anchor.regexp
+    color: .red
+
+  - name: RegExp Qualifier Keywords
+    scope: keyword.operator.quantifier.regexp
+    color: .blue
+
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 
   - name: Ruby Support classes
