@@ -572,7 +572,7 @@ rules:
 
   - name: RegExp Character Class
     scope: punctuation.definition.character-class.regexp
-    color: .red
+    color: .pink
 
   - name: RegExp Character Class Constant
     scope: constant.other.character-class.regexp
