@@ -598,6 +598,10 @@ rules:
     scope: keyword.operator.quantifier.regexp
     color: .blue
 
+  - name: Keyof Keyword
+    scope: keyword.operator.expression.keyof
+    color: .pink
+
 # ─── RUBY ───────────────────────────────────────────────────────────────────────
 
   - name: Ruby Support classes
