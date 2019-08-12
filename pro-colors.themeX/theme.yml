@@ -532,6 +532,10 @@ rules:
     scope: punctuation.definition.tag
     color: .green
 
+  - name: JavaScript Delete Keyword
+    scope: keyword.operator.expression.delete
+    color: .pink
+
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 
   - name: TypeScript Namespace declaration
