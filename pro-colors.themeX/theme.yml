@@ -774,6 +774,14 @@ rules:
     scope: constant.other.placeholder.c
     color: .blue
 
+  - name: Cpp Punctuation
+    scopes:
+      - punctuation.section.block.begin.bracket.curly.function.definition.cpp
+      - punctuation.section.block.end.bracket.curly.function.definition.cpp
+      - punctuation.section.parameters.begin.bracket.round.cpp
+      - punctuation.section.parameters.end.bracket.round.cpp
+    color: .gray
+
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 
   - name: Hake Package Name
