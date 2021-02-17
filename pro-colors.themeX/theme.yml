@@ -782,6 +782,12 @@ rules:
       - punctuation.section.parameters.end.bracket.round.cpp
     color: .gray
 
+# ─── RUST ───────────────────────────────────────────────────────────────────────
+
+  - name: Rust Function Definition
+    scope: keyword.other.fn.rust
+    color: .orange
+
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 
   - name: Hake Package Name
