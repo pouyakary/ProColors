@@ -788,6 +788,36 @@ rules:
     scope: keyword.other.fn.rust
     color: .orange
 
+  - name: Rust Namespaces
+    scope: entity.name.namespace.rust
+    color: .orange
+
+  - name: Rust Use
+    scopes:
+      - meta.use.rust
+      - keyword.other.rust
+    color: .pink
+
+  - name: Rust Use Single
+    scope: meta.use.rust
+    color: .red
+
+  - name: Rust Namespace Operator
+    scope: keyword.operator.namespace.rust
+    color: .green
+
+  - name: Rust Mut Keyword
+    scope: storage.modifier.mut.rust
+    color: .pink
+
+  - name: Rust Semi
+    scope: punctuation.semi.rust
+    color: .gray
+
+  - name: Rust Barrow Operator
+    scope: keyword.operator.borrow.and.rust
+    color: .red
+
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 
   - name: Hake Package Name
@@ -1246,6 +1276,9 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
+      - punctuation.semi.rust
+      - punctuation.brackets.curly.rust
+      - punctuation.comma.rust
     color: .gray
 
   - name: XML Braces
