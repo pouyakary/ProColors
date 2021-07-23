@@ -1,3 +1,4 @@
 node_modules/*
 pro-colors.themeX/builds/*
 .vscode/**
+.DS_Store
