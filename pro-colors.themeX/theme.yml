@@ -816,7 +816,20 @@ rules:
 
   - name: Rust Barrow Operator
     scope: keyword.operator.borrow.and.rust
-    color: .red
+    color: .orange
+
+  - name: Rust Types
+    scopes:
+      - entity.name.type.numeric.rust
+      - entity.name.type.primitive.rust
+      - type.rust
+    color: .green
+
+  - name: Rust Constants
+    scopes:
+      - constant.other.caps.rust
+      - constant.rust
+    color: .orange
 
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 
@@ -1189,6 +1202,20 @@ rules:
     scope: keyword.operator
     color: .orange
 
+# ─── V ──────────────────────────────────────────────────────────────────────────
+
+  - name: V Source
+    scope: source.v
+    color: .blue
+
+  - name: V Function Keyword
+    scope: keyword.function.v
+    color: .orange
+
+  - name: V Types
+    scope: 	storage.type.string.v
+    color: .green
+
 # ─── ALEX ───────────────────────────────────────────────────────────────────────
 
   - name: Alex Embedded Haskell
@@ -1279,6 +1306,12 @@ rules:
       - punctuation.semi.rust
       - punctuation.brackets.curly.rust
       - punctuation.comma.rust
+      - punctuation.definition.bracket.round.begin.v
+      - punctuation.definition.bracket.round.end.v
+      - punctuation.definition.bracket.curly.begin.v
+      - punctuation.definition.bracket.curly.end.v
+      - punctuation.definition.bracket.square.begin.v
+      - punctuation.definition.bracket.square.end.v
     color: .gray
 
   - name: XML Braces
