@@ -1213,24 +1213,28 @@ rules:
     color: .orange
 
   - name: V Types
-    scope: 	storage.type.string.v
+    scopes:
+      - storage.type.string.v
+      - storage.type.numeric.v
+      - storage.type.bool.v
     color: .green
 
-  - name: V Structure Keyword
-    scope: storage.type.struct.v
+  - name: V Type Definition Keywords
+    scopes:
+      - storage.type.struct.v
+      - keyword.interface.v
     color: .orange
 
-  - name: V Structure Name
-    scope: entity.name.struct.v
-    color: .red
-
-  - name: V Type Name
-    scope: entity.name.type.v
+  - name: V Type Definition
+    scopes:
+      - entity.name.struct.v
+      - entity.name.type.v
+      - entity.name.interface.v
     color: .red
 
   - name: V Attribute
     scope: storage.modifier.attribute.v
-    color: .green
+    color: .pink
 
 # ─── ALEX ───────────────────────────────────────────────────────────────────────
 
