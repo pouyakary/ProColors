@@ -230,7 +230,7 @@ rules:
       - punctuation.definition.tag.html
     color: .blue
 
-  - name: HTML Entites
+  - name: HTML Entities
     scope: character.constant.entity.html
     color: .orange
 
@@ -452,7 +452,7 @@ rules:
       - keyword.operator.expression.in
     color: .pink
 
-  - name: Support Operaotrs
+  - name: Support Operators
     scope: support.function
     color: .red
 
@@ -670,7 +670,7 @@ rules:
       - meta.function-call.generic.python
     color: .red
 
-  - name: Function Varibles
+  - name: Function Variables
     scopes:
       - meta.function-call.arguments.python
     color: .blue
@@ -679,7 +679,7 @@ rules:
     scope: keyword.operator.logical.python
     color: .pink
 
-  - name: Arythmetic Keywords
+  - name: Arithmetic Keywords
     scope: keyword.operator.arithmetic.python
     color: .orange
 
@@ -754,7 +754,7 @@ rules:
     scope: storage.type.c
     color: .orange
 
-  - name: C Preproccessor Commands
+  - name: C Preprocessor Commands
     scope: keyword.control.directive.conditional.c
     color: .orange
 
@@ -960,7 +960,7 @@ rules:
       - source.sql.embedded.php
     color: .orange
 
-  - name: PHP Logical Operatiors
+  - name: PHP Logical Operations
     scope: keyword.operator.logical.php
     color: .pink
 
@@ -984,29 +984,29 @@ rules:
 
 # ─── F SHARP ────────────────────────────────────────────────────────────────────
 
-  - name: main fsharp
+  - name: F# main
     scope: source.fsharp.fsl
     color: .blue
 
-  - name: F-Shrap Modules
+  - name: F# Modules
     scope: entity.name.section.fsharp
     color: .green
 
-  - name: fsharp bindings
+  - name: F# bindings
     scope: variable.other.binding.fsharp
     color: .red
 
-  - name: binding keywords
+  - name: F# binding keywords
     scope: keyword.other.binding.fsharp
     color: .orange
 
-  - name: fsharp numbers
+  - name: F# fsharp numbers
     scopes:
       - constant.numeric.fsharp
       - constant.numeric.integer.nativeint.fsharp
     color: .green
 
-  - name: fshrap other keywords
+  - name: F# other keywords
     scopes:
       - keyword.other.fsharp
       - constant.language.unit.fsharp
@@ -1126,7 +1126,7 @@ rules:
     scope: meta.statement.set.applescript
     color: .blue
 
-  - name: Repeat varaibles
+  - name: Repeat variables
     scope: meta.block.repeat.with.applescript
     color: .blue
 
@@ -1215,6 +1215,18 @@ rules:
   - name: V Types
     scope: 	storage.type.string.v
     color: .green
+
+  - name: V Structure Keyword
+    scope: storage.type.struct.v
+    color: .orange
+
+  - name: V Structure Name
+    scope: entity.name.struct.v
+    color: .red
+
+  - name: V Type Name
+    scope: entity.name.type.v
+    color: .red
 
 # ─── ALEX ───────────────────────────────────────────────────────────────────────
 
