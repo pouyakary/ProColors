@@ -1217,6 +1217,8 @@ rules:
       - storage.type.string.v
       - storage.type.numeric.v
       - storage.type.bool.v
+      - storage.type.rune.v
+      - storage.type.voidptr.v
     color: .green
 
   - name: V Type Definition Keywords

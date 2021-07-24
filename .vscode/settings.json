@@ -27,6 +27,7 @@
         "struct",
         "typeof",
         "typeparameters",
-        "vendored"
+        "vendored",
+        "voidptr"
     ]
 }
