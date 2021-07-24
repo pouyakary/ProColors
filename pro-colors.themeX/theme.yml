@@ -1228,6 +1228,10 @@ rules:
     scope: entity.name.type.v
     color: .red
 
+  - name: V Attribute
+    scope: storage.modifier.attribute.v
+    color: .green
+
 # ─── ALEX ───────────────────────────────────────────────────────────────────────
 
   - name: Alex Embedded Haskell
@@ -1324,6 +1328,8 @@ rules:
       - punctuation.definition.bracket.curly.end.v
       - punctuation.definition.bracket.square.begin.v
       - punctuation.definition.bracket.square.end.v
+      - punctuation.definition.begin.bracket.square.v
+      - punctuation.definition.end.bracket.square.v
     color: .gray
 
   - name: XML Braces
