@@ -13,6 +13,8 @@
         "PAGEMAN",
         "PEGJS",
         "PURESCRIPT",
+        "byteptr",
+        "charptr",
         "invisibles",
         "itunes",
         "jsdoc",

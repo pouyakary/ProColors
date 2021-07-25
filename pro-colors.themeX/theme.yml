@@ -1214,10 +1214,14 @@ rules:
 
   - name: V Types
     scopes:
-      - storage.type.string.v
-      - storage.type.numeric.v
       - storage.type.bool.v
+      - storage.type.bool.v
+      - storage.type.byteptr.v
+      - storage.type.charptr.v
+      - storage.type.numeric.v
       - storage.type.rune.v
+      - storage.type.size_t.v
+      - storage.type.string.v
       - storage.type.voidptr.v
     color: .green
 
