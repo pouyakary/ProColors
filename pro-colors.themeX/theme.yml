@@ -354,6 +354,10 @@ rules:
     scope: support.type.property-name.media.css
     color: .red
 
+  - name: Media at rules
+    scope: meta.at-rule.media.header.css
+    color: .red
+
   - name: Entity Selector
     scope: punctuation.definition.entity.css
     color: .blue
@@ -1242,6 +1246,10 @@ rules:
     scope: storage.modifier.attribute.v
     color: .pink
 
+  - name: V Optional Keyword
+    scope: keyword.operator.optional.v
+    color: .orange
+
 # ─── ALEX ───────────────────────────────────────────────────────────────────────
 
   - name: Alex Embedded Haskell
@@ -1266,6 +1274,9 @@ rules:
       - meta.embedded.expression.tsx
       - meta.namespace.declaration.ts
       - meta.property-list.scss
+      - punctuation.accessor.v
+      - punctuation.brackets.curly.rust
+      - punctuation.comma.rust
       - punctuation.definition.arguments.begin.python
       - punctuation.definition.arguments.end.python
       - punctuation.definition.array.begin.applescript
@@ -1273,17 +1284,25 @@ rules:
       - punctuation.definition.begin.bracket.curly.go
       - punctuation.definition.begin.bracket.round.go
       - punctuation.definition.begin.bracket.square.c
+      - punctuation.definition.begin.bracket.square.v
       - punctuation.definition.binding-pattern.array.js
       - punctuation.definition.binding-pattern.array.ts
       - punctuation.definition.binding-pattern.array.tsx
       - punctuation.definition.binding-pattern.object.tsx
       - punctuation.definition.block
+      - punctuation.definition.bracket.curly.begin.v
+      - punctuation.definition.bracket.curly.end.v
+      - punctuation.definition.bracket.round.begin.v
+      - punctuation.definition.bracket.round.end.v
+      - punctuation.definition.bracket.square.begin.v
+      - punctuation.definition.bracket.square.end.v
       - punctuation.definition.bracket.square.go
       - punctuation.definition.dict.begin.python
       - punctuation.definition.dict.end.python
       - punctuation.definition.end.bracket.curly.go
       - punctuation.definition.end.bracket.round.go
       - punctuation.definition.end.bracket.square.c
+      - punctuation.definition.end.bracket.square.v
       - punctuation.definition.entity.begin.bracket.square.css
       - punctuation.definition.entity.end.bracket.square.css
       - punctuation.definition.imports.begin.bracket.round.go
@@ -1317,6 +1336,7 @@ rules:
       - punctuation.section.parameters.end.bracket.round.c
       - punctuation.section.parens.begin.bracket.round.c
       - punctuation.section.parens.end.bracket.round.c
+      - punctuation.semi.rust
       - punctuation.separator.arguments.python
       - punctuation.separator.colon.python
       - punctuation.separator.comma
@@ -1324,22 +1344,12 @@ rules:
       - punctuation.separator.dict.python
       - punctuation.separator.dot-access.c
       - punctuation.separator.element.python
+      - punctuation.separator.key-value.css
       - punctuation.separator.list.comma.css
       - punctuation.separator.parameter.tsx
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
-      - punctuation.semi.rust
-      - punctuation.brackets.curly.rust
-      - punctuation.comma.rust
-      - punctuation.definition.bracket.round.begin.v
-      - punctuation.definition.bracket.round.end.v
-      - punctuation.definition.bracket.curly.begin.v
-      - punctuation.definition.bracket.curly.end.v
-      - punctuation.definition.bracket.square.begin.v
-      - punctuation.definition.bracket.square.end.v
-      - punctuation.definition.begin.bracket.square.v
-      - punctuation.definition.end.bracket.square.v
     color: .gray
 
   - name: XML Braces
