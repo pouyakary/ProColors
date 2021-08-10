@@ -841,6 +841,10 @@ rules:
     scope: keyword.other.using.cs
     color: .orange
 
+  - name: C# Static Keyword
+    scope: 	keyword.other.static.cs
+    color: .orange
+
   - name: C# Using Package
     scope: entity.name.type.namespace.cs
     color: .blue
@@ -866,10 +870,56 @@ rules:
       - entity.name.variable.field.cs
       - entity.name.variable.parameter.cs
       - entity.name.variable.local.cs
+      - entity.name.variable.tuple-element.cs
     color: .blue
 
   - name: C# Types
-    scope: 	keyword.type.cs
+    scopes:
+      - keyword.type.cs
+      - entity.name.variable.event.cs
+      - storage.type.cs
+    color: .green
+
+  - name: C# Type Keywords
+    scopes:
+      - keyword.other.event.cs
+      - keyword.other.delegate.cs
+      - keyword.other.enum.cs
+    color: .orange
+
+  - name: C# Set and Get
+    scopes:
+      - keyword.other.set.cs
+      - keyword.other.get.cs
+    color: .red
+
+  - name: C# Enums
+    scope: entity.name.variable.enum-member.cs
+    color: .red
+
+  - name: C# Interface Entity
+    scope: entity.name.variable.property.cs
+    color: .red
+
+  - name: C# Interface Name
+    scope: entity.name.type.interface.cs
+    color: .red
+
+  - name: C# Interface Keyword
+    scope: keyword.other.interface.cs
+    color: .orange
+
+  - name: C# Preprocessor
+    scope: meta.preprocessor.cs
+    color: .blue
+
+  - name: C# Preprocessor Hash and Parts
+    scopes:
+      - punctuation.separator.hash.cs
+      - keyword.preprocessor.pragma.cs
+      - keyword.preprocessor.warning.cs
+      - keyword.preprocessor.disable.cs
+      - keyword.preprocessor.restore.cs
     color: .green
 
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
