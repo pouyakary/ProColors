@@ -835,6 +835,43 @@ rules:
       - constant.rust
     color: .orange
 
+# ─── C SHARP ────────────────────────────────────────────────────────────────────
+
+  - name: C# Using
+    scope: keyword.other.using.cs
+    color: .orange
+
+  - name: C# Using Package
+    scope: entity.name.type.namespace.cs
+    color: .blue
+
+  - name: C# Namespace Keyword
+    scope: keyword.other.namespace.cs
+    color: .orange
+
+  - name: C# Namespace Name
+    scope: entity.name.type.namespace.cs
+    color: .red
+
+  - name: C# Class Keyword
+    scope: keyword.other.class.cs
+    color: .orange
+
+  - name: C# Class Name
+    scope: entity.name.type.class.cs
+    color: .red
+
+  - name: C# Variables
+    scopes:
+      - entity.name.variable.field.cs
+      - entity.name.variable.parameter.cs
+      - entity.name.variable.local.cs
+    color: .blue
+
+  - name: C# Types
+    scope: 	keyword.type.cs
+    color: .green
+
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
 
   - name: Hake Package Name
