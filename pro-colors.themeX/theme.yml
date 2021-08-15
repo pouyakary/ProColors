@@ -1347,6 +1347,24 @@ rules:
     scope: meta.definition.alex
     color: .orange
 
+# ─── IDF ────────────────────────────────────────────────────────────────────────
+
+  - name: IDF Entity
+    scope: entity.name.type.idf
+    color: .red
+
+  - name: IDF Boolean
+    scope: constant.language.boolean.idf
+    color: .pink
+
+  - name: IDF Comment Sign
+    scope: comment.sign.idf
+    color: .comment
+
+  - name: IDF Comment Text
+    scope: comment.text.idf
+    color: .orange
+
 # ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
 
   - name: Punctuations
