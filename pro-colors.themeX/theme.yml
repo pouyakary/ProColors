@@ -835,6 +835,18 @@ rules:
       - constant.rust
     color: .orange
 
+  - name: Rust Storage Types
+    scopes:
+      - storage.type.rust
+      - keyword.other.rust
+    color: .orange
+
+  - name: Rust Module Name
+    scopes:
+      - entity.name.type.struct.rust
+      - entity.name.type.rust
+    color: .red
+
 # ─── C SHARP ────────────────────────────────────────────────────────────────────
 
   - name: C# Using
@@ -972,6 +984,34 @@ rules:
 
   - name: Nearley Signs
     scope: keyword.control.nearley
+    color: .orange
+
+# ─── GNU MAKE ───────────────────────────────────────────────────────────────────
+
+  - name: Makefile Source
+    scope: source.makefile
+    color: .green
+
+  - name: Makefile Assignment
+    scope: punctuation.separator.key-value.makefile
+    color: .orange
+
+  - name: Makefile Variable Punctuation
+    scopes:
+      - punctuation.definition.variable.makefile
+    color: .pink
+
+
+  - name: Makefile Prerequisites
+    scope: meta.scope.prerequisites.makefile
+    color: .orange
+
+  - name: Makefile Recipe
+    scope: meta.scope.recipe.makefile
+    color: .green
+
+  - name: Makefile Variable
+    scope: variable.language.makefile
     color: .orange
 
 # ─── PEGJS ──────────────────────────────────────────────────────────────────────
@@ -1349,9 +1389,13 @@ rules:
 
 # ─── IDF ────────────────────────────────────────────────────────────────────────
 
-  - name: IDF Entity
-    scope: entity.name.type.idf
+  - name: IDF Entity Name
+    scope: entity.name.type.head.idf
     color: .red
+
+  - name: IDF Entity Query
+    scope: entity.name.type.query.idf
+    color: .pink
 
   - name: IDF Boolean
     scope: constant.language.boolean.idf
