@@ -1032,6 +1032,20 @@ rules:
     scope: declaration.keyword.pegjs
     color: .green
 
+# ─── WEBASSEMBLY TEXT FORMAT ────────────────────────────────────────────────────
+
+  - name: WAT Types
+    scope: storage.type.wat
+    color: .orange
+
+  - name: WAT Keywords
+    scope: keyword.operator.word.wat
+    color: .red
+
+  - name: WAT Types
+    scope: entity.name.type.wat
+    color: .green
+
 # ─── PHP ────────────────────────────────────────────────────────────────────────
 
   - name: PHP Metatags
