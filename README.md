@@ -11,7 +11,7 @@ __Pro Colors__ is a theme designed in the most careful manners for harmony and h
 
 
 ## First-class Language Support
-__Pro Colors__ supports a big range of languages very good. It fully implements the [TextMate's tmTheme colors](https://www.sublimetext.com/docs/3/color_schemes_tmtheme.html) so all of the languages are supported, but Pro Colors provides first-class support for these languages, First-class support means that Pro Colors has custom coloring for all the tokens and grammars of these languages, all the colors of these languages are designed in such that for the most combinations of code they look harmonized.
+__Pro Colors__ supports a big range of languages very good. It fully implements the [TextMate's tmTheme colors](https://www.sublimetext.com/docs/3/color_schemes_tmtheme.html) so all of the languages are supported, but Pro Colors provides first-class support for these languages, First-class support means that each token of the language grammar has it's own unique Pro Colors custom coloring, making sure all tokens are colored and the overall experience is harmonized and legible.
 
 | Name                  | Token Coverage        | Grammar Provider          | Grammar Quality (Token Coverage)  |
 |:----------------------|:----------------------|:--------------------------|:----------------------------------|
