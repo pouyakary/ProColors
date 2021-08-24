@@ -7,7 +7,7 @@ __Pro Colors__ is a theme designed in the most careful manners for harmony and h
 
 <br>
 
-<img width="1280" alt="back-4" src="https://user-images.githubusercontent.com/2157285/39585670-942a19bc-4f0a-11e8-9bba-f1ae1471ef5c.png">
+![Screenshot of Kary Pro Colors](https://user-images.githubusercontent.com/2157285/130625266-e6e6c071-ec36-430a-a034-3d153e8f3f18.png)
 
 
 ## First-class Language Support
