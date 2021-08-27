@@ -847,6 +847,16 @@ rules:
       - entity.name.type.rust
     color: .red
 
+  - name: Rust Attribute
+    scopes:
+      - punctuation.definition.attribute.rust
+      - punctuation.brackets.attribute.rust
+    color: .pink
+
+  - name: Rust Attribute Meta
+    scope: meta.attribute.rust
+    color: .blue
+
 # ─── C SHARP ────────────────────────────────────────────────────────────────────
 
   - name: C# Using
@@ -1439,6 +1449,7 @@ rules:
       - meta.property-list.scss
       - punctuation.accessor.v
       - punctuation.brackets.curly.rust
+      - punctuation.brackets.round.rust
       - punctuation.comma.rust
       - punctuation.definition.arguments.begin.python
       - punctuation.definition.arguments.end.python
