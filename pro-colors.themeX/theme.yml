@@ -788,6 +788,10 @@ rules:
 
 # ─── RUST ───────────────────────────────────────────────────────────────────────
 
+  - name: Rust Plain Source
+    scope: source.rust
+    color: .blue
+
   - name: Rust Function Definition
     scope: keyword.other.fn.rust
     color: .orange
@@ -808,7 +812,7 @@ rules:
 
   - name: Rust Namespace Operator
     scope: keyword.operator.namespace.rust
-    color: .green
+    color: .orange
 
   - name: Rust Mut Keyword
     scope: storage.modifier.mut.rust
@@ -826,6 +830,7 @@ rules:
     scopes:
       - entity.name.type.numeric.rust
       - entity.name.type.primitive.rust
+      - entity.name.type.rust
       - type.rust
     color: .green
 
@@ -844,7 +849,6 @@ rules:
   - name: Rust Module Name
     scopes:
       - entity.name.type.struct.rust
-      - entity.name.type.rust
     color: .red
 
   - name: Rust Attribute
@@ -856,6 +860,26 @@ rules:
   - name: Rust Attribute Meta
     scope: meta.attribute.rust
     color: .blue
+
+  - name: Rust Modules
+    scope: entity.name.module.rust
+    color: .red
+
+  - name: Rust Lifetime Definition
+    scope: punctuation.definition.lifetime.rust
+    color: .orange
+
+  - name: Rust Dereference Operator
+    scope: keyword.operator.dereference.rust
+    color: .pink
+
+  - name: Optional Types
+    scope: entity.name.type.option.rust
+    color: .pink
+
+  - name: Result Type
+    scope: entity.name.type.result.rust
+    color: .pink
 
 # ─── C SHARP ────────────────────────────────────────────────────────────────────
 
@@ -1450,6 +1474,8 @@ rules:
       - punctuation.accessor.v
       - punctuation.brackets.curly.rust
       - punctuation.brackets.round.rust
+      - punctuation.brackets.angle.rust
+      - punctuation.brackets.square.rust
       - punctuation.comma.rust
       - punctuation.definition.arguments.begin.python
       - punctuation.definition.arguments.end.python
