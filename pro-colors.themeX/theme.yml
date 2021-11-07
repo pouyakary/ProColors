@@ -1035,7 +1035,6 @@ rules:
       - punctuation.definition.variable.makefile
     color: .pink
 
-
   - name: Makefile Prerequisites
     scope: meta.scope.prerequisites.makefile
     color: .orange
@@ -1047,6 +1046,10 @@ rules:
   - name: Makefile Variable
     scope: variable.language.makefile
     color: .orange
+
+  - name: Makefile Function Call Separators
+    scope: punctuation.separator.comma.function-call.makefile
+    color: .pink
 
 # ─── PEGJS ──────────────────────────────────────────────────────────────────────
 
@@ -1461,6 +1464,10 @@ rules:
 
   - name: Punctuations
     scopes:
+      - punctuation.section.arguments.begin.bracket.round.function.call.cpp
+      - punctuation.section.arguments.end.bracket.round.function.call.cpp
+      - punctuation.separator.delimiter.comma.cpp
+      - punctuation.cpp
       - bracket.php
       - keyword.operator.type.annotation.ts
       - meta.brace
@@ -1540,6 +1547,7 @@ rules:
       - punctuation.separator.arguments.python
       - punctuation.separator.colon.python
       - punctuation.separator.comma
+      - punctuation.separator.comma.makefile
       - punctuation.separator.delimiter.c
       - punctuation.separator.dict.python
       - punctuation.separator.dot-access.c
