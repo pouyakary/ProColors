@@ -1346,9 +1346,59 @@ rules:
 
 # ─── GLSL ───────────────────────────────────────────────────────────────────────
 
+  - name: GLSL Preprocessor Directives
+    scope: keyword.directive.preprocessor.glsl
+    color: .red
+
   - name: GLSL Background Blue
     scope: source.glsl
     color: .blue
+
+  - name: GLSL Types
+    scope: storage.type.glsl
+    color: .green
+
+  - name: GLSL Numbers
+    scope: constant.numeric.glsl
+    color: .green
+
+  - name: GLSL Arithmetic Keywords
+    scope: keyword.operator.arithmetic.glsl
+    color: .orange
+
+# ─── CRYSTAL ────────────────────────────────────────────────────────────────────
+
+  - name: Crystal Background
+    scope: source.crystal
+    color: .blue
+
+  - name: Crystal Def Keyword
+    scope: keyword.control.def.crystal
+    color: .orange
+
+  - name: Crystal Class Keyword
+    scope: keyword.control.crystal
+    color: .orange
+
+  - name: Crystal Module Language
+    scope: keyword.control.module.crystal
+    color: .orange
+
+  - name: Crystal Library Keyword
+    scope: keyword.control.lib.crystal
+    color: .pink
+
+  - name: Crystal Library Name
+    scope: entity.name.type.lib.crystal
+    color: .green
+
+  - name: Crystal Control Keywords
+    scope: keyword.control.crystal
+    color: .pink
+
+  - name: Crystal Kernel Operator
+    scope: support.function.kernel.crystal
+    color: .red
 
 # ─── RACKET ─────────────────────────────────────────────────────────────────────
 
@@ -1558,6 +1608,12 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
+      - punctuation.section.function.crystal
+      - punctuation.section.array.crystal
+      - punctuation.section.scope.crystal
+      - punctuation.separator.method.crystal
+      - punctuation.separator.other.crystal
+      - punctuation.definition.constant.crystal
     color: .gray
 
   - name: XML Braces
