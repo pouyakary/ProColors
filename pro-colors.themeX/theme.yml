@@ -816,7 +816,7 @@ rules:
 
   - name: Rust Mut Keyword
     scope: storage.modifier.mut.rust
-    color: .pink
+    color: .red
 
   - name: Rust Semi
     scope: punctuation.semi.rust
@@ -879,6 +879,10 @@ rules:
 
   - name: Result Type
     scope: entity.name.type.result.rust
+    color: .pink
+
+  - name: Rust Key Value Operator
+    scope: keyword.operator.key-value.rust
     color: .pink
 
 # ─── C SHARP ────────────────────────────────────────────────────────────────────
