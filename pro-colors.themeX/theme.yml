@@ -873,17 +873,37 @@ rules:
     scope: keyword.operator.dereference.rust
     color: .pink
 
-  - name: Optional Types
+  - name: Rust Optional Types
     scope: entity.name.type.option.rust
     color: .pink
 
-  - name: Result Type
+  - name: Rust Result Type
     scope: entity.name.type.result.rust
     color: .pink
 
   - name: Rust Key Value Operator
     scope: keyword.operator.key-value.rust
     color: .pink
+
+  - name: Rust Trait
+    scope: entity.name.type.trait.rust
+    color: .red
+
+  - name: Rust Access Keyword
+    scope: keyword.operator.access.dot.rust
+    color: .gray
+
+  - name: Rust Angle Brackets
+    scope: punctuation.brackets.angle.rust
+    color: .orange
+
+  - name: Rust Options
+    scope: entity.name.type.option.rust
+    color: .red
+
+  - name: Rust Crate Keyword
+    scope: keyword.other.crate.rust
+    color: .red
 
 # ─── C SHARP ────────────────────────────────────────────────────────────────────
 
