@@ -540,6 +540,10 @@ rules:
     scope: keyword.operator.expression.delete
     color: .pink
 
+  - name: JavaScript Private Operator
+    scope: meta.class
+    color: .red
+
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 
   - name: TypeScript Namespace declaration
@@ -738,6 +742,24 @@ rules:
   - name: Function Keyword
     scope: keyword.function.go
     color: .orange
+
+  - name: Go Types
+    scopes:
+      - storage.type.string.go
+      - entity.name.type.go
+    color: .green
+
+  - name: Go Arithmetic
+    scope: keyword.operator.arithmetic.go
+    color: .orange
+
+  - name: Go String Interpolations
+    scope: constant.other.placeholder.go
+    color: .orange
+
+  - name: Go Int
+    scope: storage.type.numeric.go
+    color: .green
 
 # ─── C AND C PLUS PLUS ──────────────────────────────────────────────────────────
 
@@ -1218,6 +1240,20 @@ rules:
       - constant.language.unit.fsharp
     color: .pink
 
+# ─── SQL ────────────────────────────────────────────────────────────────────────
+
+  - name: SQL DDl
+    scope: keyword.other.DDL.create.II.sql
+    color: .green
+
+  - name: SQL Identifier
+    scope: string.quoted.double.sql
+    color: .blue
+
+  - name: SQL Constant Numeric
+    scope: constant.numeric.sql
+    color: .green
+
 # ─── HASKELL ────────────────────────────────────────────────────────────────────
 
   - name: Haskell Main
@@ -1538,10 +1574,6 @@ rules:
 
   - name: Punctuations
     scopes:
-      - punctuation.section.arguments.begin.bracket.round.function.call.cpp
-      - punctuation.section.arguments.end.bracket.round.function.call.cpp
-      - punctuation.separator.delimiter.comma.cpp
-      - punctuation.cpp
       - bracket.php
       - keyword.operator.type.annotation.ts
       - meta.brace
@@ -1553,11 +1585,12 @@ rules:
       - meta.namespace.declaration.ts
       - meta.property-list.scss
       - punctuation.accessor.v
+      - punctuation.brackets.angle.rust
       - punctuation.brackets.curly.rust
       - punctuation.brackets.round.rust
-      - punctuation.brackets.angle.rust
       - punctuation.brackets.square.rust
       - punctuation.comma.rust
+      - punctuation.cpp
       - punctuation.definition.arguments.begin.python
       - punctuation.definition.arguments.end.python
       - punctuation.definition.array.begin.applescript
@@ -1578,6 +1611,7 @@ rules:
       - punctuation.definition.bracket.square.begin.v
       - punctuation.definition.bracket.square.end.v
       - punctuation.definition.bracket.square.go
+      - punctuation.definition.constant.crystal
       - punctuation.definition.dict.begin.python
       - punctuation.definition.dict.end.python
       - punctuation.definition.end.bracket.curly.go
@@ -1594,6 +1628,8 @@ rules:
       - punctuation.definition.section.case-statement.tsx
       - punctuation.definition.typeparameters.begin.tsx
       - punctuation.definition.typeparameters.end.tsx
+      - punctuation.definition.variables.begin.bracket.round.go
+      - punctuation.definition.variables.end.bracket.round.go
       - punctuation.fish
       - punctuation.go
       - punctuation.haskell
@@ -1604,40 +1640,42 @@ rules:
       - punctuation.parenthesis.begin.python
       - punctuation.parenthesis.end.python
       - punctuation.section.arguments.begin.bracket.round.c
+      - punctuation.section.arguments.begin.bracket.round.function.call.cpp
       - punctuation.section.arguments.end.bracket.round.c
+      - punctuation.section.arguments.end.bracket.round.function.call.cpp
+      - punctuation.section.array.crystal
       - punctuation.section.block.begin.bracket.curly.c
       - punctuation.section.block.begin.bracket.curly.cpp
       - punctuation.section.block.end.bracket.curly.c
       - punctuation.section.block.end.bracket.curly.cpp
       - punctuation.section.function.begin.bracket.round.css
       - punctuation.section.function.begin.python
+      - punctuation.section.function.crystal
       - punctuation.section.function.end.bracket.round.css
       - punctuation.section.group.applescript
       - punctuation.section.parameters.begin.bracket.round.c
       - punctuation.section.parameters.end.bracket.round.c
       - punctuation.section.parens.begin.bracket.round.c
       - punctuation.section.parens.end.bracket.round.c
+      - punctuation.section.scope.crystal
       - punctuation.semi.rust
       - punctuation.separator.arguments.python
       - punctuation.separator.colon.python
       - punctuation.separator.comma
       - punctuation.separator.comma.makefile
       - punctuation.separator.delimiter.c
+      - punctuation.separator.delimiter.comma.cpp
       - punctuation.separator.dict.python
       - punctuation.separator.dot-access.c
       - punctuation.separator.element.python
       - punctuation.separator.key-value.css
       - punctuation.separator.list.comma.css
+      - punctuation.separator.method.crystal
+      - punctuation.separator.other.crystal
       - punctuation.separator.parameter.tsx
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
-      - punctuation.section.function.crystal
-      - punctuation.section.array.crystal
-      - punctuation.section.scope.crystal
-      - punctuation.separator.method.crystal
-      - punctuation.separator.other.crystal
-      - punctuation.definition.constant.crystal
     color: .gray
 
   - name: XML Braces
