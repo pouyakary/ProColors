@@ -444,6 +444,10 @@ rules:
     scope: storage.type
     color: .pink
 
+  - name: Default
+    scope: keyword.control.default
+    color: .orange
+
   - name: Storage Type Property
     scope: storage.type.property
     color: .orange
@@ -547,29 +551,41 @@ rules:
 # ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
 
   - name: TypeScript Namespace declaration
-    scope: meta.namespace.declaration
+    scopes:
+      - meta.namespace.declaration.ts
+      - meta.namespace.declaration.tsx
     color: .red
 
   - name: TypeScript Types
     scopes:
-      - meta.type.annotation
-      - entity.name.type
+      - meta.type.annotation.ts
+      - meta.type.annotation.tsx
+      - entity.name.type.ts
+      - entity.name.type.tsx
       - meta.brace.angle.ts
       - meta.brace.angle.tsx
       - entity.name.type.interface.ts
-      - entity.name.type.ts
+      - entity.name.type.interface.tsx
+      - entity.name.type.tx
+      - entity.name.type.tsx
     color: .green
 
   - name: TypeScript Type Alias
-    scope: entity.name.type.alias.ts
+    scopes:
+      - entity.name.type.alias.ts
+      - entity.name.type.alias.tsx
     color: .red
 
   - name: TypeScript Primitive Types
-    scope: support.type.primitive
+    scopes:
+      - support.type.primitive.ts
+      - support.type.primitive.tsx
     color: .green
 
   - name: Mapped Type Facilities
-    scope: meta.indexer.mappedtype.declaration
+    scopes:
+      - meta.indexer.mappedtype.declaration.ts
+      - meta.indexer.mappedtype.declaration.tsx
     color: .pink
 
 # ─── REGULAR EXPRESSIONS ────────────────────────────────────────────────────────
@@ -1012,6 +1028,24 @@ rules:
       - keyword.preprocessor.warning.cs
       - keyword.preprocessor.disable.cs
       - keyword.preprocessor.restore.cs
+    color: .green
+
+# ─── COFFEE SCRIPT ──────────────────────────────────────────────────────────────
+
+  - name: CoffeeScript Source
+    scope: source.coffee
+    color: .blue
+
+  - name: CoffeeScript Variable Assignment Name
+    scope: variable.assignment.coffee
+    color: .blue
+
+  - name: CoffeeScript String Interpolation Signs
+    scope: punctuation.section.embedded.coffee
+    color: .orange
+
+  - name: CoffeeScript Instance Variable
+    scope: variable.other.readwrite.instance.coffee
     color: .green
 
 # ─── HAXE ───────────────────────────────────────────────────────────────────────
@@ -1591,10 +1625,14 @@ rules:
       - punctuation.brackets.square.rust
       - punctuation.comma.rust
       - punctuation.cpp
+      - punctuation.definition.arguments.begin.bracket.round.coffee
       - punctuation.definition.arguments.begin.python
+      - punctuation.definition.arguments.end.bracket.round.coffee
       - punctuation.definition.arguments.end.python
       - punctuation.definition.array.begin.applescript
+      - punctuation.definition.array.begin.bracket.square.coffee
       - punctuation.definition.array.end.applescript
+      - punctuation.definition.array.end.bracket.square.coffee
       - punctuation.definition.begin.bracket.curly.go
       - punctuation.definition.begin.bracket.round.go
       - punctuation.definition.begin.bracket.square.c
@@ -1612,6 +1650,8 @@ rules:
       - punctuation.definition.bracket.square.end.v
       - punctuation.definition.bracket.square.go
       - punctuation.definition.constant.crystal
+      - punctuation.definition.destructuring.begin.bracket.curly.coffee
+      - punctuation.definition.destructuring.end.bracket.curly.coffee
       - punctuation.definition.dict.begin.python
       - punctuation.definition.dict.end.python
       - punctuation.definition.end.bracket.curly.go
@@ -1626,7 +1666,9 @@ rules:
       - punctuation.definition.list.end.python
       - punctuation.definition.parameters
       - punctuation.definition.section.case-statement.tsx
+      - punctuation.definition.typeparameters.begin.ts
       - punctuation.definition.typeparameters.begin.tsx
+      - punctuation.definition.typeparameters.end.ts
       - punctuation.definition.typeparameters.end.tsx
       - punctuation.definition.variables.begin.bracket.round.go
       - punctuation.definition.variables.end.bracket.round.go
@@ -1664,6 +1706,7 @@ rules:
       - punctuation.separator.comma
       - punctuation.separator.comma.makefile
       - punctuation.separator.delimiter.c
+      - punctuation.separator.delimiter.coffee
       - punctuation.separator.delimiter.comma.cpp
       - punctuation.separator.dict.python
       - punctuation.separator.dot-access.c
@@ -1671,8 +1714,11 @@ rules:
       - punctuation.separator.key-value.css
       - punctuation.separator.list.comma.css
       - punctuation.separator.method.crystal
+      - punctuation.separator.method.period.coffee
       - punctuation.separator.other.crystal
+      - punctuation.separator.parameter.ts
       - punctuation.separator.parameter.tsx
+      - punctuation.separator.property.period.coffee
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
