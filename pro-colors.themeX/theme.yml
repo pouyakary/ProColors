@@ -1489,8 +1489,20 @@ rules:
     scope: source.purescript
     color: .blue
 
+  - name: PureScript Import
+    scope: meta.import.purescript
+    color: .red
+
   - name: PureScript Modules
     scope: support.other.module.purescript
+    color: .orange
+
+  - name: PureScript Types
+    scope: entity.name.type.purescript
+    color: .green
+
+  - name: PureScript Arrow
+    scope: keyword.other.arrow.purescript
     color: .orange
 
   - name: PureScript Type Keyword
