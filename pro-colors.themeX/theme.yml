@@ -1640,6 +1640,10 @@ rules:
       - punctuation.definition.binding-pattern.array.js
       - punctuation.definition.binding-pattern.array.ts
       - punctuation.definition.binding-pattern.array.tsx
+      - punctuation.definition.binding-pattern.object.js
+      - punctuation.definition.binding-pattern.object.jsx
+      - punctuation.definition.binding-pattern.object.ts
+      - punctuation.definition.binding-pattern.object.tsx
       - punctuation.definition.binding-pattern.object.tsx
       - punctuation.definition.block
       - punctuation.definition.bracket.curly.begin.v
