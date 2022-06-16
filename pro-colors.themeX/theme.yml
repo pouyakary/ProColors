@@ -27,7 +27,7 @@ themes:
       foreground:     .gray
       invisibles:     E4E4E4
       lineHighlight:  F0F0F0
-      selection:      FAEDA1
+      selection:      CFF0F9
       comment:        .comment
 
   - name: Kary Pro Colors - Dark
