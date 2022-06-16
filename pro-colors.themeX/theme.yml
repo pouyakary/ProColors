@@ -48,7 +48,7 @@ themes:
       foreground:     .gray
       invisibles:     474747
       lineHighlight:  242424
-      selection:      0091ff40
+      selection:      133853
       comment:        .comment
 
 # ─── GENERAL ────────────────────────────────────────────────────────────────────
