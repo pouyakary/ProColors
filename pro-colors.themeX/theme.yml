@@ -48,28 +48,7 @@ themes:
       foreground:     .gray
       invisibles:     474747
       lineHighlight:  242424
-      selection:      1B424E
-      comment:        .comment
-
-  - name: Kary Pro Colors - Minimal Dark
-    uuid: ff651f0a-1c72-412a-b2d9-5eaea1a087ae
-    baseColor: dark
-    colors:
-      comment:        707070
-      gray:           CCCCCC
-      darkGray:       CACACA
-      blue:           819DC2
-      green:          7DA76F
-      red:            B98EB2
-      pink:           B98EB2
-      orange:         819DC2
-    settings:
-      background:     1A1A1A
-      caret:          00BBEC
-      foreground:     .gray
-      invisibles:     474747
-      lineHighlight:  242424
-      selection:      1B424E
+      selection:      0091ff40
       comment:        .comment
 
 # ─── GENERAL ────────────────────────────────────────────────────────────────────
