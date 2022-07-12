@@ -439,6 +439,10 @@ rules:
       - keyword.operator.expression.in
     color: .pink
 
+  - name: Arithmetic Operators
+    scope: keyword.operator.arithmetic.ts
+    color: .red
+
   - name: Support Operators
     scope: support.function
     color: .red
@@ -684,10 +688,45 @@ rules:
 
   - name: Arithmetic Keywords
     scope: keyword.operator.arithmetic.python
-    color: .orange
+    color: .red
 
   - name: Assignment Keywords
     scope: keyword.operator.assignment.python
+    color: .orange
+
+  - name: Python RegEx Escape
+    scope: constant.character.escape.regexp
+    color: .orange
+
+  - name: Python RegExp Boundary
+    scopes:
+      - support.other.match.begin.regexp
+      - support.other.match.end.regexp
+    color: .red
+
+  - name: Python RegEx Set
+    scopes:
+      - constant.other.set.regexp
+      - constant.character.set.regexp
+    color: .pink
+
+  - name: Python Slice Operator
+    scope: punctuation.separator.slice.python
+    color: .pink
+
+  - name: Python Self
+    scope: variable.parameter.function.language.special.self.python
+    color: .blue
+
+  - name: Python Decorator
+    scopes:
+      - support.type.python
+      - punctuation.definition.decorator.python
+      - entity.name.function.decorator.python
+    color: .green
+
+  - name: Python String Placeholder
+    scope: constant.character.format.placeholder.other.python
     color: .orange
 
 # ─── JSON ───────────────────────────────────────────────────────────────────────
@@ -734,6 +773,14 @@ rules:
   #   scope: keyword.operator.assignment.go
   #   color: .gray
 
+  - name: Enum Keyword
+    scope: storage.type.enum.ts
+    color: .orange
+
+  - name: Enum Type
+    scope: entity.name.type.enum
+    color: .green
+
   - name: Function Keyword
     scope: keyword.function.go
     color: .orange
@@ -746,7 +793,7 @@ rules:
 
   - name: Go Arithmetic
     scope: keyword.operator.arithmetic.go
-    color: .orange
+    color: .red
 
   - name: Go String Interpolations
     scope: constant.other.placeholder.go
@@ -1127,6 +1174,20 @@ rules:
   - name: PEG Sets
     scope: declaration.keyword.pegjs
     color: .green
+
+  - name: PEG Declarations
+    scope: declaration.keyword.pegjs
+    color: .blue
+
+# ─── PEGGY LANGUAGE ─────────────────────────────────────────────────────────────
+
+  - name: Peggy Declaration
+    scope: declaration.keyword.peggy
+    color: .blue
+
+  - name: Peggy Attribute Name
+    scope: entity.other.attribute-name.attribute.peggy
+    color: .blue
 
 # ─── WEBASSEMBLY TEXT FORMAT ────────────────────────────────────────────────────
 
@@ -1657,6 +1718,8 @@ rules:
       - punctuation.definition.entity.end.bracket.square.css
       - punctuation.definition.imports.begin.bracket.round.go
       - punctuation.definition.imports.end.bracket.round.go
+      - punctuation.definition.inheritance.begin.python
+      - punctuation.definition.inheritance.end.python
       - punctuation.definition.list.begin.python
       - punctuation.definition.list.end.python
       - punctuation.definition.parameters
@@ -1685,6 +1748,7 @@ rules:
       - punctuation.section.block.begin.bracket.curly.cpp
       - punctuation.section.block.end.bracket.curly.c
       - punctuation.section.block.end.bracket.curly.cpp
+      - punctuation.section.class.begin.python
       - punctuation.section.function.begin.bracket.round.css
       - punctuation.section.function.begin.python
       - punctuation.section.function.crystal
@@ -1713,6 +1777,8 @@ rules:
       - punctuation.separator.other.crystal
       - punctuation.separator.parameter.ts
       - punctuation.separator.parameter.tsx
+      - punctuation.separator.parameters.python
+      - punctuation.separator.period.python
       - punctuation.separator.property.period.coffee
       - punctuation.terminator.go
       - punctuation.terminator.statement
