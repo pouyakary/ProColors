@@ -213,6 +213,28 @@ rules:
     scope: character.constant.entity.html
     color: .orange
 
+  - name: HTML Derivatives
+    scope: text.html.derivative
+    color: .orange
+
+# ─── Nunjucks ───────────────────────────────────────────────────────────────────
+
+  - name: Nunjucks Brackets
+    scope: entity.tag.tagbraces.nunjucks
+    color: .orange
+
+  - name: Numjucks Filter Pipe
+    scope: string.unquoted.filter-pipe.nunjucks
+    color: .red
+
+  - name: Numjucks
+    scope: string.unquoted.tag-string.nunjucks
+    color: .blue
+
+  - name: Numjucks Attribute
+    scope: storage.type.attr.nunjucks
+    color: .green
+
 # ─── MARKDOWN ───────────────────────────────────────────────────────────────────
 
   - name: markdown styles
@@ -288,6 +310,10 @@ rules:
     scope: variable.other.html-special-chars.pageman
     color: .red
 
+  - name: Pageman Jekyll Header
+    scope: constant.language.jekyll-header.pageman
+    color: .green
+
 # ─── CSS ────────────────────────────────────────────────────────────────────────
 
   - name: CSS Selectors (General)
@@ -335,7 +361,7 @@ rules:
 
   - name: Media at rules
     scope: meta.at-rule.media.header.css
-    color: .red
+    color: .blue
 
   - name: Entity Selector
     scope: punctuation.definition.entity.css
@@ -364,6 +390,32 @@ rules:
   - name: CSS Keyframes Percentage
     scope: entity.other.keyframe-offset.percentage.css
     color: .orange
+
+  - name: CSS Simple Meta
+    scope: meta.property-name.css
+    color: .red
+
+  - name: CSS Attribute
+    scope: entity.other.attribute-name.css
+    color: .orange
+
+  - name: CSS Class
+    scope: entity.other.attribute-name.class.css
+    color: .orange
+
+  - name: CSS Attribute
+    scope: entity.other.attribute-name.pseudo-class.css
+    color: .green
+
+  - name: CSS Element Id
+    scopes:
+      - punctuation.definition.entity.css
+      - entity.other.attribute-name.id.css
+    color: .red
+
+  - name: CSS Keyframe Offset
+    scope: entity.other.keyframe-offset.css
+    color: .blue
 
 # ─── LESS ───────────────────────────────────────────────────────────────────────
 
