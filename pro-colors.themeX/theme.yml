@@ -1470,6 +1470,62 @@ rules:
       - meta.property-list.scss
     color: .green
 
+# ─── Dart ───────────────────────────────────────────────────────────────────────
+
+  - name: Dart Source
+    scope: source.dart
+    color: .blue
+
+  - name: Dart Const
+    scope: storage.modifier.const.dart
+    color: .pink
+
+  - name: Dart Primitive Type
+    scope: storage.type.primitive.dart
+    color: .green
+
+  - name: Dart Object Key Punctuation
+    scope: punctuation.separator.key-value.dart
+    color: .orange
+
+  - name: Dart Arithmetic Operator
+    scope: keyword.operator.arithmetic.dart
+    color: .red
+
+  - name: Dart Object Key
+    scope: meta.object-literal.key.dart
+    color: .orange
+
+  - name: Dart Class Name
+    scope: support.class.dart
+    color: .red
+
+  - name: Dart Class Declaration
+    scopes:
+      - keyword.declaration.class.dart
+      - keyword.declaration.extends.dart
+    color: .orange
+
+  - name: Dart Final
+    scope: storage.modifier.final.dart
+    color: .pink
+
+  - name: Dart Var Keyword
+    scope: storage.type.primitive.dart
+    color: .pink
+
+  - name: Dart Type Parameter
+    scope: entity.name.type.typeparameter.dart
+    color: .green
+
+  - name: Dart Parameter Name
+    scope: variable.parameter.dart
+    color: .green
+
+  - name: Dart Interpolated String
+    scope: string.interpolated.expression.dart
+    color: .orange
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
@@ -1716,6 +1772,7 @@ rules:
       - keyword.operator.type.annotation.ts
       - meta.brace
       - meta.brace.angle.ts
+      - meta.brace.round.dart
       - meta.declaration.exports.haskell
       - meta.declaration.exports.purescript
       - meta.embedded.expression.jsx
@@ -1727,6 +1784,7 @@ rules:
       - punctuation.brackets.curly.rust
       - punctuation.brackets.round.rust
       - punctuation.brackets.square.rust
+      - punctuation.comma.dart
       - punctuation.comma.rust
       - punctuation.cpp
       - punctuation.definition.arguments.begin.bracket.round.coffee
@@ -1750,6 +1808,7 @@ rules:
       - punctuation.definition.binding-pattern.object.tsx
       - punctuation.definition.binding-pattern.object.tsx
       - punctuation.definition.block
+      - punctuation.definition.block.dart
       - punctuation.definition.bracket.curly.begin.v
       - punctuation.definition.bracket.curly.end.v
       - punctuation.definition.bracket.round.begin.v
@@ -1776,12 +1835,15 @@ rules:
       - punctuation.definition.list.end.python
       - punctuation.definition.parameters
       - punctuation.definition.section.case-statement.tsx
+      - punctuation.definition.typeparameters.begin.dart
       - punctuation.definition.typeparameters.begin.ts
       - punctuation.definition.typeparameters.begin.tsx
+      - punctuation.definition.typeparameters.end.dart
       - punctuation.definition.typeparameters.end.ts
       - punctuation.definition.typeparameters.end.tsx
       - punctuation.definition.variables.begin.bracket.round.go
       - punctuation.definition.variables.end.bracket.round.go
+      - punctuation.dot.dart
       - punctuation.fish
       - punctuation.go
       - punctuation.haskell
@@ -1816,6 +1878,7 @@ rules:
       - punctuation.separator.colon.python
       - punctuation.separator.comma
       - punctuation.separator.comma.makefile
+      - punctuation.separator.dart
       - punctuation.separator.delimiter.c
       - punctuation.separator.delimiter.coffee
       - punctuation.separator.delimiter.comma.cpp
@@ -1832,6 +1895,7 @@ rules:
       - punctuation.separator.parameters.python
       - punctuation.separator.period.python
       - punctuation.separator.property.period.coffee
+      - punctuation.terminator.dart
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
