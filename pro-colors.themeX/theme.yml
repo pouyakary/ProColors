@@ -1522,9 +1522,23 @@ rules:
     scope: variable.parameter.dart
     color: .green
 
-  - name: Dart Interpolated String
+  - name: Dart Interpolated Expression
     scope: string.interpolated.expression.dart
+    color: .blue
+
+  - name: Dart String Interpolation Brackets
+    scope: punctuation.definition.interpolated-string.dart
+    color: .pink
+
+  - name: Dart Interpolated String
+    scope: variable.parameter.dart
     color: .orange
+
+  - name: Dart With Keyword
+    scope: keyword.declaration.with.dart
+    color: .orange
+
+  - name: Dart
 
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
