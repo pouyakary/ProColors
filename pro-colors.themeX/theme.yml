@@ -1500,6 +1500,10 @@ rules:
     scope: support.class.dart
     color: .red
 
+  - name: Dart Storage Type Annotation
+    scope: storage.type.annotation.dart
+    color: .green
+
   - name: Dart Class Declaration
     scopes:
       - keyword.declaration.class.dart
