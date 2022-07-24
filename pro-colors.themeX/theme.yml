@@ -1494,15 +1494,19 @@ rules:
 
   - name: Dart Object Key
     scope: meta.object-literal.key.dart
-    color: .orange
+    color: .green
+
+  - name: Dart Object Key Separator
+    scope: punctuation.separator.key-value.dart
+    color: .green
 
   - name: Dart Class Name
     scope: support.class.dart
-    color: .red
+    color: .orange
 
   - name: Dart Storage Type Annotation
     scope: storage.type.annotation.dart
-    color: .green
+    color: .blue
 
   - name: Dart Class Declaration
     scopes:
@@ -1542,7 +1546,13 @@ rules:
     scope: keyword.declaration.with.dart
     color: .orange
 
-  - name: Dart
+  - name: Dart Required Keyword
+    scope: storage.modifier.required.dart
+    color: .pink
+
+  - name: Dart Type Parameter
+    scope: 	entity.name.type.typeparameter.dart
+    color: .green
 
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
