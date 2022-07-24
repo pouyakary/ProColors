@@ -1484,27 +1484,21 @@ rules:
     scope: storage.type.primitive.dart
     color: .green
 
-  - name: Dart Object Key Punctuation
-    scope: punctuation.separator.key-value.dart
-    color: .orange
-
   - name: Dart Arithmetic Operator
     scope: keyword.operator.arithmetic.dart
     color: .red
 
   - name: Dart Object Key
-    scope: meta.object-literal.key.dart
-    color: .green
-
-  - name: Dart Object Key Separator
-    scope: punctuation.separator.key-value.dart
-    color: .green
+    scopes:
+      - meta.object-literal.key.dart
+      - punctuation.separator.key-value.dart
+    color: .red
 
   - name: Dart Class Name
     scope: support.class.dart
-    color: .orange
+    color: .green
 
-  - name: Dart Storage Type Annotation
+  - name: Dart Storage Type Annotation (override)
     scope: storage.type.annotation.dart
     color: .blue
 
