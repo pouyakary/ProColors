@@ -1548,6 +1548,10 @@ rules:
     scope: 	entity.name.type.typeparameter.dart
     color: .green
 
+  - name: Dart Abstract Keyword
+    scope: keyword.declaration.abstract.dart
+    color: .orange
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
