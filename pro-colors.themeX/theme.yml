@@ -163,6 +163,10 @@ rules:
       - regex.operator.keyboard.meta
     color: .blue
 
+  - name: Optionality Operator
+    scope: punctuation.accessor.optional
+    color: .orange
+
 # ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
 
   - name: Named Objects
