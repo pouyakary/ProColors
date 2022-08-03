@@ -1556,6 +1556,10 @@ rules:
     scope: keyword.declaration.abstract.dart
     color: .orange
 
+  - name: Dart Late Keyword
+    scope: storage.modifier.late.dart
+    color: .pink
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
