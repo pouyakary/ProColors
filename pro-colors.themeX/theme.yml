@@ -1484,8 +1484,12 @@ rules:
     scope: storage.modifier.const.dart
     color: .pink
 
-  - name: Dart Primitive Type
-    scope: storage.type.primitive.dart
+  - name: Dart Primitive Types
+    scopes:
+      - storage.type.primitive.double.dart
+      - storage.type.primitive.int.dart
+      - storage.type.primitive.bool.dart
+      - storage.type.primitive.String.dart
     color: .green
 
   - name: Dart Arithmetic Operator
@@ -1514,10 +1518,10 @@ rules:
 
   - name: Dart Final
     scope: storage.modifier.final.dart
-    color: .pink
+    color: .orange
 
   - name: Dart Var Keyword
-    scope: storage.type.primitive.dart
+    scope: storage.type.primitive.var.dart
     color: .pink
 
   - name: Dart Type Parameter
@@ -1558,7 +1562,17 @@ rules:
 
   - name: Dart Late Keyword
     scope: storage.modifier.late.dart
-    color: .pink
+    color: .orange
+
+  - name: Dart Static Keyword
+    scope: storage.modifier.static.dart
+    color: .orange
+
+  - name: Dart Get and Set Keywords
+    scopes:
+      - keyword.declaration.get.dart
+      - keyword.declaration.set.dart
+    color: .orange
 
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
