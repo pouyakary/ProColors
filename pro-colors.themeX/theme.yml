@@ -1592,6 +1592,10 @@ rules:
     scope: entity.name.extension.dart
     color: .blue
 
+  - name: Dart Is Keyword
+    scope: keyword.operator.is.dart
+    color: .pink
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
