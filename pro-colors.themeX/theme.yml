@@ -1582,6 +1582,16 @@ rules:
     scope: keyword.declaration.enum.dart
     color: .orange
 
+  - name: Dart Extension Definition
+    scopes:
+      - keyword.declaration.extension.dart
+      - keyword.declaration.on.dart
+    color: .orange
+
+  - name: Dart Extension Name
+    scope: entity.name.extension.dart
+    color: .red
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
