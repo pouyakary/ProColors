@@ -1574,6 +1574,10 @@ rules:
       - keyword.declaration.set.dart
     color: .orange
 
+  - name: Dart Typedef
+    scope: keyword.declaration.typedef.dart
+    color: .orange
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
