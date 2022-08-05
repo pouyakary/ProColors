@@ -1586,11 +1586,11 @@ rules:
     scopes:
       - keyword.declaration.extension.dart
       - keyword.declaration.on.dart
-    color: .orange
+    color: .pink
 
   - name: Dart Extension Name
     scope: entity.name.extension.dart
-    color: .red
+    color: .blue
 
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
