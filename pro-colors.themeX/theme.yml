@@ -1578,6 +1578,10 @@ rules:
     scope: keyword.declaration.typedef.dart
     color: .orange
 
+  - name: Dart Enum
+    scope: keyword.declaration.enum.dart
+    color: .orange
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
