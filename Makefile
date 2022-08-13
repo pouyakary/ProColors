@@ -12,7 +12,7 @@ BUILD_FOLDER=pro-colors.themeX/builds/sublime
 
 test: copy-to-test
 
-copy-to-test: compile karyprocolors-dark.tmTheme karyprocolors-light.tmTheme karyprocolors-minimaldark.tmTheme
+copy-to-test: compile karyprocolors-dark.tmTheme karyprocolors-light.tmTheme
 
 %.tmTheme:
 	cp -f $(BUILD_FOLDER)/$*.tmTheme $(PRO_COLORS_TEST_PATH)/$*.tmTheme
