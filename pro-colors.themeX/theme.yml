@@ -26,7 +26,7 @@ themes:
       caret:          00BBEC
       foreground:     .gray
       invisibles:     E4E4E4
-      lineHighlight:  F0F0F0
+      lineHighlight:  EEEEEE7f
       selection:      CFF0F9
       comment:        .comment
 
