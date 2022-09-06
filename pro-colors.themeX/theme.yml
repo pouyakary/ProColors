@@ -1596,6 +1596,22 @@ rules:
     scope: keyword.operator.is.dart
     color: .pink
 
+  - name: Dart Async Keyword
+    scope: keyword.control.async.dart
+    color: .orange
+
+  - name: Dart Language Variable
+    scope: variable.language.dart
+    color: .green
+
+  - name: Dart Const Keyword
+    scope: storage.modifier.const.dart
+    color: .pink
+
+  - name: Dart Implements Keyword
+    scope: keyword.declaration.implements.dart
+    color: .orange
+
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
   - name: Class Name
