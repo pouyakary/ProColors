@@ -1598,7 +1598,7 @@ rules:
 
   - name: Dart Async Keyword
     scope: keyword.control.async.dart
-    color: .orange
+    color: .red
 
   - name: Dart Language Variable
     scope: variable.language.dart
@@ -1611,6 +1611,10 @@ rules:
   - name: Dart Implements Keyword
     scope: keyword.declaration.implements.dart
     color: .orange
+
+  - name: Dart Default Keyword
+    scope: keyword.control.default.dart
+    color: .pink
 
 # ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
 
