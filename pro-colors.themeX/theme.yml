@@ -1503,7 +1503,10 @@ rules:
     color: .red
 
   - name: Dart Class Name
-    scope: support.class.dart
+    scopes:
+      - support.class.dart
+      - entity.name.type.dart
+      - entity.name.type.class.dart
     color: .green
 
   - name: Dart Storage Type Annotation (override)
@@ -1515,6 +1518,10 @@ rules:
       - keyword.declaration.class.dart
       - keyword.declaration.extends.dart
     color: .orange
+
+  - name: Dart Class Declaration Name
+    scope: entity.name.type.class.declaration.dart
+    color: .red
 
   - name: Dart Final
     scope: storage.modifier.final.dart
@@ -1598,7 +1605,7 @@ rules:
 
   - name: Dart Async Keyword
     scope: keyword.control.async.dart
-    color: .red
+    color: .pink
 
   - name: Dart Language Variable
     scope: variable.language.dart
