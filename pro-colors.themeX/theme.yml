@@ -785,6 +785,10 @@ rules:
     scope: constant.character.format.placeholder.other.python
     color: .orange
 
+  - name: Python Self Keyword
+    scope: variable.language.special.self.python
+    color: .green
+
 # ─── JSON ───────────────────────────────────────────────────────────────────────
 
   - name: JSON Keys
