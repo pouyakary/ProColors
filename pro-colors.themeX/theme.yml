@@ -910,6 +910,24 @@ rules:
       - punctuation.section.parameters.end.bracket.round.cpp
     color: .gray
 
+# ─── Objective-c ────────────────────────────────────────────────────────── ✣ ─
+
+  - name: Objective-C Everything
+    scope: 	meta.block.objc
+    color: .blue
+
+  - name: Objective-C Types
+    scopes:
+      - support.type.cocoa.objc
+      - entity.name.type.objc
+      - support.type.cocoa.leopard.objc
+      - meta.argument-type.objc
+    color: .green
+
+  - name: Objective-C Meta Protocol List
+    scope: meta.protocol-list.objc
+    color: .red
+
 # ─── Rust ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Rust Plain Source
@@ -1961,8 +1979,10 @@ rules:
       - punctuation.section.array.crystal
       - punctuation.section.block.begin.bracket.curly.c
       - punctuation.section.block.begin.bracket.curly.cpp
+      - punctuation.section.block.begin.bracket.curly.objc
       - punctuation.section.block.end.bracket.curly.c
       - punctuation.section.block.end.bracket.curly.cpp
+      - punctuation.section.block.end.bracket.curly.objc
       - punctuation.section.class.begin.python
       - punctuation.section.function.begin.bracket.round.css
       - punctuation.section.function.begin.python
@@ -1972,8 +1992,12 @@ rules:
       - punctuation.section.parameters.begin.bracket.round.c
       - punctuation.section.parameters.end.bracket.round.c
       - punctuation.section.parens.begin.bracket.round.c
+      - punctuation.section.parens.begin.bracket.round.objc
       - punctuation.section.parens.end.bracket.round.c
+      - punctuation.section.parens.end.bracket.round.objc
+      - punctuation.section.scope.begin.objc
       - punctuation.section.scope.crystal
+      - punctuation.section.scope.end.objc
       - punctuation.semi.rust
       - punctuation.separator.arguments.python
       - punctuation.separator.colon.python
