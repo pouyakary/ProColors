@@ -1,12 +1,12 @@
 ---
-# ─── BASE INFO ──────────────────────────────────────────────────────────────────
+# ─── Base Info ──────────────────────────────────────────────────────────── ✣ ─
 
 version: 15.1.0
 description: A very carefully designed theme for your eyes to enjoy.
 author: Pouya Kary
 colorSpaceName: sRGB
 
-# ─── THEMES ─────────────────────────────────────────────────────────────────────
+# ─── Themes ─────────────────────────────────────────────────────────────── ✣ ─
 
 themes:
   - name: Kary Pro Colors - Light
@@ -51,7 +51,7 @@ themes:
       selection:      133853
       comment:        .comment
 
-# ─── GENERAL ────────────────────────────────────────────────────────────────────
+# ─── General ────────────────────────────────────────────────────────────── ✣ ─
 
 rules:
   - name: Operators
@@ -167,7 +167,7 @@ rules:
     scope: punctuation.accessor.optional
     color: .orange
 
-# ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
+# ─── Karyscript ─────────────────────────────────────────────────────────── ✣ ─
 
   - name: Named Objects
     scope: storage.modifier.named.karyscript
@@ -185,7 +185,7 @@ rules:
     scope: meta.jsx.children
     color: .green
 
-# ─── HTML AND XML ───────────────────────────────────────────────────────────────
+# ─── Html And Xml ───────────────────────────────────────────────────────── ✣ ─
 
   - name: Tag name
     scopes:
@@ -221,7 +221,7 @@ rules:
     scope: text.html.derivative
     color: .orange
 
-# ─── Nunjucks ───────────────────────────────────────────────────────────────────
+# ─── Nunjucks ───────────────────────────────────────────────────────────── ✣ ─
 
   - name: Nunjucks Brackets
     scope: entity.tag.tagbraces.nunjucks
@@ -239,7 +239,7 @@ rules:
     scope: storage.type.attr.nunjucks
     color: .green
 
-# ─── MARKDOWN ───────────────────────────────────────────────────────────────────
+# ─── Markdown ───────────────────────────────────────────────────────────── ✣ ─
 
   - name: markdown styles
     scopes:
@@ -270,7 +270,7 @@ rules:
       - markup.heading.markdown
     color: .red
 
-# ─── PAGEMAN ────────────────────────────────────────────────────────────────────
+# ─── Pageman ────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Pageman Section Commands
     scope: constant.language.pageman-parts.pageman
@@ -318,7 +318,7 @@ rules:
     scope: constant.language.jekyll-header.pageman
     color: .green
 
-# ─── CSS ────────────────────────────────────────────────────────────────────────
+# ─── Css ────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: CSS Selectors (General)
     scope: meta.selector.css
@@ -421,13 +421,13 @@ rules:
     scope: entity.other.keyframe-offset.css
     color: .blue
 
-# ─── LESS ───────────────────────────────────────────────────────────────────────
+# ─── Less ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Variables
     scope: variable.other.less
     color: .orange
 
-# ─── JAVASCRIPT AND TYPESCRIPT ──────────────────────────────────────────────────
+# ─── Javascript And Typescript ──────────────────────────────────────────── ✣ ─
 
   - name: Support Variables
     scopes:
@@ -587,7 +587,7 @@ rules:
     scope: meta.class
     color: .red
 
-# ─── TYPESCRIPT ─────────────────────────────────────────────────────────────────
+# ─── Typescript ─────────────────────────────────────────────────────────── ✣ ─
 
   - name: TypeScript Namespace declaration
     scopes:
@@ -627,7 +627,7 @@ rules:
       - meta.indexer.mappedtype.declaration.tsx
     color: .pink
 
-# ─── REGULAR EXPRESSIONS ────────────────────────────────────────────────────────
+# ─── Regular Expressions ────────────────────────────────────────────────── ✣ ─
 
   - name: RegExp Punctuations
     scope: punctuation.definition.group.regexp
@@ -669,7 +669,7 @@ rules:
     scope: keyword.operator.expression.keyof
     color: .pink
 
-# ─── RUBY ───────────────────────────────────────────────────────────────────────
+# ─── Ruby ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Ruby Support classes
     scope: support.class.ruby
@@ -721,7 +721,7 @@ rules:
     scope: punctuation.separator.other.ruby
     color: .orange
 
-# ─── PYTHON ─────────────────────────────────────────────────────────────────────
+# ─── Python ─────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Python Base
     scope: source.python
@@ -789,7 +789,7 @@ rules:
     scope: variable.language.special.self.python
     color: .green
 
-# ─── JSON ───────────────────────────────────────────────────────────────────────
+# ─── Json ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: JSON Keys
     scope: support.type.property-name.json
@@ -799,7 +799,7 @@ rules:
     scope: constant.language.json
     color: .pink
 
-# ─── GO ─────────────────────────────────────────────────────────────────────────
+# ─── Go ─────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Source Go
     scope: source.go
@@ -863,7 +863,7 @@ rules:
     scope: storage.type.numeric.go
     color: .green
 
-# ─── C AND C PLUS PLUS ──────────────────────────────────────────────────────────
+# ─── C And C Plus Plus ──────────────────────────────────────────────────── ✣ ─
 
   - name: C and C Plus Plus
     scope: source.cpp
@@ -910,7 +910,7 @@ rules:
       - punctuation.section.parameters.end.bracket.round.cpp
     color: .gray
 
-# ─── RUST ───────────────────────────────────────────────────────────────────────
+# ─── Rust ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Rust Plain Source
     scope: source.rust
@@ -1029,7 +1029,7 @@ rules:
     scope: keyword.other.crate.rust
     color: .red
 
-# ─── C SHARP ────────────────────────────────────────────────────────────────────
+# ─── C Sharp ────────────────────────────────────────────────────────────── ✣ ─
 
   - name: C# Using
     scope: keyword.other.using.cs
@@ -1116,7 +1116,7 @@ rules:
       - keyword.preprocessor.restore.cs
     color: .green
 
-# ─── COFFEE SCRIPT ──────────────────────────────────────────────────────────────
+# ─── Coffee Script ──────────────────────────────────────────────────────── ✣ ─
 
   - name: CoffeeScript Source
     scope: source.coffee
@@ -1134,19 +1134,19 @@ rules:
     scope: variable.other.readwrite.instance.coffee
     color: .green
 
-# ─── HAXE ───────────────────────────────────────────────────────────────────────
+# ─── Haxe ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Hake Package Name
     scope: support.package.hx
     color: .blue
 
-# ─── YAML ───────────────────────────────────────────────────────────────────────
+# ─── Yaml ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: YAML Tag namespace
     scope: name.tag.out.plain.unquoted.string.entity.yaml
     color: .green
 
-# ─── FISH SHELL ─────────────────────────────────────────────────────────────────
+# ─── Fish Shell ─────────────────────────────────────────────────────────── ✣ ─
 
   - name: Fish Shell Body
     scope: source.fish
@@ -1166,7 +1166,7 @@ rules:
     scope: operator.fish
     color: .orange
 
-# ─── NEARLEY ────────────────────────────────────────────────────────────────────
+# ─── Nearley ────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Nearley Identifiers
     scope: variable.other.property.nearley
@@ -1186,7 +1186,7 @@ rules:
     scope: keyword.control.nearley
     color: .orange
 
-# ─── GNU MAKE ───────────────────────────────────────────────────────────────────
+# ─── Gnu Make ───────────────────────────────────────────────────────────── ✣ ─
 
   - name: Makefile Source
     scope: source.makefile
@@ -1217,7 +1217,7 @@ rules:
     scope: punctuation.separator.comma.function-call.makefile
     color: .pink
 
-# ─── PEGJS ──────────────────────────────────────────────────────────────────────
+# ─── Pegjs ──────────────────────────────────────────────────────────────── ✣ ─
 
   - name: PEG Attributes
     scope: entity.other.attribute-name.attribute.pegjs
@@ -1239,7 +1239,7 @@ rules:
     scope: declaration.keyword.pegjs
     color: .blue
 
-# ─── PEGGY LANGUAGE ─────────────────────────────────────────────────────────────
+# ─── Peggy Language ─────────────────────────────────────────────────────── ✣ ─
 
   - name: Peggy Declaration
     scope: declaration.keyword.peggy
@@ -1249,7 +1249,7 @@ rules:
     scope: entity.other.attribute-name.attribute.peggy
     color: .blue
 
-# ─── WEBASSEMBLY TEXT FORMAT ────────────────────────────────────────────────────
+# ─── Webassembly Text Format ────────────────────────────────────────────── ✣ ─
 
   - name: WAT Types
     scope: storage.type.wat
@@ -1263,7 +1263,7 @@ rules:
     scope: entity.name.type.wat
     color: .green
 
-# ─── PHP ────────────────────────────────────────────────────────────────────────
+# ─── Php ────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: PHP Metatags
     scopes:
@@ -1344,7 +1344,7 @@ rules:
       - punctuation.definition.arguments.end.bracket.round.php
     color: .gray
 
-# ─── F SHARP ────────────────────────────────────────────────────────────────────
+# ─── F Sharp ────────────────────────────────────────────────────────────── ✣ ─
 
   - name: F# main
     scope: source.fsharp.fsl
@@ -1374,7 +1374,7 @@ rules:
       - constant.language.unit.fsharp
     color: .pink
 
-# ─── SQL ────────────────────────────────────────────────────────────────────────
+# ─── Sql ────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: SQL DDl
     scope: keyword.other.DDL.create.II.sql
@@ -1388,7 +1388,7 @@ rules:
     scope: constant.numeric.sql
     color: .green
 
-# ─── HASKELL ────────────────────────────────────────────────────────────────────
+# ─── Haskell ────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Haskell Main
     scope: source.haskell
@@ -1463,7 +1463,7 @@ rules:
       - keyword.other.instance.haskell
     color: .orange
 
-# ─── SASS ───────────────────────────────────────────────────────────────────────
+# ─── Sass ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Key
     scope: support.type.property-name.scss
@@ -1478,7 +1478,7 @@ rules:
       - meta.property-list.scss
     color: .green
 
-# ─── Dart ───────────────────────────────────────────────────────────────────────
+# ─── Dart ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Dart Source
     scope: source.dart
@@ -1627,7 +1627,7 @@ rules:
     scope: keyword.control.default.dart
     color: .pink
 
-# ─── APPLESCRIPT ────────────────────────────────────────────────────────────────
+# ─── Applescript ────────────────────────────────────────────────────────── ✣ ─
 
   - name: Class Name
     scopes:
@@ -1681,13 +1681,13 @@ rules:
     scope: meta.function.positional.applescript
     color: .blue
 
-# ─── JISON ──────────────────────────────────────────────────────────────────────
+# ─── Jison ──────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Jison Var Declaration
     scope: variable.language.declaration.jison
     color: .red
 
-# ─── GLSL ───────────────────────────────────────────────────────────────────────
+# ─── Glsl ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: GLSL Preprocessor Directives
     scope: keyword.directive.preprocessor.glsl
@@ -1709,7 +1709,7 @@ rules:
     scope: keyword.operator.arithmetic.glsl
     color: .orange
 
-# ─── CRYSTAL ────────────────────────────────────────────────────────────────────
+# ─── Crystal ────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Crystal Background
     scope: source.crystal
@@ -1743,7 +1743,7 @@ rules:
     scope: support.function.kernel.crystal
     color: .red
 
-# ─── RACKET ─────────────────────────────────────────────────────────────────────
+# ─── Racket ─────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Racket Base Source
     scope: source.racket
@@ -1753,7 +1753,7 @@ rules:
     scope: meta.function-call.racket
     color: .red
 
-# ─── PURESCRIPT ─────────────────────────────────────────────────────────────────
+# ─── Purescript ─────────────────────────────────────────────────────────── ✣ ─
 
   - name: PureScript Source
     scope: source.purescript
@@ -1779,7 +1779,7 @@ rules:
     scope: keyword.other.double-colon.purescript
     color: .orange
 
-# ─── OHM ────────────────────────────────────────────────────────────────────────
+# ─── Ohm ────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Ohm Entity Name
     scope: entity.name.type
@@ -1789,7 +1789,7 @@ rules:
     scope: keyword.operator
     color: .orange
 
-# ─── V ──────────────────────────────────────────────────────────────────────────
+# ─── V ──────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: V Source
     scope: source.v
@@ -1833,7 +1833,7 @@ rules:
     scope: keyword.operator.optional.v
     color: .orange
 
-# ─── ALEX ───────────────────────────────────────────────────────────────────────
+# ─── Alex ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Alex Embedded Haskell
     scope: meta.embedded.source.haskell.alex
@@ -1843,7 +1843,7 @@ rules:
     scope: meta.definition.alex
     color: .orange
 
-# ─── IDF ────────────────────────────────────────────────────────────────────────
+# ─── Idf ────────────────────────────────────────────────────────────────── ✣ ─
 
   - name: IDF Entity Name
     scope: entity.name.type.head.idf
@@ -1865,7 +1865,7 @@ rules:
     scope: comment.text.idf
     color: .orange
 
-# ─── LAST THINGS THAT MUST HAPPEN ───────────────────────────────────────────────
+# ─── Last Things That Must Happen ───────────────────────────────────────── ✣ ─
 
   - name: Punctuations
     scopes:
@@ -2022,4 +2022,4 @@ rules:
     scope: jsx.children.objectliteral.expression.embedded.tag.string.block
     color: .green
 
-# ────────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────── ✣ ─
