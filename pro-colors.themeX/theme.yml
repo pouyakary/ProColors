@@ -910,23 +910,65 @@ rules:
       - punctuation.section.parameters.end.bracket.round.cpp
     color: .gray
 
+  - name: Cpp Import Title
+    scope: variable.other.macro.argument.cpp
+    color: .pink
+
 # ─── Objective-c ────────────────────────────────────────────────────────── ✣ ─
 
   - name: Objective-C Everything
-    scope: 	meta.block.objc
+    scopes:
+      - meta.block.objc
+      - source.objc
     color: .blue
+
+  - name: Objective-C Keyword
+    scope: keyword.operator.objc
+    color: .red
 
   - name: Objective-C Types
     scopes:
+      - storage.type.objc
+      - storage.type.built-in.objc
       - support.type.cocoa.objc
       - entity.name.type.objc
       - support.type.cocoa.leopard.objc
       - meta.argument-type.objc
+      - storage.type.built-in.primitive.objc
     color: .green
 
   - name: Objective-C Meta Protocol List
     scope: meta.protocol-list.objc
     color: .red
+
+  - name: Objective-C Meta Function
+    scopes:
+      -	meta.function.objc
+    color: .gray
+
+  - name: Objective-C Meta Return Type
+    scope: meta.return-type.objc
+    color: .orange
+
+  - name: Objective-C String Interpolation Placeholder
+    scope: constant.other.placeholder.objc
+    color: .orange
+
+  - name: Objective-C Access Operator
+    scope: punctuation.separator.pointer-access.objc
+    color: .red
+
+  - name: Objective-C Keyboard Accessors
+    scope: keyword.operator.objc
+    color: .pink
+
+  - name: Objective-C Constants
+    scope: constant.other.variable.mac-classic.objc
+    color: .blue
+
+  - name: Objective-C Dot Access
+    scope: punctuation.separator.dot-access.objc
+    color: .gray
 
 # ─── Rust ───────────────────────────────────────────────────────────────── ✣ ─
 
@@ -2024,6 +2066,15 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
+      - punctuation.section.parameters.begin.bracket.round.objc
+      - punctuation.section.parameters.end.bracket.round.objc
+      - punctuation.definition.type.begin.objc
+      - punctuation.definition.type.end.objc
+      - punctuation.section.arguments.begin.bracket.round.objc
+      - punctuation.section.arguments.end.bracket.round.objc
+      - punctuation.definition.entity.other.inherited-class.objc
+      - punctuation.objc
+      - punctuation.separator.delimiter.objc
     color: .gray
 
   - name: XML Braces
