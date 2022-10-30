@@ -914,6 +914,20 @@ rules:
     scope: variable.other.macro.argument.cpp
     color: .pink
 
+# ─── Header File ────────────────────────────────────────────────────────── ✣ ─
+
+  - name: Header File Type
+    scope: entity.name.type.parameter.cpp
+    color: .green
+
+  - name: Header File Spread Operator
+    scope: meta.function.definition.parameters
+    color: .pink
+
+  - name: Header File Pointer
+    scope: storage.modifier.pointer.cpp
+    color: .pink
+
 # ─── Objective-c ────────────────────────────────────────────────────────── ✣ ─
 
   - name: Objective-C Everything
