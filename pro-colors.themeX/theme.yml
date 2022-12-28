@@ -1609,6 +1609,10 @@ rules:
     scope: storage.type.primitive.var.dart
     color: .pink
 
+  - name: Dart Void Keyword
+    scope: storage.type.primitive.void.dart
+    color: .orange
+
   - name: Dart Type Parameter
     scope: entity.name.type.typeparameter.dart
     color: .green
