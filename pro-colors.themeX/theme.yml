@@ -1208,6 +1208,10 @@ rules:
     scope: variable.other.readwrite.instance.coffee
     color: .green
 
+  - name: CoffeeScript Delete Keyword
+    scope: 	keyword.operator.delete.coffee
+    color: .pink
+
 # ─── Haxe ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Hake Package Name
