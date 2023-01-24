@@ -13,7 +13,7 @@ themes:
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
     baseColor: light
     colors:
-      comment:        C7C7C7
+      comment:        9BA6B5
       gray:           1A1A1A
       darkGray:       9B9B9B
       blue:           3778B7
