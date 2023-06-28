@@ -167,6 +167,106 @@ rules:
     scope: punctuation.accessor.optional
     color: .orange
 
+# ─── Semantic Tokens ────────────────────────────────────────────────────── ✣ ─
+
+  - name: Semantic Token Namespace
+    scope: namespace
+    color: .orange
+
+  - name: Semantic Token Class
+    scope: class
+    color: .green
+
+  - name: Semantic Token Enum
+    scope: enum
+    color: .green
+
+  - name: Semantic Token Interface
+    scope: interface
+    color: .green
+
+  - name: Semantic Token Struct
+    scope: struct
+    color: .green
+
+  - name: Semantic Token Type Parameter
+    scope: typeParameter
+    color: .green
+
+  - name: Semantic Token Type
+    scope: type
+    color: .green
+
+  - name: Semantic Token Parameter
+    scope: parameter
+    color: .blue
+
+  - name: Semantic Token Variable
+    scope: variable
+    color: .blue
+
+  - name: Semantic Token Property
+    scope: property
+    color: .red
+
+  - name: Semantic Token Enum Member
+    scope: enumMember
+    color: .blue
+
+  - name: Semantic Token Decorator
+    scope: decorator
+    color: .blue
+
+  - name: Semantic Token Event
+    scope: event
+    color: .red
+
+  - name: Semantic Token Function
+    scope: function
+    color: .red
+
+  - name: Semantic Token Method
+    scope: method
+    color: .red
+
+  - name: Semantic Token Macro
+    scope: macro
+    color: .orange
+
+  - name: Semantic Token Label
+    scope: label
+    color: .green
+
+  - name: Semantic Token Comment
+    scope: comment
+    color: .comment
+
+  - name: Semantic Token String
+    scope: string
+    color: .green
+
+  - name: Semantic Token Keyword
+    scope: keyword
+    color: .pink
+
+  - name: Semantic Token Number
+    scope: number
+    color: .blue
+
+  - name: Semantic Token Regular Expression
+    scope: regexp
+    color: .orange
+
+  - name: Semantic Token Operator
+    scope: struct
+    color: .orange
+
+# ─── Extended Semantic Keywords ─────────────────────────────────────────── ✣ ─
+
+  - name: Semantic Declaration Keywords
+    scope: keyword.declaration
+    color: .orange
+
 # ─── Karyscript ─────────────────────────────────────────────────────────── ✣ ─
 
   - name: Named Objects
@@ -865,6 +965,14 @@ rules:
 
 # ─── C And C Plus Plus ──────────────────────────────────────────────────── ✣ ─
 
+  - name: Cpp Arithmetics
+    scope: keyword.operator.arithmetic.cpp
+    color: .red
+
+  - name: Pointer Accessor
+    scope: punctuation.separator.pointer-access.cpp
+    color: .pink
+
   - name: C and C Plus Plus
     scope: source.cpp
     color: .blue
@@ -877,6 +985,18 @@ rules:
   - name: C Namespace Operator
     scope: punctuation.separator.namespace.access.cpp
     color: .pink
+
+  - name: Delete Array Bracket
+    scope: keyword.operator.delete.array.cpp
+    color: .pink
+
+  - name: Delete Array Bracket
+    scope: keyword.operator.delete.array.bracket.cpp
+    color: .orange
+
+  - name: Cpp Scope Resolution
+    scope: entity.name.scope-resolution.cpp
+    color: .orange
 
   - name: C Storage Type
     scope: storage.type.c
@@ -1567,6 +1687,10 @@ rules:
     color: .pink
 
   - name: Dart Primitive Types
+    scope: storage.type.primitive.dart
+    color: .orange
+
+  - name: Dart Specific Primitive Types
     scopes:
       - storage.type.primitive.double.dart
       - storage.type.primitive.int.dart
@@ -1586,6 +1710,9 @@ rules:
 
   - name: Dart Class Name
     scopes:
+      - entity.name.type
+      - entity.name.type.dart
+      - entity.name.type
       - support.class.dart
       - entity.name.type.dart
       - entity.name.type.class.dart
@@ -1980,6 +2107,7 @@ rules:
       - punctuation.definition.array.end.bracket.square.coffee
       - punctuation.definition.begin.bracket.curly.go
       - punctuation.definition.begin.bracket.round.go
+      - punctuation.definition.begin.bracket.square
       - punctuation.definition.begin.bracket.square.c
       - punctuation.definition.begin.bracket.square.v
       - punctuation.definition.binding-pattern.array.js
@@ -2006,10 +2134,12 @@ rules:
       - punctuation.definition.dict.end.python
       - punctuation.definition.end.bracket.curly.go
       - punctuation.definition.end.bracket.round.go
+      - punctuation.definition.end.bracket.square
       - punctuation.definition.end.bracket.square.c
       - punctuation.definition.end.bracket.square.v
       - punctuation.definition.entity.begin.bracket.square.css
       - punctuation.definition.entity.end.bracket.square.css
+      - punctuation.definition.entity.other.inherited-class.objc
       - punctuation.definition.imports.begin.bracket.round.go
       - punctuation.definition.imports.end.bracket.round.go
       - punctuation.definition.inheritance.begin.python
@@ -2018,6 +2148,8 @@ rules:
       - punctuation.definition.list.end.python
       - punctuation.definition.parameters
       - punctuation.definition.section.case-statement.tsx
+      - punctuation.definition.type.begin.objc
+      - punctuation.definition.type.end.objc
       - punctuation.definition.typeparameters.begin.dart
       - punctuation.definition.typeparameters.begin.ts
       - punctuation.definition.typeparameters.begin.tsx
@@ -2030,16 +2162,25 @@ rules:
       - punctuation.fish
       - punctuation.go
       - punctuation.haskell
+      - punctuation.objc
       - punctuation.other.colon.go
       - punctuation.other.comma.go
       - punctuation.other.period.go
       - punctuation.parenthesis.begin.python
       - punctuation.parenthesis.begin.python
       - punctuation.parenthesis.end.python
+      - punctuation.section.angle-brackets.begin.template.call.cpp
+      - punctuation.section.angle-brackets.end.template.call.cpp
       - punctuation.section.arguments.begin.bracket.round.c
       - punctuation.section.arguments.begin.bracket.round.function.call.cpp
+      - punctuation.section.arguments.begin.bracket.round.function.member.cpp
+      - punctuation.section.arguments.begin.bracket.round.objc
+      - punctuation.section.arguments.begin.bracket.round.operator.sizeof.cpp
       - punctuation.section.arguments.end.bracket.round.c
       - punctuation.section.arguments.end.bracket.round.function.call.cpp
+      - punctuation.section.arguments.end.bracket.round.function.member.cpp
+      - punctuation.section.arguments.end.bracket.round.objc
+      - punctuation.section.arguments.end.bracket.round.operator.sizeof.cpp
       - punctuation.section.array.crystal
       - punctuation.section.block.begin.bracket.curly.c
       - punctuation.section.block.begin.bracket.curly.cpp
@@ -2054,10 +2195,14 @@ rules:
       - punctuation.section.function.end.bracket.round.css
       - punctuation.section.group.applescript
       - punctuation.section.parameters.begin.bracket.round.c
+      - punctuation.section.parameters.begin.bracket.round.objc
       - punctuation.section.parameters.end.bracket.round.c
+      - punctuation.section.parameters.end.bracket.round.objc
       - punctuation.section.parens.begin.bracket.round.c
+      - punctuation.section.parens.begin.bracket.round.cpp
       - punctuation.section.parens.begin.bracket.round.objc
       - punctuation.section.parens.end.bracket.round.c
+      - punctuation.section.parens.end.bracket.round.cpp
       - punctuation.section.parens.end.bracket.round.objc
       - punctuation.section.scope.begin.objc
       - punctuation.section.scope.crystal
@@ -2071,8 +2216,10 @@ rules:
       - punctuation.separator.delimiter.c
       - punctuation.separator.delimiter.coffee
       - punctuation.separator.delimiter.comma.cpp
+      - punctuation.separator.delimiter.objc
       - punctuation.separator.dict.python
       - punctuation.separator.dot-access.c
+      - punctuation.separator.dot-access.cpp
       - punctuation.separator.element.python
       - punctuation.separator.key-value.css
       - punctuation.separator.list.comma.css
@@ -2088,15 +2235,6 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
-      - punctuation.section.parameters.begin.bracket.round.objc
-      - punctuation.section.parameters.end.bracket.round.objc
-      - punctuation.definition.type.begin.objc
-      - punctuation.definition.type.end.objc
-      - punctuation.section.arguments.begin.bracket.round.objc
-      - punctuation.section.arguments.end.bracket.round.objc
-      - punctuation.definition.entity.other.inherited-class.objc
-      - punctuation.objc
-      - punctuation.separator.delimiter.objc
     color: .gray
 
   - name: XML Braces
