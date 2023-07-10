@@ -14,7 +14,7 @@ themes:
     baseColor: light
     colors:
       comment:        9BA6B5
-      gray:           1A1A1A
+      gray:           9BA6B5
       darkGray:       9B9B9B
       blue:           3778B7
       green:          428226
@@ -22,11 +22,11 @@ themes:
       pink:           B052A1
       orange:         A56416
     settings:
-      background:     F7F7F7
+      background:     F0F6FB
       caret:          00BBEC
       foreground:     .gray
       invisibles:     E4E4E4
-      lineHighlight:  EEEEEE7f
+      lineHighlight:  E7F0F7
       selection:      CFF0F9
       comment:        .comment
 
@@ -35,7 +35,7 @@ themes:
     baseColor: dark
     colors:
       comment:        707070
-      gray:           CCCCCC
+      gray:           707070
       darkGray:       CACACA
       blue:           819DC2
       green:          7DA76F
