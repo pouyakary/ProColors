@@ -35,5 +35,8 @@
         "vendored",
         "voidptr",
         "WEBASSEMBLY"
+    ],
+    "cSpell.enableFiletypes": [
+        "!yaml"
     ]
 }
