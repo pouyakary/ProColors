@@ -167,6 +167,10 @@ rules:
     scope: punctuation.accessor.optional
     color: .orange
 
+  - name: Constants
+    scope: constant
+    color: .green
+
 # ─── Semantic Tokens ────────────────────────────────────────────────────── ✣ ─
 
   - name: Semantic Token Namespace
@@ -686,6 +690,10 @@ rules:
   - name: JavaScript Private Operator
     scope: meta.class
     color: .red
+
+  - name: JavaScript/TypeScript Constants
+    scope: variable.other.constant
+    color: .green
 
 # ─── Typescript ─────────────────────────────────────────────────────────── ✣ ─
 
