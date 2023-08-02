@@ -990,6 +990,10 @@ rules:
     scope: storage.type.numeric.go
     color: .green
 
+  - name: Go Interface Keyword
+    scope: keyword.interface.go
+    color: .orange
+
 # ─── C And C Plus Plus ──────────────────────────────────────────────────── ✣ ─
 
   - name: Cpp Arithmetics
