@@ -1144,6 +1144,33 @@ rules:
     scope: punctuation.separator.dot-access.objc
     color: .gray
 
+# ─── Swift ──────────────────────────────────────────────────────────────── ✣ ─
+
+  - name: Swift Attribute
+    scopes:
+      - attribute.swift
+      - storage.modifier.attribute.swift
+    color: .blue
+
+  - name: Swift Types
+    scopes:
+      - type.swift
+      - meta.parameter-clause.swift
+      - entity.name.type.swift
+      - support.type.swift
+      - meta.function-result.swift
+      - meta.definition.type.body.swift
+      - meta.function-call.swift
+    color: .green
+
+  - name: Swift Inheritance
+    scope: meta.inheritance-clause.swift
+    color: .blue
+
+  - name: Swift Getter Property
+    scope: meta.definition.type.body.swift
+    color: .blue
+
 # ─── Rust ───────────────────────────────────────────────────────────────── ✣ ─
 
   - name: Rust Plain Source
