@@ -65,6 +65,7 @@ __Pro Colors__ supports a big range of languages very good. It fully implements 
 | Regular Expressions   | Full                  | Various Authors           | High                              |
 | Ruby                  | Full                  | Microsoft                 | Low                               |
 | Rust                  | Full                  | Microsoft                 | Very Good                         |
+| Swift                  | Full                  | Microsoft                 | Normal                              |
 | SCSS                  | Full                  | Microsoft                 | High                              |
 | TypeScript            | Full                  | Microsoft                 | High                              |
 | V                     | Full                  | V Language + Kary         | Very Good                         |
