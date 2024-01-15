@@ -185,7 +185,7 @@ rules:
     scope: markup.heading
     color: CB4718
 
-  - name:
+  - name: RegExp Operator
     scopes:
       - regexp.operator.keyword.meta
       - regex.operator.keyboard.meta
@@ -800,6 +800,10 @@ rules:
   - name: RegExp Qualifier Keywords
     scope: keyword.operator.quantifier.regexp
     color: .blue
+
+  - name: RegExp Character Class
+    scope: constant.other.character-class.set.regexp
+    color: .red
 
   - name: Keyof Keyword
     scope: keyword.operator.expression.keyof
