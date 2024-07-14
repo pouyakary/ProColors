@@ -1,5 +1,4 @@
 ---
-
 # # Kary Pro Colors - A Color Theme for
 # Code and Other Things # Copyright (C)
 # 2015-present Pouya Kary <kary@gnu.org>
@@ -25,60 +24,59 @@
 # this program. If not,
 # see <https://www.gnu.org/licenses/>.
 
-
-# ─── Base Info ──────────────────────────────────────────────────────────── ✣ ─
+# MARK: Base Info
 
 version: 15.1.0
 description: A very carefully designed theme for your eyes to enjoy.
 author: Pouya Kary
 colorSpaceName: sRGB
 
-# ─── Themes ─────────────────────────────────────────────────────────────── ✣ ─
+# MARK: Themes
 
 themes:
   - name: Kary Pro Colors - Light
     uuid: 7e88f0fb-3ece-4905-9e8d-ebd393352ecb
     baseColor: light
     colors:
-      comment:        9BA6B5
-      gray:           65758d
-      darkGray:       9B9B9B
-      blue:           3778B7
-      green:          428226
-      red:            C94824
-      pink:           B052A1
-      orange:         A56416
+      comment: 9BA6B5
+      gray: 65758d
+      darkGray: 9B9B9B
+      blue: 3778B7
+      green: 428226
+      red: C94824
+      pink: B052A1
+      orange: A56416
     settings:
-      background:     F0F6FB
-      caret:          00BBEC
-      foreground:     .gray
-      invisibles:     E4E4E4
-      lineHighlight:  E7F0F7
-      selection:      CFF0F9
-      comment:        .comment
+      background: F0F6FB
+      caret: 00BBEC
+      foreground: .gray
+      invisibles: E4E4E4
+      lineHighlight: E7F0F7
+      selection: CFF0F9
+      comment: .comment
 
   - name: Kary Pro Colors - Dark
     uuid: c156815c-3cb2-4fcd-87c5-384015652e88
     baseColor: dark
     colors:
-      comment:        888888
-      gray:           909090
-      darkGray:       CACACA
-      blue:           819DC2
-      green:          7DA76F
-      red:            D38569
-      pink:           B98EB2
-      orange:         BC9550
+      comment: 888888
+      gray: 909090
+      darkGray: CACACA
+      blue: 819DC2
+      green: 7DA76F
+      red: D38569
+      pink: B98EB2
+      orange: BC9550
     settings:
-      background:     1A1A1A
-      caret:          00BBEC
-      foreground:     .gray
-      invisibles:     474747
-      lineHighlight:  242424
-      selection:      133853
-      comment:        .comment
+      background: 1A1A1A
+      caret: 00BBEC
+      foreground: .gray
+      invisibles: 474747
+      lineHighlight: 242424
+      selection: 133853
+      comment: .comment
 
-# ─── General ────────────────────────────────────────────────────────────── ✣ ─
+# MARK: General
 
 rules:
   - name: Operators
@@ -164,8 +162,8 @@ rules:
 
   - name: function argument
     scopes:
-    - variable.parameter
-    - function.parameters.entity.name.meta
+      - variable.parameter
+      - function.parameters.entity.name.meta
     color: .blue
 
   - name: Function definition
@@ -199,7 +197,7 @@ rules:
     scope: constant
     color: .green
 
-# ─── Semantic Tokens ────────────────────────────────────────────────────── ✣ ─
+  # MARK: Semantic Tokens
 
   - name: Semantic Token Namespace
     scope: namespace
@@ -293,13 +291,13 @@ rules:
     scope: struct
     color: .orange
 
-# ─── Extended Semantic Keywords ─────────────────────────────────────────── ✣ ─
+  # MARK: Extended Semantic Keywords
 
   - name: Semantic Declaration Keywords
     scope: keyword.declaration
     color: .orange
 
-# ─── Karyscript ─────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Karyscript
 
   - name: Named Objects
     scope: storage.modifier.named.karyscript
@@ -317,7 +315,7 @@ rules:
     scope: meta.jsx.children
     color: .green
 
-# ─── Html And Xml ───────────────────────────────────────────────────────── ✣ ─
+  # MARK: Html And Xml
 
   - name: Tag name
     scopes:
@@ -353,7 +351,7 @@ rules:
     scope: text.html.derivative
     color: .orange
 
-# ─── Nunjucks ───────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Nunjucks
 
   - name: Nunjucks Brackets
     scope: entity.tag.tagbraces.nunjucks
@@ -371,7 +369,7 @@ rules:
     scope: storage.type.attr.nunjucks
     color: .green
 
-# ─── Markdown ───────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Markdown
 
   - name: markdown styles
     scopes:
@@ -402,7 +400,7 @@ rules:
       - markup.heading.markdown
     color: .red
 
-# ─── Pageman ────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Pageman
 
   - name: Pageman Section Commands
     scope: constant.language.pageman-parts.pageman
@@ -450,7 +448,7 @@ rules:
     scope: constant.language.jekyll-header.pageman
     color: .green
 
-# ─── Css ────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Css
 
   - name: CSS Selectors (General)
     scope: meta.selector.css
@@ -553,13 +551,13 @@ rules:
     scope: entity.other.keyframe-offset.css
     color: .blue
 
-# ─── Less ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Less
 
   - name: Variables
     scope: variable.other.less
     color: .orange
 
-# ─── Javascript And Typescript ──────────────────────────────────────────── ✣ ─
+  # MARK: Javascript And Typescript
 
   - name: Support Variables
     scopes:
@@ -669,7 +667,7 @@ rules:
     color: .orange
 
   - name: Var export
-    scope:  meta.var.expr keyword.control.export
+    scope: meta.var.expr keyword.control.export
     color: .pink
 
   - name: JavaScript support class
@@ -723,7 +721,7 @@ rules:
     scope: variable.other.constant
     color: .green
 
-# ─── Typescript ─────────────────────────────────────────────────────────── ✣ ─
+  # MARK: TypeScript
 
   - name: TypeScript Namespace declaration
     scopes:
@@ -763,7 +761,7 @@ rules:
       - meta.indexer.mappedtype.declaration.tsx
     color: .pink
 
-# ─── Regular Expressions ────────────────────────────────────────────────── ✣ ─
+  # MARK: Regular Expression
 
   - name: RegExp Punctuations
     scope: punctuation.definition.group.regexp
@@ -809,7 +807,7 @@ rules:
     scope: keyword.operator.expression.keyof
     color: .pink
 
-# ─── Ruby ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Ruby
 
   - name: Ruby Support classes
     scope: support.class.ruby
@@ -861,7 +859,7 @@ rules:
     scope: punctuation.separator.other.ruby
     color: .orange
 
-# ─── Python ─────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Python
 
   - name: Python Base
     scope: source.python
@@ -929,7 +927,7 @@ rules:
     scope: variable.language.special.self.python
     color: .green
 
-# ─── Json ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: JSON
 
   - name: JSON Keys
     scope: support.type.property-name.json
@@ -939,7 +937,7 @@ rules:
     scope: constant.language.json
     color: .pink
 
-# ─── Go ─────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Go
 
   - name: Source Go
     scope: source.go
@@ -1007,7 +1005,11 @@ rules:
     scope: keyword.interface.go
     color: .orange
 
-# ─── C And C Plus Plus ──────────────────────────────────────────────────── ✣ ─
+  - name: Go Package
+    scope: entity.name.type.package.go
+    color: .red
+
+  # MARK: C And C Plus Plus
 
   - name: Cpp Arithmetics
     scope: keyword.operator.arithmetic.cpp
@@ -1078,7 +1080,7 @@ rules:
     scope: variable.other.macro.argument.cpp
     color: .pink
 
-# ─── Header File ────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Header File
 
   - name: Header File Type
     scope: entity.name.type.parameter.cpp
@@ -1092,7 +1094,7 @@ rules:
     scope: storage.modifier.pointer.cpp
     color: .pink
 
-# ─── Objective-c ────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Objective-c
 
   - name: Objective-C Everything
     scopes:
@@ -1121,7 +1123,7 @@ rules:
 
   - name: Objective-C Meta Function
     scopes:
-      -	meta.function.objc
+      - meta.function.objc
     color: .gray
 
   - name: Objective-C Meta Return Type
@@ -1148,7 +1150,7 @@ rules:
     scope: punctuation.separator.dot-access.objc
     color: .gray
 
-# ─── Swift ──────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Swift
 
   - name: Swift Attribute
     scopes:
@@ -1175,7 +1177,7 @@ rules:
     scope: meta.definition.type.body.swift
     color: .blue
 
-# ─── Rust ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Rust
 
   - name: Rust Plain Source
     scope: source.rust
@@ -1295,14 +1297,14 @@ rules:
     scope: keyword.other.crate.rust
     color: .red
 
-# ─── C Sharp ────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: C Sharp
 
   - name: C# Using
     scope: keyword.other.using.cs
     color: .orange
 
   - name: C# Static Keyword
-    scope: 	keyword.other.static.cs
+    scope: keyword.other.static.cs
     color: .orange
 
   - name: C# Using Package
@@ -1382,7 +1384,7 @@ rules:
       - keyword.preprocessor.restore.cs
     color: .green
 
-# ─── Coffee Script ──────────────────────────────────────────────────────── ✣ ─
+  # MARK: Coffee Script
 
   - name: CoffeeScript Source
     scope: source.coffee
@@ -1401,22 +1403,22 @@ rules:
     color: .green
 
   - name: CoffeeScript Delete Keyword
-    scope: 	keyword.operator.delete.coffee
+    scope: keyword.operator.delete.coffee
     color: .pink
 
-# ─── Haxe ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Haxe
 
   - name: Hake Package Name
     scope: support.package.hx
     color: .blue
 
-# ─── Yaml ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Yaml
 
   - name: YAML Tag namespace
     scope: name.tag.out.plain.unquoted.string.entity.yaml
     color: .green
 
-# ─── Fish Shell ─────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Fish Shell
 
   - name: Fish Shell Body
     scope: source.fish
@@ -1436,7 +1438,7 @@ rules:
     scope: operator.fish
     color: .orange
 
-# ─── Nearley ────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Nearley
 
   - name: Nearley Identifiers
     scope: variable.other.property.nearley
@@ -1456,7 +1458,7 @@ rules:
     scope: keyword.control.nearley
     color: .orange
 
-# ─── Gnu Make ───────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Gnu Make
 
   - name: Makefile Source
     scope: source.makefile
@@ -1487,7 +1489,7 @@ rules:
     scope: punctuation.separator.comma.function-call.makefile
     color: .pink
 
-# ─── Pegjs ──────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Pegjs
 
   - name: PEG Attributes
     scope: entity.other.attribute-name.attribute.pegjs
@@ -1509,7 +1511,7 @@ rules:
     scope: declaration.keyword.pegjs
     color: .blue
 
-# ─── Peggy Language ─────────────────────────────────────────────────────── ✣ ─
+  # MARK: Peggy Language
 
   - name: Peggy Declaration
     scope: declaration.keyword.peggy
@@ -1519,7 +1521,7 @@ rules:
     scope: entity.other.attribute-name.attribute.peggy
     color: .blue
 
-# ─── Webassembly Text Format ────────────────────────────────────────────── ✣ ─
+  # MARK: Webassembly Text Format
 
   - name: WAT Types
     scope: storage.type.wat
@@ -1533,7 +1535,7 @@ rules:
     scope: entity.name.type.wat
     color: .green
 
-# ─── Php ────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Php
 
   - name: PHP Metatags
     scopes:
@@ -1614,7 +1616,7 @@ rules:
       - punctuation.definition.arguments.end.bracket.round.php
     color: .gray
 
-# ─── F Sharp ────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: F Sharp
 
   - name: F# main
     scope: source.fsharp.fsl
@@ -1644,7 +1646,7 @@ rules:
       - constant.language.unit.fsharp
     color: .pink
 
-# ─── Sql ────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Sql
 
   - name: SQL DDl
     scope: keyword.other.DDL.create.II.sql
@@ -1658,7 +1660,7 @@ rules:
     scope: constant.numeric.sql
     color: .green
 
-# ─── Haskell ────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Haskell
 
   - name: Haskell Main
     scope: source.haskell
@@ -1733,7 +1735,42 @@ rules:
       - keyword.other.instance.haskell
     color: .orange
 
-# ─── Sass ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Elm
+  - name: Elm Type Keyword
+    scopes:
+      - keyword.type.elm
+      - keyword.type-alias.elm
+    color: .orange
+
+  - name: Elm Type Name
+    scope: storage.type.elm
+    color: .green
+
+  - name: Elm Record Field
+    scope: entity.name.record.field.elm
+    color: .red
+
+  - name: Elm Value
+    scope: meta.value.elm
+    color: .blue
+
+  - name: Elm Support Module
+    scope: support.module.elm
+    color: .orange
+
+  - name: Elm Control Keywords
+    scope: keyword.control.elm
+    color: .pink
+
+  - name: Elm Other keywords
+    scope: keyword.other.elm
+    color: .orange
+
+  - name: Elm Constant Unit
+    scope: constant.unit.elm
+    color: .orange
+
+  # MARK: Sass
 
   - name: Key
     scope: support.type.property-name.scss
@@ -1748,7 +1785,7 @@ rules:
       - meta.property-list.scss
     color: .green
 
-# ─── Dart ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Dart
 
   - name: Dart Source
     scope: source.dart
@@ -1845,7 +1882,7 @@ rules:
     color: .pink
 
   - name: Dart Type Parameter
-    scope: 	entity.name.type.typeparameter.dart
+    scope: entity.name.type.typeparameter.dart
     color: .green
 
   - name: Dart Abstract Keyword
@@ -1908,7 +1945,7 @@ rules:
     scope: keyword.control.default.dart
     color: .pink
 
-# ─── Applescript ────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Applescript
 
   - name: Class Name
     scopes:
@@ -1962,13 +1999,13 @@ rules:
     scope: meta.function.positional.applescript
     color: .blue
 
-# ─── Jison ──────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Jison
 
   - name: Jison Var Declaration
     scope: variable.language.declaration.jison
     color: .red
 
-# ─── Glsl ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Glsl
 
   - name: GLSL Preprocessor Directives
     scope: keyword.directive.preprocessor.glsl
@@ -1990,7 +2027,7 @@ rules:
     scope: keyword.operator.arithmetic.glsl
     color: .orange
 
-# ─── Crystal ────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Crystal
 
   - name: Crystal Background
     scope: source.crystal
@@ -2024,7 +2061,7 @@ rules:
     scope: support.function.kernel.crystal
     color: .red
 
-# ─── Racket ─────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Racket
 
   - name: Racket Base Source
     scope: source.racket
@@ -2034,7 +2071,7 @@ rules:
     scope: meta.function-call.racket
     color: .red
 
-# ─── Purescript ─────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Purescript
 
   - name: PureScript Source
     scope: source.purescript
@@ -2060,7 +2097,7 @@ rules:
     scope: keyword.other.double-colon.purescript
     color: .orange
 
-# ─── Ohm ────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Ohm
 
   - name: Ohm Entity Name
     scope: entity.name.type
@@ -2070,7 +2107,7 @@ rules:
     scope: keyword.operator
     color: .orange
 
-# ─── V ──────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: V
 
   - name: V Source
     scope: source.v
@@ -2126,7 +2163,17 @@ rules:
     scope: variable.other.interpolated.v
     color: .orange
 
-# ─── Alex ───────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Typst
+
+  - name: Typst Heading
+    scope: markup.heading.typst
+    color: .pink
+
+  - name: Typst Emphasis
+    scope: emph
+    color: .blue
+
+  # MARK: Alex
 
   - name: Alex Embedded Haskell
     scope: meta.embedded.source.haskell.alex
@@ -2136,7 +2183,7 @@ rules:
     scope: meta.definition.alex
     color: .orange
 
-# ─── Idf ────────────────────────────────────────────────────────────────── ✣ ─
+  # MARK: Idf
 
   - name: IDF Entity Name
     scope: entity.name.type.head.idf
@@ -2158,7 +2205,7 @@ rules:
     scope: comment.text.idf
     color: .orange
 
-# ─── Last Things That Must Happen ───────────────────────────────────────── ✣ ─
+  # MARK: Punctuations
 
   - name: Punctuations
     scopes:
@@ -2321,6 +2368,8 @@ rules:
       - punctuation.terminator.statement.c
     color: .gray
 
+  # MARK: Comming At Last
+
   - name: XML Braces
     scope: punctuation.definition.tag.xml
     color: .blue
@@ -2340,5 +2389,3 @@ rules:
   - name: JSX String
     scope: jsx.children.objectliteral.expression.embedded.tag.string.block
     color: .green
-
-# ────────────────────────────────────────────────────────────────────────── ✣ ─
