@@ -1735,6 +1735,41 @@ rules:
       - keyword.other.instance.haskell
     color: .orange
 
+  # MARK: Elm
+  - name: Elm Type Keyword
+    scopes:
+      - keyword.type.elm
+      - keyword.type-alias.elm
+    color: .orange
+
+  - name: Elm Type Name
+    scope: storage.type.elm
+    color: .green
+
+  - name: Elm Record Field
+    scope: entity.name.record.field.elm
+    color: .red
+
+  - name: Elm Value
+    scope: meta.value.elm
+    color: .blue
+
+  - name: Elm Support Module
+    scope: support.module.elm
+    color: .orange
+
+  - name: Elm Control Keywords
+    scope: keyword.control.elm
+    color: .pink
+
+  - name: Elm Other keywords
+    scope: keyword.other.elm
+    color: .orange
+
+  - name: Elm Constant Unit
+    scope: constant.unit.elm
+    color: .orange
+
   # MARK: Sass
 
   - name: Key
@@ -2128,6 +2163,16 @@ rules:
     scope: variable.other.interpolated.v
     color: .orange
 
+  # MARK: Typst
+
+  - name: Typst Heading
+    scope: markup.heading.typst
+    color: .pink
+
+  - name: Typst Emphasis
+    scope: emph
+    color: .blue
+
   # MARK: Alex
 
   - name: Alex Embedded Haskell
@@ -2160,7 +2205,7 @@ rules:
     scope: comment.text.idf
     color: .orange
 
-  # MARK: Last Things That Must Happen
+  # MARK: Punctuations
 
   - name: Punctuations
     scopes:
