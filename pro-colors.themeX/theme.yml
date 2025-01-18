@@ -1327,12 +1327,18 @@ rules:
     scope: entity.name.type.class.cs
     color: .red
 
+  - name: C# New Keyword
+    scope: keyword.operator.expression.new.cs
+    color: .pink
+
   - name: C# Variables
     scopes:
       - entity.name.variable.field.cs
       - entity.name.variable.parameter.cs
       - entity.name.variable.local.cs
       - entity.name.variable.tuple-element.cs
+      - variable.other.object.cs
+      - variable.cs
     color: .blue
 
   - name: C# Types
@@ -1340,6 +1346,7 @@ rules:
       - keyword.type.cs
       - entity.name.variable.event.cs
       - storage.type.cs
+      - entity.name.type.cs
     color: .green
 
   - name: C# Type Keywords
@@ -1370,6 +1377,20 @@ rules:
   - name: C# Interface Keyword
     scope: keyword.other.interface.cs
     color: .orange
+
+  - name: C# Void
+    scopes:
+      - keyword.type.void.cs
+      - storage.type.void.cs
+    color: .orange
+
+  - name: C# Const Keywoard
+    scope: storage.modifier.const.cs
+    color: .pink
+
+  - name: C# Arithmetic Operator
+    scope: keyword.operator.arithmetic.cs
+    color: .red
 
   - name: C# Preprocessor
     scope: meta.preprocessor.cs
