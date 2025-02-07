@@ -2320,8 +2320,6 @@ rules:
       - punctuation.definition.list.end.python
       - punctuation.definition.parameters
       - punctuation.definition.section.case-statement.tsx
-      - punctuation.definition.tag.end.tsx
-      - punctuation.definition.tag.end.tsx
       - punctuation.definition.type.begin.objc
       - punctuation.definition.type.end.objc
       - punctuation.definition.typeparameters.begin.dart
