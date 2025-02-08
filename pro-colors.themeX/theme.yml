@@ -1354,6 +1354,7 @@ rules:
       - keyword.other.event.cs
       - keyword.other.delegate.cs
       - keyword.other.enum.cs
+      - storage.type.enum.cs
     color: .orange
 
   - name: C# Set and Get
@@ -1404,6 +1405,56 @@ rules:
       - keyword.preprocessor.disable.cs
       - keyword.preprocessor.restore.cs
     color: .green
+
+  - name: C# Type
+    scopes:
+      - keyword.type.bool.cs
+      - keyword.type.char.cs
+      - keyword.type.string.cs
+      - keyword.type.byte.cs
+      - keyword.type.sbyte.cs
+      - keyword.type.int.cs
+      - keyword.type.uint.cs
+      - keyword.type.short.cs
+      - keyword.type.ushort.cs
+      - keyword.type.long.cs
+      - keyword.type.ulong.cs
+      - keyword.type.double.cs
+      - keyword.type.float.cs
+      - keyword.type.decimal.cs
+      - entity.name.type.type-parameter.cs
+    color: .green
+
+  - name: C# This
+    scope: storage.modifier.this.cs
+    color: .green
+
+  - name: C# Documentation Tag
+    scopes:
+      - punctuation.definition.tag.cs
+      - entity.name.tag.localname.cs
+    color: .blue
+
+  - name: C# Class Colon
+    scope: punctuation.separator.colon.cs
+    color: .orange
+
+  - name: C# Base
+    scope: variable.language.base.cs
+    color: .pink
+
+  - name: C# Get/Set
+    scopes:
+      - storage.type.accessor.get.cs
+      - storage.type.accessor.set.cs
+    color: .red
+
+  - name: C# Storage Operators
+    scopes:
+      - storage.modifier.out.cs
+      - storage.modifier.params.cs
+      - storage.modifier.ref.cs
+    color: .pink
 
   # MARK: Coffee Script
 
@@ -2322,9 +2373,11 @@ rules:
       - punctuation.definition.section.case-statement.tsx
       - punctuation.definition.type.begin.objc
       - punctuation.definition.type.end.objc
+      - punctuation.definition.typeparameters.begin.cs
       - punctuation.definition.typeparameters.begin.dart
       - punctuation.definition.typeparameters.begin.ts
       - punctuation.definition.typeparameters.begin.tsx
+      - punctuation.definition.typeparameters.end.cs
       - punctuation.definition.typeparameters.end.dart
       - punctuation.definition.typeparameters.end.ts
       - punctuation.definition.typeparameters.end.tsx
