@@ -329,6 +329,10 @@ rules:
     scope: entity.other.attribute-name
     color: .pink
 
+  - name: Tag Assignment Keyword
+    scope: meta.tag.attributes keyword.operator.assignment
+    color: .gray
+
   - name: HTML String
     scopes:
       - string.quoted.single.html
