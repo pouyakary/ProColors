@@ -723,7 +723,7 @@ rules:
 
   - name: JavaScript/TypeScript Constants
     scope: variable.other.constant
-    color: .green
+    color: .blue
 
   # MARK: TypeScript
 
@@ -1118,8 +1118,12 @@ rules:
       - entity.name.type.objc
       - support.type.cocoa.leopard.objc
       - meta.argument-type.objc
-      - storage.type.built-in.primitive.objc
+      - support.type.mac-classic.objc
     color: .green
+
+  - name: Objective-C Primitive Types
+    scope: storage.type.built-in.primitive.objc
+    color: .orange
 
   - name: Objective-C Meta Protocol List
     scope: meta.protocol-list.objc
@@ -1153,6 +1157,12 @@ rules:
   - name: Objective-C Dot Access
     scope: punctuation.separator.dot-access.objc
     color: .gray
+
+  - name: Objective-C Storage
+    scopes:
+      - storage.type.objc
+      - punctuation.definition.entity.other.inherited-class.objc
+    color: .orange
 
   # MARK: Swift
 
