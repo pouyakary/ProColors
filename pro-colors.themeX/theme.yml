@@ -2476,6 +2476,8 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
+      - punctuation.definition.arguments.begin.swift
+      - punctuation.definition.arguments.end.swift
     color: .gray
 
   # MARK: Comming At Last
