@@ -2213,6 +2213,20 @@ rules:
     scope: keyword.operator
     color: .orange
 
+  # MARK: Zig
+
+  - name: Zig Keyword Storage
+    scope: keyword.storage.zig
+    color: .orange
+
+  - name: Zig Integer Type
+    scope: keyword.type.integer.zig
+    color: .green
+
+  - name: Zig Types
+    scope: keyword.type.zig
+    color: .green
+
   # MARK: V
 
   - name: V Source
