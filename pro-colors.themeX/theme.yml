@@ -811,6 +811,10 @@ rules:
     scope: keyword.operator.expression.keyof
     color: .pink
 
+  - name: JavaScript Rest Keyboard
+    scope: keyword.operator.rest
+    color: .green
+
   # MARK: Ruby
 
   - name: Ruby Support classes
