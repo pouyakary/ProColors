@@ -2220,6 +2220,28 @@ rules:
     scope: support.type.basic.shaderlab
     color: .green
 
+  # ─── Nim ──────────────────────────────────────────────────────────────
+
+  - name: Nim Source
+    scope: source.nim
+    color: .blue
+
+  - name: Nim Generic Storage
+    scope: storage.type.generic.nim
+    color: .orange
+
+  - name: Nim Support Type
+    scope: support.type.nim
+    color: .green
+
+  - name: Nim Concrete Storage Type
+    scope: storage.type.concrete.nim
+    color: .green
+
+  - name: Nim Other Keyword
+    scope: keyword.other
+    color: .orange
+
   # ─── V ────────────────────────────────────────────────────────────────
 
   - name: V Source
