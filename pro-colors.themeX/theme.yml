@@ -1032,10 +1032,6 @@ rules:
       - keyword.operator.bitwise.shift.c
     color: .gray
 
-  - name: C Namespace Operator
-    scope: punctuation.separator.namespace.access.cpp
-    color: .pink
-
   - name: Delete Array Bracket
     scope: keyword.operator.delete.array.cpp
     color: .pink
@@ -1072,17 +1068,22 @@ rules:
     scope: constant.other.placeholder.c
     color: .blue
 
-  - name: Cpp Punctuation
-    scopes:
-      - punctuation.section.block.begin.bracket.curly.function.definition.cpp
-      - punctuation.section.block.end.bracket.curly.function.definition.cpp
-      - punctuation.section.parameters.begin.bracket.round.cpp
-      - punctuation.section.parameters.end.bracket.round.cpp
-    color: .gray
-
   - name: Cpp Import Title
     scope: variable.other.macro.argument.cpp
     color: .pink
+
+  - name: Cpp Primitive Types
+    scopes:
+      - storage.type.built-in.primitive.cpp
+      - storage.type.primitive.cpp
+    color: .green
+
+  - name: Cpp Class Access Modifier
+    scopes:
+      - storage.type.modifier.access.control.protected.cpp
+      - storage.type.modifier.access.control.private.cpp
+      - storage.type.modifier.access.control.public.cpp
+    color: .orange
 
   # ─── Header File ──────────────────────────────────────────────────────
 
@@ -2539,6 +2540,19 @@ rules:
       - punctuation.terminator.statement.c
       - punctuation.definition.arguments.begin.swift
       - punctuation.definition.arguments.end.swift
+      - punctuation.section.parameters.begin.bracket.round.special.constructor.cpp
+      - punctuation.section.parameters.end.bracket.round.special.constructor.cpp
+      - punctuation.section.arguments.begin.bracket.round.function.call.initializer.cpp
+      - punctuation.section.arguments.end.bracket.round.function.call.initializer.cpp
+      - punctuation.separator.initializers.cpp
+      - punctuation.section.parameters.begin.bracket.round.special.member.destructor.cpp
+      - punctuation.section.parameters.end.bracket.round.special.member.destructor.cpp
+      - punctuation.section.block.begin.bracket.curly.function.definition.cpp
+      - punctuation.section.block.end.bracket.curly.function.definition.cpp
+      - punctuation.section.parameters.begin.bracket.round.cpp
+      - punctuation.section.parameters.end.bracket.round.cpp
+      - punctuation.separator.scope-resolution.cpp
+      - punctuation.separator.namespace.access.cpp
     color: .gray
 
   # ─── Comming At Last ──────────────────────────────────────────────────
