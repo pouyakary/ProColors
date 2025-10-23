@@ -1085,6 +1085,18 @@ rules:
       - storage.type.modifier.access.control.public.cpp
     color: .orange
 
+  - name: Cpp Const Keyword
+    scope: storage.modifier.specifier.const.cpp
+    color: .pink
+
+  - name: Cpp Namespace
+    scope: entity.name.namespace.cpp
+    color: .red
+
+  - name: Cpp Namespace Resolution
+    scope: entity.name.scope-resolution.function.call.cpp
+    color: .orange
+
   # ─── Header File ──────────────────────────────────────────────────────
 
   - name: Header File Type
@@ -2398,8 +2410,10 @@ rules:
       - punctuation.cpp
       - punctuation.definition.arguments.begin.bracket.round.coffee
       - punctuation.definition.arguments.begin.python
+      - punctuation.definition.arguments.begin.swift
       - punctuation.definition.arguments.end.bracket.round.coffee
       - punctuation.definition.arguments.end.python
+      - punctuation.definition.arguments.end.swift
       - punctuation.definition.array.begin.applescript
       - punctuation.definition.array.begin.bracket.square.coffee
       - punctuation.definition.array.end.applescript
@@ -2474,33 +2488,51 @@ rules:
       - punctuation.section.angle-brackets.end.template.call.cpp
       - punctuation.section.arguments.begin.bracket.round.c
       - punctuation.section.arguments.begin.bracket.round.function.call.cpp
+      - punctuation.section.arguments.begin.bracket.round.function.call.initializer.cpp
       - punctuation.section.arguments.begin.bracket.round.function.member.cpp
       - punctuation.section.arguments.begin.bracket.round.objc
       - punctuation.section.arguments.begin.bracket.round.operator.sizeof.cpp
       - punctuation.section.arguments.end.bracket.round.c
       - punctuation.section.arguments.end.bracket.round.function.call.cpp
+      - punctuation.section.arguments.end.bracket.round.function.call.initializer.cpp
       - punctuation.section.arguments.end.bracket.round.function.member.cpp
       - punctuation.section.arguments.end.bracket.round.objc
       - punctuation.section.arguments.end.bracket.round.operator.sizeof.cpp
       - punctuation.section.array.crystal
       - punctuation.section.block.begin.bracket.curly.c
+      - punctuation.section.block.begin.bracket.curly.class.cpp
+      - punctuation.section.block.begin.bracket.curly.class.cpp
       - punctuation.section.block.begin.bracket.curly.cpp
+      - punctuation.section.block.begin.bracket.curly.extern.cpp
+      - punctuation.section.block.begin.bracket.curly.function.definition.cpp
+      - punctuation.section.block.begin.bracket.curly.namespace.cpp
       - punctuation.section.block.begin.bracket.curly.objc
       - punctuation.section.block.end.bracket.curly.c
+      - punctuation.section.block.end.bracket.curly.class.cpp
       - punctuation.section.block.end.bracket.curly.cpp
+      - punctuation.section.block.end.bracket.curly.extern.cpp
+      - punctuation.section.block.end.bracket.curly.function.definition.cpp
+      - punctuation.section.block.end.bracket.curly.namespace.cpp
       - punctuation.section.block.end.bracket.curly.objc
       - punctuation.section.class.begin.python
       - punctuation.section.embedded.begin.tsx
       - punctuation.section.embedded.end.tsx
+      - punctuation.section.end.begin.bracket.curly.class.cpp
       - punctuation.section.function.begin.bracket.round.css
       - punctuation.section.function.begin.python
       - punctuation.section.function.crystal
       - punctuation.section.function.end.bracket.round.css
       - punctuation.section.group.applescript
       - punctuation.section.parameters.begin.bracket.round.c
+      - punctuation.section.parameters.begin.bracket.round.cpp
       - punctuation.section.parameters.begin.bracket.round.objc
+      - punctuation.section.parameters.begin.bracket.round.special.constructor.cpp
+      - punctuation.section.parameters.begin.bracket.round.special.member.destructor.cpp
       - punctuation.section.parameters.end.bracket.round.c
+      - punctuation.section.parameters.end.bracket.round.cpp
       - punctuation.section.parameters.end.bracket.round.objc
+      - punctuation.section.parameters.end.bracket.round.special.constructor.cpp
+      - punctuation.section.parameters.end.bracket.round.special.member.destructor.cpp
       - punctuation.section.parens.begin.bracket.round.c
       - punctuation.section.parens.begin.bracket.round.cpp
       - punctuation.section.parens.begin.bracket.round.objc
@@ -2524,35 +2556,23 @@ rules:
       - punctuation.separator.dot-access.c
       - punctuation.separator.dot-access.cpp
       - punctuation.separator.element.python
+      - punctuation.separator.initializers.cpp
       - punctuation.separator.key-value.css
       - punctuation.separator.list.comma.css
       - punctuation.separator.method.crystal
       - punctuation.separator.method.period.coffee
+      - punctuation.separator.namespace.access.cpp
       - punctuation.separator.other.crystal
       - punctuation.separator.parameter.ts
       - punctuation.separator.parameter.tsx
       - punctuation.separator.parameters.python
       - punctuation.separator.period.python
       - punctuation.separator.property.period.coffee
+      - punctuation.separator.scope-resolution.cpp
       - punctuation.terminator.dart
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
-      - punctuation.definition.arguments.begin.swift
-      - punctuation.definition.arguments.end.swift
-      - punctuation.section.parameters.begin.bracket.round.special.constructor.cpp
-      - punctuation.section.parameters.end.bracket.round.special.constructor.cpp
-      - punctuation.section.arguments.begin.bracket.round.function.call.initializer.cpp
-      - punctuation.section.arguments.end.bracket.round.function.call.initializer.cpp
-      - punctuation.separator.initializers.cpp
-      - punctuation.section.parameters.begin.bracket.round.special.member.destructor.cpp
-      - punctuation.section.parameters.end.bracket.round.special.member.destructor.cpp
-      - punctuation.section.block.begin.bracket.curly.function.definition.cpp
-      - punctuation.section.block.end.bracket.curly.function.definition.cpp
-      - punctuation.section.parameters.begin.bracket.round.cpp
-      - punctuation.section.parameters.end.bracket.round.cpp
-      - punctuation.separator.scope-resolution.cpp
-      - punctuation.separator.namespace.access.cpp
     color: .gray
 
   # ─── Comming At Last ──────────────────────────────────────────────────
