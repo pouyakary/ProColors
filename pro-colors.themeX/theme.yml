@@ -1213,6 +1213,22 @@ rules:
     scope: storage.modifier.attribute.swift
     color: .pink
 
+  - name: Swift Inheritence Operator
+    scope: punctuation.separator.inheritance-clause.swift
+    color: .orange
+
+  - name: Swift Parameter Closure
+    socpe: meta.parameter-clause.swift
+    color: .green
+
+  - name: Swift Atrribute Operator
+    scope: meta.arguments.attribute.swift
+    color: .pink
+
+  - name: Swift Column Operator
+    scope: punctuation.separator.argument-label.swift
+    color: .orange
+
   # ─── Rust ─────────────────────────────────────────────────────────────
 
   - name: Rust Plain Source
@@ -2605,6 +2621,14 @@ rules:
       - punctuation.section.scope.end.swift
       - punctuation.section.function.begin.swift
       - punctuation.section.function.end.swift
+      - punctuation.definition.type.begin.swift
+      - punctuation.definition.type.end.swift
+      - punctuation.definition.arguments.begin.swift
+      - punctuation.definition.arguments.end.swift
+      - punctuation.section.tuple.begin.swift
+      - punctuation.section.tuple.end.swift
+      - punctuation.separator.generic-argument-clause.begin.swift
+      - punctuation.separator.generic-argument-clause.end.swift
     color: .gray
 
   # ─── Comming At Last ──────────────────────────────────────────────────
