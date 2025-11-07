@@ -1194,6 +1194,7 @@ rules:
       - meta.function-result.swift
       - meta.definition.type.body.swift
       - meta.function-call.swift
+      - meta.definition.type.body.swift
     color: .green
 
   - name: Swift Inheritance
@@ -1203,6 +1204,14 @@ rules:
   - name: Swift Getter Property
     scope: meta.definition.type.body.swift
     color: .blue
+
+  - name: Swift Meta Parameter
+    scope: meta.parameter-clause.swift
+    color: .orange
+
+  - name: Swift Modifier
+    scope: storage.modifier.attribute.swift
+    color: .pink
 
   # ─── Rust ─────────────────────────────────────────────────────────────
 
@@ -2385,6 +2394,25 @@ rules:
     scope: comment.text.idf
     color: .orange
 
+  # ─── Cmake ────────────────────────────────────────────────────────────
+
+  - name: CMake String Interpolation
+    scope: variable.other.cmake
+    color: .pink
+
+  - name: CMake Support Variable
+    scopes:
+      - support.type.system.cmake
+      - support.type.provideInfo.cmake
+      - support.type.targetProperty.cmake
+    color: .blue
+
+  - name: CMake Command Property
+    scopes:
+      - support.function.commandProperty.cmake
+      - support.type.testProperty.cmake
+    color: .orange
+
   # ─── Punctuations ─────────────────────────────────────────────────────
 
   - name: Punctuations
@@ -2573,6 +2601,10 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
+      - punctuation.section.scope.begin.swift
+      - punctuation.section.scope.end.swift
+      - punctuation.section.function.begin.swift
+      - punctuation.section.function.end.swift
     color: .gray
 
   # ─── Comming At Last ──────────────────────────────────────────────────
