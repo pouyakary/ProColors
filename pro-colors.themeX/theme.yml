@@ -375,11 +375,17 @@ rules:
 
   # ─── Markdown ─────────────────────────────────────────────────────────
 
+  - name: Markdown Forntmatter Start and Stop
+    scopes:
+      - punctuation.definition.begin.frontmatter
+      - punctuation.definition.end.frontmatter
+    color: .blue
+
   - name: markdown styles
     scopes:
       - markup.bold.markdown
       - markup.italic.markdown
-    color: .orange
+    color: .blue
 
   - name: markdown code
     scope: markup.fenced_code.block.markdown
@@ -395,7 +401,7 @@ rules:
     scopes:
       - meta.link.inline.markdown
       - string.other.link.title.markdown
-    color: .blue
+    color: .pink
 
   - name: Markdown Header
     scopes:
@@ -403,6 +409,10 @@ rules:
       - entity.name.section.markdown
       - markup.heading.markdown
     color: .red
+
+  - name: Markdown Quotes
+    scope: markup.quote.markdown
+    color: .orange
 
   # ─── Pageman ──────────────────────────────────────────────────────────
 
@@ -825,6 +835,10 @@ rules:
 
   # ─── Ruby ─────────────────────────────────────────────────────────────
 
+  - name: Ruby Source
+    scope: source.ruby
+    color: .blue
+
   - name: Ruby Support classes
     scope: support.class.ruby
     color: .orange
@@ -871,9 +885,43 @@ rules:
       - meta.require.ruby
     color: .red
 
+  - name: Ruby Keywords
+    scope: keyword.operator.arithmetic.ruby
+    color: .red
+
+  - name: Ruby ReadWrite Instance
+    scope: variable.other.readwrite.instance.ruby
+    color: .green
+
+  - name: Ruby ReadWrite Class
+    scope: variable.other.readwrite.class.ruby
+    color: .red
+
+  - name: Ruby Class Keywords
+    scope: keyword.control.class.ruby, meta.class.ruby
+    color: .orange
+
   - name: Ruby Separators
     scope: punctuation.separator.other.ruby
     color: .orange
+
+  - name: Ruby Key Value
+    scope: punctuation.separator.key-value
+    color: .orange
+
+  - name: Ruby Namespace Separator
+    scope: punctuation.separator.namespace.ruby
+    color: .pink
+
+  - name: Ruby String Interpolation Sign
+    scopes:
+      - punctuation.section.embedded.begin.ruby
+      - punctuation.section.embedded.end.ruby
+    color: .orange
+
+  - name: Block
+    scope: punctuation.separator.variable.ruby
+    color: .pink
 
   # ─── Python ───────────────────────────────────────────────────────────
 
@@ -2455,8 +2503,10 @@ rules:
       - punctuation.definition.arguments.begin.bracket.round.coffee
       - punctuation.definition.arguments.begin.python
       - punctuation.definition.arguments.begin.swift
+      - punctuation.definition.arguments.begin.swift
       - punctuation.definition.arguments.end.bracket.round.coffee
       - punctuation.definition.arguments.end.python
+      - punctuation.definition.arguments.end.swift
       - punctuation.definition.arguments.end.swift
       - punctuation.definition.array.begin.applescript
       - punctuation.definition.array.begin.bracket.square.coffee
@@ -2506,7 +2556,9 @@ rules:
       - punctuation.definition.parameters
       - punctuation.definition.section.case-statement.tsx
       - punctuation.definition.type.begin.objc
+      - punctuation.definition.type.begin.swift
       - punctuation.definition.type.end.objc
+      - punctuation.definition.type.end.swift
       - punctuation.definition.typeparameters.begin.cs
       - punctuation.definition.typeparameters.begin.dart
       - punctuation.definition.typeparameters.begin.ts
@@ -2564,8 +2616,11 @@ rules:
       - punctuation.section.end.begin.bracket.curly.class.cpp
       - punctuation.section.function.begin.bracket.round.css
       - punctuation.section.function.begin.python
+      - punctuation.section.function.begin.swift
       - punctuation.section.function.crystal
       - punctuation.section.function.end.bracket.round.css
+      - punctuation.section.function.end.swift
+      - punctuation.section.function.ruby
       - punctuation.section.group.applescript
       - punctuation.section.parameters.begin.bracket.round.c
       - punctuation.section.parameters.begin.bracket.round.cpp
@@ -2584,8 +2639,12 @@ rules:
       - punctuation.section.parens.end.bracket.round.cpp
       - punctuation.section.parens.end.bracket.round.objc
       - punctuation.section.scope.begin.objc
+      - punctuation.section.scope.begin.swift
       - punctuation.section.scope.crystal
       - punctuation.section.scope.end.objc
+      - punctuation.section.scope.end.swift
+      - punctuation.section.tuple.begin.swift
+      - punctuation.section.tuple.end.swift
       - punctuation.semi.rust
       - punctuation.separator.arguments.python
       - punctuation.separator.colon.python
@@ -2600,11 +2659,14 @@ rules:
       - punctuation.separator.dot-access.c
       - punctuation.separator.dot-access.cpp
       - punctuation.separator.element.python
+      - punctuation.separator.generic-argument-clause.begin.swift
+      - punctuation.separator.generic-argument-clause.end.swift
       - punctuation.separator.initializers.cpp
       - punctuation.separator.key-value.css
       - punctuation.separator.list.comma.css
       - punctuation.separator.method.crystal
       - punctuation.separator.method.period.coffee
+      - punctuation.separator.method.ruby
       - punctuation.separator.namespace.access.cpp
       - punctuation.separator.other.crystal
       - punctuation.separator.parameter.ts
@@ -2617,18 +2679,9 @@ rules:
       - punctuation.terminator.go
       - punctuation.terminator.statement
       - punctuation.terminator.statement.c
-      - punctuation.section.scope.begin.swift
-      - punctuation.section.scope.end.swift
-      - punctuation.section.function.begin.swift
-      - punctuation.section.function.end.swift
-      - punctuation.definition.type.begin.swift
-      - punctuation.definition.type.end.swift
-      - punctuation.definition.arguments.begin.swift
-      - punctuation.definition.arguments.end.swift
-      - punctuation.section.tuple.begin.swift
-      - punctuation.section.tuple.end.swift
-      - punctuation.separator.generic-argument-clause.begin.swift
-      - punctuation.separator.generic-argument-clause.end.swift
+      - punctuation.section.function.ruby
+      - punctuation.section.array.begin.ruby
+      - punctuation.section.array.end.ruby
     color: .gray
 
   # ─── Comming At Last ──────────────────────────────────────────────────
