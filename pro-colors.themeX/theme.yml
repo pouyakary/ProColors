@@ -414,6 +414,26 @@ rules:
     scope: markup.quote.markdown
     color: .orange
 
+  # ─── Kary Archive Markdown Dialects ───────────────────────────────────
+
+  - name: Pouya Kary's Archive Markdown Handle
+    scope: handle.essay.archive.md
+    color: .blue
+
+  - name: Pouya Kary's Archive Markdown Handle Custom Label
+    scope: customlabel.handle.essay.archive.md
+    color: .green
+
+  - name: Pouya Kary's Archive Markdown Handle Punctuations
+    scopes:
+      - punctuation.definition.customlabel.begin.essay.archive.md
+      - punctuation.definition.customlabel.end.essay.archive.md
+    color: .blue
+
+  - name: Pouya Kary's Archive Markdown Fermata
+    scope: fermata.essay.archive.md
+    color: .orange
+
   # ─── Pageman ──────────────────────────────────────────────────────────
 
   - name: Pageman Section Commands
