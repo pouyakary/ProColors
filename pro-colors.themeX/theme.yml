@@ -379,6 +379,7 @@ rules:
     scopes:
       - punctuation.definition.begin.frontmatter
       - punctuation.definition.end.frontmatter
+      - punctuation.separator.key-value.mapping.yaml
     color: .blue
 
   - name: markdown styles
@@ -417,22 +418,26 @@ rules:
   # ─── Kary Archive Markdown Dialects ───────────────────────────────────
 
   - name: Pouya Kary's Archive Markdown Handle
-    scope: handle.essay.archive.md
+    scope: handle.archive.md
     color: .blue
 
   - name: Pouya Kary's Archive Markdown Handle Custom Label
-    scope: customlabel.handle.essay.archive.md
+    scope: customlabel.handle.archive.md
     color: .green
 
   - name: Pouya Kary's Archive Markdown Handle Punctuations
     scopes:
-      - punctuation.definition.customlabel.begin.essay.archive.md
-      - punctuation.definition.customlabel.end.essay.archive.md
+      - punctuation.definition.customlabel.begin.archive.md
+      - punctuation.definition.customlabel.end.archive.md
     color: .blue
 
   - name: Pouya Kary's Archive Markdown Fermata
-    scope: fermata.essay.archive.md
+    scope: fermata.archive.md
     color: .orange
+
+  - name: Pouya Kary's Archive Markdown Lowercase Operator
+    scope: keyword.operator.lowercase.archive.md
+    color: .pink
 
   # ─── Pageman ──────────────────────────────────────────────────────────
 
